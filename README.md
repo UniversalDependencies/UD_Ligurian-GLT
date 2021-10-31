@@ -26,7 +26,7 @@ We are deeply grateful to the publisher _De Ferrari Editore_ and the editor of t
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
-Data available since: UD v2.8
+Data available since: UD v2.9
 License: C-UDA 1.0
 Includes text: yes
 Genre: nonfiction fiction news wiki bible spoken grammar-examples
