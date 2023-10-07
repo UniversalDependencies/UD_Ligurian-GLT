@@ -2961,7 +2961,7 @@
 19	longomâ	longomâ	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
 20	de	de	ADP	_	_	21	case	_	_
 21	corso	corso	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
-22	Italia	Italia	PROPN	_	Gender=Fem|Number=Sing	21	fixed	_	SpaceAfter=No
+22	Italia	Italia	PROPN	_	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
 
 # newpar id = wp-arba-p004
