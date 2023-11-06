@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Ligurian-GLT:
-commit 3197b6c9a613b0e1abf29d91306b4ef0be458daf
+commit 73326281446eedfe9c606330c90618f1840ba7ad
+Merge: 6702033 3200ca6
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 14 11:52:14 2022 +0100
 Size: counted 6928 of 6928 words (nodes).
 Size: min(0, log((N/1000)**2)) = 3.87114234252027.
 Size: maximum value 13.815511 is for 1000000 words or more.
