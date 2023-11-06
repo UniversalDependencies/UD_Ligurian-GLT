@@ -93,11 +93,11 @@
     <dep name="expl">149</dep>
     <dep name="expl:impers">23</dep>
     <dep name="expl:pv">125</dep>
-    <dep name="fixed">103</dep>
+    <dep name="fixed">102</dep>
     <dep name="flat">43</dep>
     <dep name="iobj">105</dep>
     <dep name="mark">245</dep>
-    <dep name="nmod">267</dep>
+    <dep name="nmod">268</dep>
     <dep name="nsubj">416</dep>
     <dep name="nummod">19</dep>
     <dep name="obj">287</dep>
