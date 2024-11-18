@@ -3178,7 +3178,7 @@
 19	e	e	CCONJ	_	_	21	cc	_	_
 20	an	avei	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
 21	conosciuo	conosce	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
-22	ben	ben	ADV	_	_	25	det	_	MWEPOS=DET
+22	ben	ben	ADV	_	ExtPos=DET	25	det	_	MWEPOS=DET
 23	ben	ben	ADV	_	_	22	fixed	_	_
 24	d'	de	ADP	_	_	22	fixed	_	SpaceAfter=No
 25	adattaçioin	adattaçion	NOUN	_	Gender=Fem|Number=Plur	21	obj	_	_
