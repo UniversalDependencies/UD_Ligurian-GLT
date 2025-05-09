@@ -33,11 +33,12 @@
     <tag name="X">22</tag><!-- Tintin, aventures, de, del, les, Canto, Italiani, Strade, claire, degli -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="36">
+  <feats unique="37">
     <feat name="Definite" value="Def" upos="DET">584</feat><!-- o, a, i, e, l' -->
     <feat name="Definite" value="Ind" upos="DET">117</feat><!-- un, unna, unn', Çerti -->
     <feat name="Degree" value="Abs" upos="ADJ">2</feat><!-- affeçionatiscimo, braviscima -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">5</feat><!-- megio, pezo -->
+    <feat name="ExtPos" value="DET" upos="ADV">1</feat><!-- ben -->
     <feat name="Foreign" value="Yes" upos="X">22</feat><!-- Aventures, Les, Tintin, de, del, Canto, Italiani, Strade, claire, degli -->
     <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">1076</feat><!-- a, e, unna, l', Zena, parte, sta, figgia, quella, vòstra -->
     <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">1652</feat><!-- o, un, i, l', quello, ô, quelli, fæto, tutto, tutti -->
