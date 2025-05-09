@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Ligurian-GLT:
-commit 9354a75f97817354bb67b82018b8476d7b0231ee
+commit 5d16f303d046e9ee9c165612c9b144e3d1bb6c4f
+Merge: 1e9e232 17546ef
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 13:03:49 2024 +0200
 Size: counted 6928 of 6928 words (nodes).
 Size: min(0, log((N/1000)**2)) = 3.87114234252027.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -15,28 +15,48 @@ Split: Did not find at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 4195 out of 6928 total words have one or more features.
+Features: 4196 out of 6928 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL         39
-Udapi: found 39 bugs.
+               TOTAL         35
+Udapi: found 35 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 6928 words.
-Genres: found 7 out of 17 known.
+Genres: found 7 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang lij --max-err=10 UD_Ligurian-GLT/lij_glt-ud-test.conllu
-*** PASSED ***
+[Line 86 Sent bdl-c00-p003-s001 Node 32]: [L3 Warning fixed-without-extpos] Fixed expression 'comm' a l' é che' does not have the 'ExtPos' feature
+[Line 100 Sent bdl-c00-p003-s001 Node 46]: [L3 Warning fixed-without-extpos] Fixed expression 'insemme à' does not have the 'ExtPos' feature
+[Line 299 Sent bdl-c00-p005-s001 Node 94]: [L3 Warning fixed-without-extpos] Fixed expression 'in sce' does not have the 'ExtPos' feature
+[Line 392 Sent bdl-c00-p005-s002 Node 67]: [L3 Warning fixed-without-extpos] Fixed expression 'in sce' does not have the 'ExtPos' feature
+[Line 398 Sent bdl-c00-p005-s002 Node 72]: [L3 Warning fixed-without-extpos] Fixed expression 'tanto ciù che' does not have the 'ExtPos' feature
+[Line 465 Sent bdl-c00-p006-s001 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'de za che' does not have the 'ExtPos' feature
+[Line 492 Sent bdl-c00-p006-s001 Node 29]: [L3 Warning fixed-without-extpos] Fixed expression 'avanti de' does not have the 'ExtPos' feature
+[Line 790 Sent bdl-c00-p008-s001 Node 19]: [L3 Warning fixed-without-extpos] Fixed expression 'fin à' does not have the 'ExtPos' feature
+[Line 834 Sent bdl-c00-p008-s001 Node 62]: [L3 Warning fixed-without-extpos] Fixed expression 'in sce' does not have the 'ExtPos' feature
+[Line 935 Sent bdl-c00-p008-s002 Node 70]: [L3 Warning fixed-without-extpos] Fixed expression 'incangio de' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+[Line 2515 Sent esl-c01-p013-s002 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'de'
+[Line 2943 Sent wp-arba-p003-s003 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'in'
+[Line 6864 Sent grammar-p001-s053 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' word 'Ninte'
+[Line 7595 Sent stf-freschi-p002-s003 Node 14]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'à'
+Syntax errors: 4
+Warnings: 77
+*** FAILED *** with 4 errors
+Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang lij --max-err=10 UD_Ligurian-GLT/lij_glt-ud-train.conllu
+[Line 192 Sent cairo-p001-s015 Node 11]: [L3 Warning fixed-without-extpos] Fixed expression 'solo che' does not have the 'ExtPos' feature
+Warnings: 1
 *** PASSED ***
-Validity: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
-(weight=0.0769230769230769) * (score{genres}=0.411764705882353) = 0.0316742081447964
+(weight=0.0769230769230769) * (score{genres}=0.388888888888889) = 0.0299145299145299
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
 (weight=0.256410256410256) * (score{size}=0.28020262633643) = 0.0718468272657513
 (weight=0.0512820512820513) * (score{split}=0.01) = 0.000512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.941176470588235) = 0.0723981900452489
-(weight=0.307692307692308) * (score{udapi}=0.943706697459584) = 0.290371291526026
+(weight=0.307692307692308) * (score{udapi}=0.949480369515012) = 0.292147806004619
 (weight=0.0769230769230769) * (score{udeprels}=0.864864864864865) = 0.0665280665280665
-(TOTAL score=0.687177557868863) * (availability=1) * (validity=1) = 0.687177557868863
-STARS = 3.5
-UD_Ligurian-GLT	0.687177557868863	3.5
+(TOTAL score=0.68719439411719) * (availability=1) * (validity=0.01) = 0.0068719439411719
+STARS = 0
+UD_Ligurian-GLT	0.0068719439411719	0
