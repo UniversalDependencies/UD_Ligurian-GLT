@@ -29,6 +29,7 @@ We are deeply grateful to the publisher _De Ferrari Editore_ and the editor of t
 Data available since: UD v2.9
 License: C-UDA 1.0
 Includes text: yes
+Parallel: no
 Genre: nonfiction fiction news wiki bible spoken grammar-examples
 Lemmas: manual native
 UPOS: manual native
