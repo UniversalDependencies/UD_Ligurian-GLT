@@ -2,6 +2,7 @@
 # newdoc id = cairo
 # newpar id = cairo-p001
 # sent_id = cairo-p001-s001
+# parallel_id = cairo/1
 # text = A figgia a l'à scrito unna lettia a-a seu amiga.
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	figgia	figgia	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
@@ -19,6 +20,7 @@
 13	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = cairo-p001-s002
+# parallel_id = cairo/2
 # text = Penso che ceuve.
 1	Penso	pensâ	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	che	che	SCONJ	_	_	3	mark	_	_
@@ -26,6 +28,7 @@
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = cairo-p001-s003
+# parallel_id = cairo/3
 # text = O l'à provou à smette de fummâ e beive.
 1	O	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	l'	l'	PART	_	_	4	dep	_	SpaceAfter=No
@@ -40,6 +43,7 @@
 11	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = cairo-p001-s004
+# parallel_id = cairo/4
 # text = Ti veu anâ via?
 1	Ti	ti	PRON	_	Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
 2	veu	voei	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -48,6 +52,7 @@
 5	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = cairo-p001-s005
+# parallel_id = cairo/5
 # text = Sam, arvi o barcon!
 1	Sam	Sam	PROPN	_	Gender=Masc|Number=Sing	3	vocative	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -57,6 +62,7 @@
 6	!	!	PUNCT	_	_	3	punct	_	_
 
 # sent_id = cairo-p001-s006
+# parallel_id = cairo/6
 # text = A l'à fæto lavâ a machina da seu maio.
 1	A	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	l'	l'	PART	_	_	4	dep	_	SpaceAfter=No
@@ -71,6 +77,7 @@
 11	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = cairo-p001-s007
+# parallel_id = cairo/7
 # text = O vexin de Peter o l'à tento o reçinto de rosso.
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	vexin	vexin	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
@@ -87,6 +94,7 @@
 13	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = cairo-p001-s008
+# parallel_id = cairo/8
 # text = Mæ poæ o l'é ciù bullo che o teu.
 1	Mæ	mæ	DET	_	Poss=Yes|PronType=Prs	2	det	_	_
 2	poæ	poæ	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
@@ -101,6 +109,7 @@
 11	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = cairo-p001-s009
+# parallel_id = cairo/9
 # text = Mary a l'à guägno o bronzo, Peter l'argento e Jane l'öo.
 1	Mary	Mary	PROPN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 2	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
@@ -120,6 +129,7 @@
 16	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = cairo-p001-s010
+# parallel_id = cairo/10
 # text = Iguazú o l'é un paise piccin ò grande?
 1	Iguazú	Iguazú	PROPN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 2	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	expl	_	_
@@ -133,6 +143,7 @@
 10	?	?	PUNCT	_	_	6	punct	_	_
 
 # sent_id = cairo-p001-s011
+# parallel_id = cairo/11
 # text = Ni Peter Smith e ni Mary Brown an posciuo ëse çernui.
 1	Ni	ni	CCONJ	_	_	2	cc	_	_
 2	Peter	Peter	PROPN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
@@ -148,6 +159,7 @@
 12	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = cairo-p001-s012
+# parallel_id = cairo/12
 # text = No gh'an idea de chi l'agge scrito.
 1	No	no	ADV	_	_	3	advmod	_	_
 2	gh'	ghe	PRON	_	PronType=Dem	3	expl:pv	_	SpaceAfter=No
@@ -161,6 +173,7 @@
 10	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = cairo-p001-s013
+# parallel_id = cairo/13
 # text = Cöse t'ammii?
 1	Cöse	cöse	PRON	_	Number=Sing|PronType=Int	3	obj	_	_
 2	t'	ti	PRON	_	Number=Sing|Person=2|PronType=Prs	3	nsubj	_	SpaceAfter=No
@@ -168,6 +181,7 @@
 4	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = cairo-p001-s014
+# parallel_id = cairo/14
 # text = Quande ti pensi de poei vegnî?
 1	Quande	quande	ADV	_	_	3	mark	_	_
 2	ti	ti	PRON	_	Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
@@ -178,6 +192,7 @@
 7	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = cairo-p001-s015
+# parallel_id = cairo/15
 # text = O l'à cattou unna machina, seu fræ incangio solo che unna biçicletta.
 1	O	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	l'	l'	PART	_	_	4	dep	_	SpaceAfter=No
@@ -196,6 +211,7 @@
 15	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = cairo-p001-s016
+# parallel_id = cairo/16
 # text = Peter e Mary se son abbrassæ e dapeu son sciortii d'inta stançia.
 1	Peter	Peter	PROPN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
@@ -215,6 +231,7 @@
 15	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = cairo-p001-s017
+# parallel_id = cairo/17
 # text = Quello giorno a l'aviæ dovuo fâse a testa, ma pe quarche raxon a no l'à fæto.
 1	Quello	quello	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	giorno	giorno	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
@@ -240,6 +257,7 @@
 21	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = cairo-p001-s018
+# parallel_id = cairo/18
 # text = No ò posciuo tegnîghe o passo perché o l'anava tròppo spedio.
 1	No	no	ADV	_	_	4	advmod	_	_
 2	ò	avei	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -258,6 +276,7 @@
 14	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = cairo-p001-s019
+# parallel_id = cairo/19
 # text = Sta lettia a l'é do Peter e a l'é stæta consegnâ vëi.
 1	Sta	sto	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	lettia	lettia	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
@@ -278,6 +297,7 @@
 16	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = cairo-p001-s020
+# parallel_id = cairo/20
 # text = A l'é cresciua à Pariggi, a capitale da Fransa.
 1	A	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	l'	l'	PART	_	_	4	dep	_	SpaceAfter=No
