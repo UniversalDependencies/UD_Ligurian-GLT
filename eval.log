@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Ligurian-GLT:
-commit 19fe6ed4d51de6675c2d25203b6d42ea484f5d84
-Merge: 277e37c f60f2c1
+commit c53b2d90ff436b63eaf3adc10262530246030141
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 20:15:51 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'lij_glt'
 Language code (from CoNLL-U file name) = 'lij'
@@ -25,28 +25,45 @@ Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 7 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang lij --max-err=10 UD_Ligurian-GLT/lij_glt-ud-test.conllu
-[Line 86 Sent bdl-c00-p003-s001]: [L3 Warning fixed-without-extpos] Fixed expression 'comm' a l' é che' does not have the 'ExtPos' feature
-[Line 100 Sent bdl-c00-p003-s001]: [L3 Warning fixed-without-extpos] Fixed expression 'insemme à' does not have the 'ExtPos' feature
-[Line 299 Sent bdl-c00-p005-s001]: [L3 Warning fixed-without-extpos] Fixed expression 'in sce' does not have the 'ExtPos' feature
-[Line 392 Sent bdl-c00-p005-s002]: [L3 Warning fixed-without-extpos] Fixed expression 'in sce' does not have the 'ExtPos' feature
-[Line 398 Sent bdl-c00-p005-s002]: [L3 Warning fixed-without-extpos] Fixed expression 'tanto ciù che' does not have the 'ExtPos' feature
-[Line 402 Sent bdl-c00-p005-s002]: [L3 Warning obl-should-be-nmod] The parent (node [81] 'comerci') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 465 Sent bdl-c00-p006-s001]: [L3 Warning fixed-without-extpos] Fixed expression 'de za che' does not have the 'ExtPos' feature
-[Line 492 Sent bdl-c00-p006-s001]: [L3 Warning fixed-without-extpos] Fixed expression 'avanti de' does not have the 'ExtPos' feature
-[Line 698 Sent bdl-c00-p007-s002]: [L3 Warning pron-det-without-prontype] The word 'gh'' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 747 Sent bdl-c00-p007-s002]: [L3 Warning pron-det-without-prontype] The word 'gh'' is tagged 'PRON' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-[Line 2515 Sent esl-c01-p013-s002]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('de')
-[Line 2943 Sent wp-arba-p003-s003]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('in')
-[Line 4741 Sent laz-c06-p003-s003]: [L3 Syntax too-many-objects] Multiple direct objects [17, 24] ('ô', 'quante') under the predicate 'tegniva'.
-[Line 6864 Sent grammar-p001-s053]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' ('Ninte')
-[Line 7595 Sent stf-freschi-p002-s003]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('à')
-Syntax errors: 5
-Warnings: 118
-*** FAILED *** with 5 errors
+[Line 86 Sent bdl-c00-p003-s001]: [L3 WARNING fixed-without-extpos] Fixed expression 'comm' a l' é che' does not have the 'ExtPos' feature
+[Line 100 Sent bdl-c00-p003-s001]: [L3 WARNING fixed-without-extpos] Fixed expression 'insemme à' does not have the 'ExtPos' feature
+[Line 299 Sent bdl-c00-p005-s001]: [L3 WARNING fixed-without-extpos] Fixed expression 'in sce' does not have the 'ExtPos' feature
+[Line 392 Sent bdl-c00-p005-s002]: [L3 WARNING fixed-without-extpos] Fixed expression 'in sce' does not have the 'ExtPos' feature
+[Line 398 Sent bdl-c00-p005-s002]: [L3 WARNING fixed-without-extpos] Fixed expression 'tanto ciù che' does not have the 'ExtPos' feature
+[Line 402 Sent bdl-c00-p005-s002]: [L3 SYNTAX obl-should-be-nmod] The parent (node [81] 'comerci') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 465 Sent bdl-c00-p006-s001]: [L3 WARNING fixed-without-extpos] Fixed expression 'de za che' does not have the 'ExtPos' feature
+[Line 492 Sent bdl-c00-p006-s001]: [L3 WARNING fixed-without-extpos] Fixed expression 'avanti de' does not have the 'ExtPos' feature
+[Line 698 Sent bdl-c00-p007-s002]: [L3 WARNING pron-det-without-prontype] The word 'gh'' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 747 Sent bdl-c00-p007-s002]: [L3 WARNING pron-det-without-prontype] The word 'gh'' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 790 Sent bdl-c00-p008-s001]: [L3 WARNING fixed-without-extpos] Fixed expression 'fin à' does not have the 'ExtPos' feature
+[Line 834 Sent bdl-c00-p008-s001]: [L3 WARNING fixed-without-extpos] Fixed expression 'in sce' does not have the 'ExtPos' feature
+[Line 855 Sent bdl-c00-p008-s001]: [L3 WARNING pron-det-without-prontype] The word 'n'' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 923 Sent bdl-c00-p008-s002]: [L3 WARNING pron-det-without-prontype] The word 'ghe' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 935 Sent bdl-c00-p008-s002]: [L3 WARNING fixed-without-extpos] Fixed expression 'incangio de' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 984 Sent bdl-c00-p008-s002]: [L3 SYNTAX obl-should-be-nmod] The parent (node [119] 'qualitæ') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1027 Sent bdl-c00-p008-s003]: [L3 WARNING pron-det-without-prontype] The word 'ghe' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 1030 Sent bdl-c00-p008-s003]: [L3 WARNING pron-det-without-prontype] The word 'gh'' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 1093 Sent bdl-c00-p008-s004]: [L3 SYNTAX obl-should-be-nmod] The parent (node [35] 'tòrto') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1337 Sent esl-c01-p003-s001]: [L3 WARNING pron-det-without-prontype] The word 'gh'' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 1359 Sent esl-c01-p003-s001]: [L3 SYNTAX obl-should-be-nmod] The parent (node [38] 'battezzo') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2261 Sent esl-c01-p011-s002]: [L3 WARNING pron-det-without-prontype] The word 'Gh'' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 2413 Sent esl-c01-p012-s004]: [L3 WARNING pron-det-without-prontype] The word 'ne' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 2452 Sent esl-c01-p012-s005]: [L3 WARNING pron-det-without-prontype] The word 'n'' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 2515 Sent esl-c01-p013-s002]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('de')
+...suppressing further messages regarding WARNING/MORPHO
+[Line 2943 Sent wp-arba-p003-s003]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('in')
+[Line 3524 Sent wp-tintin-p003-s003]: [L3 SYNTAX obl-should-be-nmod] The parent (node [16] 'travaggio') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 4741 Sent laz-c06-p003-s003]: [L3 SYNTAX too-many-objects] Multiple direct objects [17, 24] ('ô', 'quante') under the predicate 'tegniva'.
+[Line 5016 Sent mar-nat-p001-s007]: [L3 SYNTAX obl-should-be-nmod] The parent (node [7] 'tisi') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 5964 Sent sec-inno-p004-s005]: [L3 SYNTAX obl-should-be-nmod] The parent (node [10] 'gio') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+...suppressing further messages regarding ERROR/SYNTAX
+Warnings: 110
+SYNTAX errors: 13
+*** FAILED *** with 13 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang lij --max-err=10 UD_Ligurian-GLT/lij_glt-ud-train.conllu
-[Line 207 Sent cairo-p001-s015]: [L3 Warning fixed-without-extpos] Fixed expression 'solo che' does not have the 'ExtPos' feature
+[Line 207 Sent cairo-p001-s015]: [L3 WARNING fixed-without-extpos] Fixed expression 'solo che' does not have the 'ExtPos' feature
 Warnings: 1
 *** PASSED ***
 Validity: 0.01
