@@ -1,0 +1,79 @@
+Running the following version of UD tools:
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue May 5 17:01:41 2026 +0200
+Evaluating the following revision of UD_Ligurian-GLT:
+commit c53b2d90ff436b63eaf3adc10262530246030141
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 20:15:51 2025 +0100
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'lij_glt'
+Language code (from CoNLL-U file name) = 'lij'
+Found the following data files: lij_glt-ud-test.conllu, lij_glt-ud-train.conllu
+Size: counted 6928 of 6928 words (nodes).
+Size: min(0, log((N/1000)**2)) = 3.87114234252027.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Did not find more than 10000 training words.
+Split: Did not find at least 10000 development words.
+Split: Did not find at least 10000 test words.
+Lemmas: source of annotation (from README) factor is 1.
+Universal POS tags: 16 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 1.
+Features: 4196 out of 6928 total words have one or more features.
+Features: source of annotation (from README) factor is 1.
+Universal relations: 32 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 1.
+Genres: found 7 out of 18 known.
+/net/work/people/zeman/unidep/tools/validate.py --lang lij --max-err=10 UD_Ligurian-GLT/lij_glt-ud-test.conllu
+[Line 86 Sent bdl-c00-p003-s001]: [L3 WARNING fixed-without-extpos] Fixed expression 'comm' a l' é che' does not have the 'ExtPos' feature
+[Line 100 Sent bdl-c00-p003-s001]: [L3 WARNING fixed-without-extpos] Fixed expression 'insemme à' does not have the 'ExtPos' feature
+[Line 299 Sent bdl-c00-p005-s001]: [L3 WARNING fixed-without-extpos] Fixed expression 'in sce' does not have the 'ExtPos' feature
+[Line 392 Sent bdl-c00-p005-s002]: [L3 WARNING fixed-without-extpos] Fixed expression 'in sce' does not have the 'ExtPos' feature
+[Line 398 Sent bdl-c00-p005-s002]: [L3 WARNING fixed-without-extpos] Fixed expression 'tanto ciù che' does not have the 'ExtPos' feature
+[Line 402 Sent bdl-c00-p005-s002]: [L3 SYNTAX obl-should-be-nmod] The parent (node [81] 'comerci') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 465 Sent bdl-c00-p006-s001]: [L3 WARNING fixed-without-extpos] Fixed expression 'de za che' does not have the 'ExtPos' feature
+[Line 492 Sent bdl-c00-p006-s001]: [L3 WARNING fixed-without-extpos] Fixed expression 'avanti de' does not have the 'ExtPos' feature
+[Line 698 Sent bdl-c00-p007-s002]: [L3 WARNING pron-det-without-prontype] The word 'gh'' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 747 Sent bdl-c00-p007-s002]: [L3 WARNING pron-det-without-prontype] The word 'gh'' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 790 Sent bdl-c00-p008-s001]: [L3 WARNING fixed-without-extpos] Fixed expression 'fin à' does not have the 'ExtPos' feature
+[Line 834 Sent bdl-c00-p008-s001]: [L3 WARNING fixed-without-extpos] Fixed expression 'in sce' does not have the 'ExtPos' feature
+[Line 855 Sent bdl-c00-p008-s001]: [L3 WARNING pron-det-without-prontype] The word 'n'' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 923 Sent bdl-c00-p008-s002]: [L3 WARNING pron-det-without-prontype] The word 'ghe' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 935 Sent bdl-c00-p008-s002]: [L3 WARNING fixed-without-extpos] Fixed expression 'incangio de' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 984 Sent bdl-c00-p008-s002]: [L3 SYNTAX obl-should-be-nmod] The parent (node [119] 'qualitæ') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1027 Sent bdl-c00-p008-s003]: [L3 WARNING pron-det-without-prontype] The word 'ghe' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 1030 Sent bdl-c00-p008-s003]: [L3 WARNING pron-det-without-prontype] The word 'gh'' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 1093 Sent bdl-c00-p008-s004]: [L3 SYNTAX obl-should-be-nmod] The parent (node [35] 'tòrto') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1337 Sent esl-c01-p003-s001]: [L3 WARNING pron-det-without-prontype] The word 'gh'' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 1359 Sent esl-c01-p003-s001]: [L3 SYNTAX obl-should-be-nmod] The parent (node [38] 'battezzo') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2261 Sent esl-c01-p011-s002]: [L3 WARNING pron-det-without-prontype] The word 'Gh'' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 2413 Sent esl-c01-p012-s004]: [L3 WARNING pron-det-without-prontype] The word 'ne' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 2452 Sent esl-c01-p012-s005]: [L3 WARNING pron-det-without-prontype] The word 'n'' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 2515 Sent esl-c01-p013-s002]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('de')
+...suppressing further messages regarding WARNING/MORPHO
+[Line 2943 Sent wp-arba-p003-s003]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('in')
+[Line 3524 Sent wp-tintin-p003-s003]: [L3 SYNTAX obl-should-be-nmod] The parent (node [16] 'travaggio') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 4741 Sent laz-c06-p003-s003]: [L3 SYNTAX too-many-objects] Multiple direct objects [17, 24] ('ô', 'quante') under the predicate 'tegniva'.
+[Line 5016 Sent mar-nat-p001-s007]: [L3 SYNTAX obl-should-be-nmod] The parent (node [7] 'tisi') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 5964 Sent sec-inno-p004-s005]: [L3 SYNTAX obl-should-be-nmod] The parent (node [10] 'gio') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+...suppressing further messages regarding ERROR/SYNTAX
+Warnings: 110
+SYNTAX errors: 13
+*** FAILED *** with 13 errors
+Exit code: 1
+/net/work/people/zeman/unidep/tools/validate.py --lang lij --max-err=10 UD_Ligurian-GLT/lij_glt-ud-train.conllu
+[Line 207 Sent cairo-p001-s015]: [L3 WARNING fixed-without-extpos] Fixed expression 'solo che' does not have the 'ExtPos' feature
+Warnings: 1
+*** PASSED ***
+Validity: 0.01
+(weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
+(weight=0.111111111111111) * (score{genres}=0.388888888888889) = 0.0432098765432099
+(weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
+(weight=0.37037037037037) * (score{size}=0.28020262633643) = 0.103778750494974
+(weight=0.0740740740740741) * (score{split}=0.01) = 0.000740740740740741
+(weight=0.111111111111111) * (score{tags}=0.941176470588235) = 0.104575163398693
+(weight=0.111111111111111) * (score{udeprels}=0.864864864864865) = 0.0960960960960961
+(TOTAL score=0.570622849495936) * (availability=1) * (validity=0.01) = 0.00570622849495936
+STARS = 0
+UD_Ligurian-GLT	0.00570622849495936	0
