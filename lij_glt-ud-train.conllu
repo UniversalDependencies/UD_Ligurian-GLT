@@ -204,7 +204,7 @@
 8	seu	seu	PRON	_	Poss=Yes|PronType=Prs	9	det	_	_
 9	fræ	fræ	NOUN	_	Gender=Masc|Number=Sing	4	conj	_	_
 10	incangio	incangio	ADV	_	_	14	advmod	_	_
-11	solo	solo	ADV	_	_	14	advmod	_	_
+11	solo	solo	ADV	_	ExtPos=ADV	14	advmod	_	_
 12	che	che	ADP	_	_	11	fixed	_	_
 13	unna	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	biçicletta	biçicletta	NOUN	_	Gender=Fem|Number=Sing	9	orphan	_	SpaceAfter=No
@@ -223,9 +223,9 @@
 8	dapeu	dapeu	ADV	_	_	10	advmod	_	_
 9	son	ëse	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
 10	sciortii	sciortî	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	conj	_	_
-11	d'	de	ADP	_	_	14	case	_	SpaceAfter=No
+11	d'	de	ADP	_	ExtPos=ADP	14	case	_	SpaceAfter=No
 12-13	inta	_	_	_	_	_	_	_	_
-12	inte	inte	ADP	_	_	14	case	_	_
+12	inte	inte	ADP	_	_	11	fixed	_	_
 13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	stançia	stançia	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	6	punct	_	_

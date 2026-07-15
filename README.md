@@ -15,12 +15,18 @@ We are deeply grateful to the publisher _De Ferrari Editore_ and the editor of t
 
 ## References
 
-* (citation)
+* Stefano Lusito and Jean Maillard. 2021. [A Universal Dependencies corpus for Ligurian](https://aclanthology.org/2021.udw-1.10/). In *Proceedings of the Fifth Workshop on Universal Dependencies (UDW, SyntaxFest 2021)*, pages 121–128. Association for Computational Linguistics.
 
 
 # Changelog
 
-* 2021-05-15 v2.8
+* 2026-11-15 v2.19
+  * Added the citation for the paper describing the treebank.
+  * Corrected an earlier changelog entry: the treebank was first released in UD v2.9, not in UD v2.8.
+  * Corrected annotations involving nominal modifiers, oblique dependents, clitic doubling, determiners, and multiple objects.
+  * Updated some fixed expressions to use the `ExtPos` feature.
+  * Marked typographical errors with `Typo=Yes` and supplied their corrected forms with `CorrectForm`.
+* 2021-11-15 v2.9
   * Initial release in Universal Dependencies.
 
 
