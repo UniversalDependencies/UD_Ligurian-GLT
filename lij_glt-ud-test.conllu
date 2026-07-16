@@ -1424,7 +1424,7 @@
 15	de	de	ADP	_	_	16	case	_	_
 16	pelle	pelle	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
 17	in	in	ADP	_	ExtPos=ADP	21	case	_	_
-18	gïo	gio	NOUN	_	Gender=Masc|Number=Sing	17	fixed	_	_
+18	gïo	gio	NOUN	_	Gender=Masc|Number=Sing|Typo=Yes	17	fixed	_	CorrectForm=gio
 19-20	a-a	_	_	_	_	_	_	_	_
 19	à	à	ADP	_	_	17	fixed	_	_
 20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
@@ -2129,7 +2129,7 @@
 16	in	in	ADP	_	ExtPos=ADP	17	case	_	_
 17	là	là	ADV	_	_	14	conj	_	_
 18	in	in	ADP	_	_	22	case	_	_
-19	gïo	gio	NOUN	_	Gender=Masc|Number=Sing	18	fixed	_	_
+19	gïo	gio	NOUN	_	Gender=Masc|Number=Sing|Typo=Yes	18	fixed	_	CorrectForm=gio
 20-21	pe-a	_	_	_	_	_	_	_	_
 20	pe	pe	ADP	_	_	18	fixed	_	_
 21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
@@ -2210,7 +2210,7 @@
 13	e	e	CCONJ	_	_	16	cc	_	_
 14	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
 15	â	ô	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
-16	tïa	tiâ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+16	tïa	tiâ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	4	conj	_	CorrectForm=tia
 17	sciù	sciù	ADV	_	_	16	advmod	_	SpaceAfter=No
 18	;	;	PUNCT	_	_	24	punct	_	_
 19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
@@ -2416,7 +2416,7 @@
 13	atra	atro	DET	_	Gender=Fem|Number=Sing|PronType=Ind	14	det	_	_
 14	parte	parte	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
 15	in	in	ADP	_	_	16	case	_	_
-16	gïo	gio	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+16	gïo	gio	NOUN	_	Gender=Masc|Number=Sing|Typo=Yes	8	obl	_	CorrectForm=gio
 17-18	pe-i	_	_	_	_	_	_	_	_
 17	pe	pe	ADP	_	_	19	case	_	_
 18	i	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
@@ -2650,7 +2650,7 @@
 15	à	à	ADP	_	_	16	mark	_	_
 16	contâ	contâ	VERB	_	Tense=Pres|VerbForm=Inf	14	xcomp	_	_
 17	in	in	ADP	_	ExtPos=ADP	18	case	_	_
-18	gïo	gio	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
+18	gïo	gio	NOUN	_	Gender=Masc|Number=Sing|Typo=Yes	16	obl	_	CorrectForm=gio
 19	quello	quello	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	16	obj	_	_
 20	che	che	PRON	_	PronType=Rel	23	nsubj	_	_
 21	l'	l'	PART	_	_	23	dep	_	SpaceAfter=No
@@ -6950,7 +6950,7 @@
 8	anni	anno	NOUN	_	Gender=Masc|Number=Plur	3	obl	_	_
 9	da	da	ADP	_	ExtPos=SCONJ	11	mark	_	_
 10	quande	quande	SCONJ	_	_	9	fixed	_	_
-11	gïava	giâ	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	8	acl	_	_
+11	gïava	giâ	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|Typo=Yes|VerbForm=Fin	8	acl	_	CorrectForm=giava
 12-13	pe-e	_	_	_	_	_	_	_	_
 12	pe	pe	ADP	_	_	14	case	_	_
 13	e	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
@@ -7701,7 +7701,7 @@
 6	tempi	tempo	NOUN	_	Gender=Masc|Number=Plur	30	obl	_	_
 7	che	che	PRON	_	PronType=Rel	9	obl	_	_
 8	mi	mi	PRON	_	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
-9	gïava	giâ	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	6	acl:relcl	_	_
+9	gïava	giâ	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|Typo=Yes|VerbForm=Fin	6	acl:relcl	_	CorrectForm=giava
 10	pe	pe	ADP	_	_	12	case	_	_
 11	quelli	quello	DET	_	Gender=Masc|Number=Plur|PronType=Dem	12	det	_	_
 12	bricchi	bricco	NOUN	_	Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
