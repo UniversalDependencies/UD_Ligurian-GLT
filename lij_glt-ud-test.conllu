@@ -83,7 +83,7 @@
 29	e	e	CCONJ	_	_	31	cc	_	_
 30	no	no	ADV	_	_	31	advmod	_	_
 31	capiscio	capî	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	conj	_	_
-32	comm'	comme	SCONJ	_	_	40	mark	_	SpaceAfter=No
+32	comm'	comme	ADV	_	ExtPos=ADV	40	advmod	_	SpaceAfter=No
 33	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	32	fixed	_	_
 34	l'	l'	PART	_	_	32	fixed	_	SpaceAfter=No
 35	é	ëse	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	fixed	_	_
@@ -395,7 +395,7 @@
 69	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	70	det	_	_
 70	feugo	feugo	NOUN	_	Gender=Masc|Number=Sing	64	obl	_	SpaceAfter=No
 71	:	:	PUNCT	_	_	82	punct	_	_
-72	tanto	tanto	ADV	_	_	82	advmod	_	_
+72	tanto	tanto	ADV	_	ExtPos=ADV	82	advmod	_	_
 73	ciù	ciù	ADV	_	_	72	fixed	_	_
 74	che	che	SCONJ	_	_	72	fixed	_	_
 75	tra	tra	ADP	_	_	76	case	_	_
@@ -787,7 +787,7 @@
 16	dî	dî	VERB	_	Tense=Pres|VerbForm=Inf	14	xcomp	_	_
 17	ve	ve	PRON	_	Number=Plur|Person=2|PronType=Prs	16	iobj	_	_
 18	ne	ne	PRON	_	PronType=Dem	16	expl:pv	_	_
-19	fin	fin	ADP	_	_	22	case	_	_
+19	fin	fin	ADP	_	ExtPos=ADP	22	case	_	_
 20	à	à	ADP	_	_	19	fixed	_	_
 21	doman	doman	ADV	_	_	22	advmod	_	_
 22	mattin	mattin	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
@@ -1636,7 +1636,7 @@
 27	;	;	PUNCT	_	_	29	punct	_	_
 28	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
 29	stava	stâ	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	parataxis	_	_
-30	in	in	ADP	_	_	34	case	_	_
+30	in	in	ADP	_	ExtPos=ADP	34	case	_	_
 31	mezo	mezo	NOUN	_	Gender=Masc|Number=Sing	30	fixed	_	_
 32-33	a-e	_	_	_	_	_	_	_	_
 32	à	à	ADP	_	_	30	fixed	_	_
@@ -2128,7 +2128,7 @@
 15	e	e	CCONJ	_	_	17	cc	_	_
 16	in	in	ADP	_	ExtPos=ADP	17	case	_	_
 17	là	là	ADV	_	_	14	conj	_	_
-18	in	in	ADP	_	_	22	case	_	_
+18	in	in	ADP	_	ExtPos=ADP	22	case	_	_
 19	gïo	gio	NOUN	_	Gender=Masc|Number=Sing|Typo=Yes	18	fixed	_	CorrectForm=gio
 20-21	pe-a	_	_	_	_	_	_	_	_
 20	pe	pe	ADP	_	_	18	fixed	_	_
@@ -2657,7 +2657,7 @@
 22	ea	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	aux	_	_
 23	avvegnuo	avvegnî	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	acl:relcl	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	32	punct	_	_
-25	tanto	tanto	ADV	_	_	32	mark	_	_
+25	tanto	tanto	ADV	_	ExtPos=SCONJ	32	mark	_	_
 26	che	che	SCONJ	_	_	25	fixed	_	_
 27	Gexù	Gexù	PROPN	_	Gender=Masc|Number=Sing	32	nsubj	_	_
 28	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	expl	_	_
@@ -2731,7 +2731,7 @@
 
 # sent_id = wp-arba-p001-s002
 # text = Fin a-o 1874 o l'é stæto un commun indipendente co-o nomme de San Françesco d'Arbâ.
-1	Fin	fin	ADP	_	_	4	case	_	_
+1	Fin	fin	ADP	_	ExtPos=ADP	4	case	_	_
 2-3	a-o	_	_	_	_	_	_	_	_
 2	à	à	ADP	_	_	1	fixed	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -2800,7 +2800,7 @@
 # newpar id = wp-arba-p002
 # sent_id = wp-arba-p002-s001
 # text = Fin da-o secolo sezze o l'à dæto abergo à de ville tra e ciù avvoxæ da Repubrica, deuviæ da-e famigge patriçie pe-o villezzo da stæ.
-1	Fin	fin	ADP	_	_	4	case	_	_
+1	Fin	fin	ADP	_	ExtPos=ADP	4	case	_	_
 2-3	da-o	_	_	_	_	_	_	_	_
 2	da	da	ADP	_	_	1	fixed	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -3257,7 +3257,7 @@
 
 # sent_id = wp-tintin-p002-s005
 # text = Da maniman che e neuve avventue en stæte scrite e disegnæ l'é comparso di atri personaggi che saieivan diventæ ricorrenti, comme o capitanio Haddock (ch'o saiæ fiña vegnuo un di personaggi prinçipæ de stöie da collaña), i investigatoî Dupond e Dupont ò o professô Tournesol.
-1	Da	da	ADP	_	_	9	mark	_	_
+1	Da	da	ADP	_	ExtPos=SCONJ	9	mark	_	_
 2	maniman	maniman	ADV	_	_	1	fixed	_	_
 3	che	che	SCONJ	_	_	1	fixed	_	_
 4	e	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
@@ -3512,7 +3512,7 @@
 9	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
 10	stæta	stâ	AUX	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	cop	_	_
 11	poscibile	poscibile	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
-12	pe	pe	ADP	_	_	16	case	_	_
+12	pe	pe	ADP	_	ExtPos=ADP	16	case	_	_
 13	mezo	mezo	NOUN	_	Gender=Masc|Number=Sing	12	fixed	_	_
 14	de	de	ADP	_	_	12	fixed	_	_
 15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
@@ -3928,7 +3928,7 @@
 7	pròpio	pròpio	ADV	_	_	8	advmod	_	_
 8	chì	chì	ADV	_	_	5	advmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	13	punct	_	_
-10	derê	derê	ADP	_	_	13	case	_	_
+10	derê	derê	ADP	_	ExtPos=ADP	13	case	_	_
 11-12	a-o	_	_	_	_	_	_	_	_
 11	à	à	ADP	_	_	10	fixed	_	_
 12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
@@ -4347,7 +4347,7 @@
 20	gh'	ghe	ADV	_	_	22	iobj	_	SpaceAfter=No
 21	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
 22	intravegnuo	intravegnî	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
-23	insemme	insemme	ADV	_	_	25	advmod	_	_
+23	insemme	insemme	ADV	_	ExtPos=ADP	25	case	_	_
 24	à	à	ADP	_	_	23	fixed	_	_
 25	lê	lê	PRON	_	Number=Sing|Person=3|PronType=Prs	22	obl	_	SpacesAfter=\n
 
@@ -4461,7 +4461,7 @@
 48	l'	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	SpaceAfter=No
 49	atra	atro	PRON	_	Gender=Fem|Number=Sing|PronType=Ind	45	conj	_	SpaceAfter=No
 50	,	,	PUNCT	_	_	53	punct	_	_
-51	tanto	tanto	ADV	_	_	53	mark	_	_
+51	tanto	tanto	ADV	_	ExtPos=SCONJ	53	mark	_	_
 52	che	che	SCONJ	_	_	51	fixed	_	_
 53	penso	pensâ	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	25	advcl	_	_
 54	ch'	che	SCONJ	_	_	56	mark	_	SpaceAfter=No
@@ -4574,7 +4574,7 @@
 17	gh'	ghe	ADV	_	_	19	iobj	_	SpaceAfter=No
 18	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
 19	intravegnuo	intravegnî	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
-20	insemme	insemme	ADV	_	_	22	advmod	_	_
+20	insemme	insemme	ADV	_	ExtPos=ADP	22	case	_	_
 21	à	à	ADP	_	_	20	fixed	_	_
 22	lê	lê	PRON	_	Number=Sing|Person=3|PronType=Prs	19	obl	_	SpacesAfter=\n
 
@@ -4752,7 +4752,7 @@
 28	à	à	ADP	_	_	30	case	_	_
 29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	sabbo	sabbo	NOUN	_	Gender=Masc|Number=Sing	27	obl	_	_
-31	graçie	graçie	ADV	_	_	35	advmod	_	_
+31	graçie	graçie	ADV	_	ExtPos=ADP	35	case	_	_
 32	à	à	ADP	_	_	31	fixed	_	_
 33	quello	quello	DET	_	Gender=Masc|Number=Sing|PronType=Dem	35	det	_	_
 34	mæximo	mæximo	ADJ	_	Gender=Masc|Number=Sing	35	amod	_	_
@@ -5360,7 +5360,7 @@
 # text = E coscì primma ch'o se versesse me l'ò bevuo!
 1	E	e	CCONJ	_	_	11	cc	_	_
 2	coscì	coscì	ADV	_	_	11	advmod	_	_
-3	primma	primma	ADV	_	_	7	mark	_	_
+3	primma	primma	ADV	_	ExtPos=SCONJ	7	mark	_	_
 4	ch'	che	SCONJ	_	_	3	fixed	_	SpaceAfter=No
 5	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 6	se	se	PRON	_	Person=3|PronType=Prs	7	expl:pv	_	_
@@ -5434,7 +5434,7 @@
 # sent_id = mar-nat-p019-s001
 # text = E bello che te l'ò dito!
 1	E	e	CCONJ	_	_	7	cc	_	_
-2	bello	bello	ADJ	_	Gender=Masc|Number=Sing	7	advmod	_	_
+2	bello	bello	ADJ	_	ExtPos=ADV|Gender=Masc|Number=Sing	7	advmod	_	_
 3	che	che	SCONJ	_	_	2	fixed	_	_
 4	te	te	PRON	_	Number=Sing|Person=2|PronType=Prs	7	iobj	_	_
 5	l'	lo	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
@@ -6378,8 +6378,8 @@
 1	E	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	gente	gente	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
 3	ammian	ammiâ	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	de	de	ADP	_	_	5	case	_	_
-5	longo	longo	ADV	_	_	3	advmod	_	_
+4	de	de	ADP	_	ExtPos=ADV	3	advmod	_	_
+5	longo	longo	ADV	_	_	4	fixed	_	_
 6	quello	quello	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	3	obj	_	_
 7	che	che	PRON	_	PronType=Rel	8	obj	_	_
 8	fa	fâ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
@@ -6638,8 +6638,8 @@
 # text = Ti stæ de longo a-a Ceive?
 1	Ti	ti	PRON	_	Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
 2	stæ	stâ	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	de	de	ADP	_	_	4	case	_	_
-4	longo	longo	ADV	_	_	2	advmod	_	_
+3	de	de	ADP	_	ExtPos=ADV	2	advmod	_	_
+4	longo	longo	ADV	_	_	3	fixed	_	_
 5-6	a-a	_	_	_	_	_	_	_	_
 5	à	à	ADP	_	_	7	case	_	_
 6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -6671,7 +6671,7 @@
 
 # sent_id = grammar-p001-s040
 # text = Comm'a l'é che no t'ê vegnua?
-1	Comm'	comme	SCONJ	_	_	9	mark	_	SpaceAfter=No
+1	Comm'	comme	ADV	_	ExtPos=ADV	9	advmod	_	SpaceAfter=No
 2	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	fixed	_	_
 3	l'	l'	PART	_	_	1	fixed	_	SpaceAfter=No
 4	é	ëse	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	fixed	_	_
@@ -6816,7 +6816,7 @@
 6	ò	avei	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	advcl	_	_
 7	coæ	coæ	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	_
-9	tanto	tanto	ADV	_	_	12	advmod	_	_
+9	tanto	tanto	ADV	_	ExtPos=ADV	12	advmod	_	_
 10	ciù	ciù	ADV	_	_	9	fixed	_	_
 11	che	che	SCONJ	_	_	9	fixed	_	_
 12	ceuve	ceuve	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	SpaceAfter=No
@@ -7468,7 +7468,7 @@
 
 # sent_id = stf-freschi-p001-s021
 # text = In mezo à sto panorama, ven in cheu ascì quello che se perde in ponto arte.
-1	In	in	ADP	_	_	5	case	_	_
+1	In	in	ADP	_	ExtPos=ADP	5	case	_	_
 2	mezo	mezo	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	_
 3	à	à	ADP	_	_	1	fixed	_	_
 4	sto	sto	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
@@ -7482,7 +7482,7 @@
 12	che	che	PRON	_	PronType=Rel	14	nsubj	_	_
 13	se	se	PRON	_	Person=3|PronType=Prs	14	expl:impers	_	_
 14	perde	perde	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
-15	in	in	ADP	_	_	17	case	_	_
+15	in	in	ADP	_	ExtPos=ADP	17	case	_	_
 16	ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	15	fixed	_	_
 17	arte	arte	NOUN	_	Gender=Fem|Number=Sing	14	xcomp	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	7	punct	_	_
@@ -7813,7 +7813,7 @@
 31	,	,	PUNCT	_	_	38	punct	_	_
 32	e	e	CCONJ	_	_	38	cc	_	_
 33	che	che	PRON	_	PronType=Rel	38	nsubj	_	_
-34	intanto	intanto	ADV	_	_	37	mark	_	_
+34	intanto	intanto	ADV	_	ExtPos=SCONJ	37	mark	_	_
 35	che	che	SCONJ	_	_	34	fixed	_	_
 36	son	ëse	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	cop	_	_
 37	serræ	serrou	ADJ	_	Gender=Fem|Number=Plur	38	advcl	_	_
@@ -7903,7 +7903,7 @@
 # sent_id = stf-freschi-p002-s009
 # text = E intanto che sensa nisciuña cua se cointa à desperdilo, vëgne in cheu ascì cöse un patrimònio pægio o porriæ rappresentâ pe l'economia de quelli territöi, se con unna vixon appropiâ de coltua turistica o vegnisse misso in luxe, e se tra tante "Strade del vino, del sale, dell'olio" e compagnia se fesse di itineräi de conoscensa da pittua à fresco do ponente.
 1	E	e	CCONJ	_	_	13	cc	_	_
-2	intanto	intanto	ADV	_	_	8	mark	_	_
+2	intanto	intanto	ADV	_	ExtPos=SCONJ	8	mark	_	_
 3	che	che	SCONJ	_	_	2	fixed	_	_
 4	sensa	sensa	ADV	_	_	6	advmod	_	_
 5	nisciuña	nisciun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	6	det	_	_
