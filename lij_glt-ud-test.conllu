@@ -1559,7 +1559,7 @@
 24	zù	zù	ADV	_	_	23	advmod	_	_
 25	in	in	ADP	_	ExtPos=ADP	28	case	_	_
 26	sce	sce	ADP	_	_	25	fixed	_	_
-27	de	de	ADP	_	_	28	case	_	_
+27	de	de	ADP	_	_	25	fixed	_	_
 28	lê	lê	PRON	_	Number=Sing|Person=3|PronType=Prs	23	obl	_	_
 29	comme	comme	ADP	_	_	31	case	_	_
 30	unna	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
@@ -4234,8 +4234,8 @@
 1	Quelle	quello	DET	_	Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
 2	föto	föto	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
 3	parlan	parlâ	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	da	da	ADP	_	_	6	case	_	_
-5	pe	pe	ADP	_	_	6	case	_	_
+4	da	da	ADP	_	ExtPos=ADP	6	case	_	_
+5	pe	pe	ADP	_	_	4	fixed	_	_
 6	liatre	liatri	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	3	obl	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	10	punct	_	_
 8	perché	perché	ADV	_	_	10	advmod	_	_
