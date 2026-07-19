@@ -7130,7 +7130,7 @@
 23	Pigna	Pigna	PROPN	_	Gender=Fem|Number=Sing	41	obl	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	26	punct	_	_
 25	unna	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
-26	vegetta	vegio	NOUN	_	Gender=Fem|Number=Sing	41	nsubj	_	_
+26	vegetta	vegio	NOUN	_	Degree=Dim|Gender=Fem|Number=Sing|Typo=Yes	41	nsubj	_	CorrectForm=veggetta
 27	cegâ	cegâ	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	26	acl	_	_
 28	in	in	ADP	_	_	29	case	_	_
 29	doe	doî	NOUN	_	Gender=Fem|Number=Sing	27	obl	_	_
@@ -7304,7 +7304,7 @@
 1	Manco	manco	ADV	_	_	4	advmod	_	_
 2	ciù	ciù	ADV	_	_	4	advmod	_	_
 3	i	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
-4	vegetti	vegio	NOUN	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+4	vegetti	vegio	NOUN	_	Degree=Dim|Gender=Masc|Number=Plur|Typo=Yes	0	root	_	CorrectForm=veggetti|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = stf-freschi-p001-s014
