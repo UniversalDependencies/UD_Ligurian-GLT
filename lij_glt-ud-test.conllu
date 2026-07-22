@@ -1645,7 +1645,7 @@
 37	i	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
 38	angei	angeo	NOUN	_	Gender=Masc|Number=Plur	40	nsubj	_	_
 39	ô	ô	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	40	obj	_	_
-40	servivan	servî	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	conj	_	SpaceAfter=No
+40	servivan	servî	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	29	conj	_	SpaceAfter=No
 41	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # newpar id = esl-c01-p006
@@ -2817,7 +2817,7 @@
 19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	Repubrica	repubrica	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
-22	deuviæ	deuviâ	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
+22	deuviæ	deuviâ	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	13	acl	_	_
 23-24	da-e	_	_	_	_	_	_	_	_
 23	da	da	ADP	_	_	25	case	_	_
 24	e	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
@@ -3759,7 +3759,7 @@
 6	turisti	turista	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 7	che	che	PRON	_	PronType=Rel	9	nsubj	_	_
 8	s'	se	PRON	_	Person=3|PronType=Prs	9	expl:pv	_	SpaceAfter=No
-9	ammuggian	ammuggiâ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	ammuggian	ammuggiâ	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
 10	in	in	ADP	_	ExtPos=ADP	13	case	_	_
 11-12	scî	_	_	_	_	_	_	_	_
 11	sce	sce	ADP	_	_	10	fixed	_	_
@@ -4004,7 +4004,7 @@
 27-28	de	_	_	_	_	_	_	_	_
 27	de	de	ADP	_	_	29	case	_	_
 28	e	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
-29	butteghe	buttega	NOUN	_	Gender=Fem|Number=Plur	26	nmod	_	_
+29	butteghe	butega	NOUN	_	Gender=Fem|Number=Plur|Typo=Yes	26	nmod	_	CorrectForm=buteghe
 30-31	pe-i	_	_	_	_	_	_	_	_
 30	pe	pe	ADP	_	_	32	case	_	_
 31	i	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
@@ -5282,7 +5282,7 @@
 # text = E assettilo in sciâ spallea con unna banderòlla, sciugan ciù fito!
 1	E	e	CCONJ	_	_	2	cc	_	_
 2-3	assettilo	_	_	_	_	_	_	_	_
-2	assetta	assettâ	VERB	_	Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	assetta	assettâ	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	lo	lo	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
 4	in	in	ADP	_	ExtPos=ADP	7	case	_	_
 5-6	sciâ	_	_	_	_	_	_	_	_
@@ -5919,7 +5919,7 @@
 4	muxica	muxica	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 5	pe	pe	ADP	_	_	6	case	_	_
 6	chitara	chitara	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
-7	stampæ	stampâ	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+7	stampæ	stampâ	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
 8	alantô	alantô	ADV	_	_	7	advmod	_	_
 9	in	in	ADP	_	ExtPos=ADV	7	advmod	_	_
 10	gio	gio	NOUN	_	Gender=Masc|Number=Sing	9	fixed	_	_
@@ -6809,7 +6809,7 @@
 # text = Se m'appenso quelli momenti, m'accòrzo che no l'é scangiou ninte.
 1	Se	se	SCONJ	_	_	3	mark	_	_
 2	m'	me	PRON	_	Number=Sing|Person=1|PronType=Prs	3	iobj	_	SpaceAfter=No
-3	appenso	appensâ	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
+3	appenso	appensâ	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	advcl	_	_
 4	quelli	quello	DET	_	Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_
 5	momenti	momento	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
@@ -7221,7 +7221,7 @@
 # sent_id = stf-freschi-p001-s010
 # text = M'avieivan piggiou à mi che vegniva da feua, ma guao à parlâ con quelli do Castê!
 1	M'	me	PRON	_	Number=Sing|Person=1|PronType=Prs	3	iobj	_	SpaceAfter=No
-2	avieivan	avei	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+2	avieivan	avei	AUX	_	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	piggiou	piggiâ	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	à	à	ADP	_	_	5	case	_	_
 5	mi	mi	PRON	_	Number=Sing|Person=1|PronType=Prs	3	obl	_	_
