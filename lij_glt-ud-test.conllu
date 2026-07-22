@@ -3986,7 +3986,7 @@
 9	mæ	mæ	DET	_	Poss=Yes|PronType=Prs	10	det:poss	_	_
 10	nevi	nevo	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	_
 11	ghe	ghe	PRON	_	Person=3|PronType=Prs	13	iobj	_	_
-12	saieiva	ëse	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	cop	_	_
+12	saieiva	ëse	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
 13	cao	cao	ADJ	_	Gender=Masc|Number=Sing	2	ccomp	_	_
 14	che	che	SCONJ	_	_	16	mark	_	_
 15	ghe	ghe	PRON	_	Person=3|PronType=Prs	16	iobj	_	_
@@ -6592,7 +6592,7 @@
 10	de	de	ADP	_	_	11	case	_	_
 11	mangiâ	mangiâ	VERB	_	Tense=Pres|VerbForm=Inf	9	xcomp	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	9	punct	_	_
-13	saieiva	ëse	AUX	_	Mood=Cnd|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	14	aux	_	_
+13	saieiva	ëse	AUX	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
 14	sciortio	sciortî	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 15	con	con	ADP	_	_	16	case	_	_
 16	voiatri	voiatri	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	14	obl	_	SpaceAfter=No
