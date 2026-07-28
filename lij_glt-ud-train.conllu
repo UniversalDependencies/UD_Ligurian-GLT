@@ -15,8 +15,8 @@
 9-10	a-a	_	_	_	_	_	_	_	_
 9	à	à	ADP	_	_	12	case	_	_
 10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-11	seu	seu	DET	_	Poss=Yes|PronType=Prs	12	det:poss	_	_
-12	amiga	amigo	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+11	seu	seu	DET	_	Poss=Yes|PronType=Prs	12	det	_	_
+12	amiga	amigo	NOUN	_	Gender=Fem|Number=Sing	6	obl:arg	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = cairo-p001-s002
@@ -56,7 +56,7 @@
 # text = Sam, arvi o barcon!
 1	Sam	Sam	PROPN	_	Gender=Masc|Number=Sing	3	vocative	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	arvi	arvî	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	arvi	arvî	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	_
 4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	barcon	barcon	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
 6	!	!	PUNCT	_	_	3	punct	_	_
@@ -72,7 +72,7 @@
 6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	machina	machina	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
 8	da	da	ADP	_	_	10	case	_	_
-9	seu	seu	DET	_	Poss=Yes|PronType=Prs	10	det:poss	_	_
+9	seu	seu	DET	_	Poss=Yes|PronType=Prs	10	det	_	_
 10	maio	maio	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -96,7 +96,7 @@
 # sent_id = cairo-p001-s008
 # parallel_id = cairo/8
 # text = Mæ poæ o l'é ciù bullo che o teu.
-1	Mæ	mæ	DET	_	Poss=Yes|PronType=Prs	2	det:poss	_	_
+1	Mæ	mæ	DET	_	Poss=Yes|PronType=Prs	2	det	_	_
 2	poæ	poæ	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl	_	_
 4	l'	l'	PART	_	_	7	dep	_	SpaceAfter=No
@@ -201,7 +201,7 @@
 5	unna	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	machina	machina	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	_
-8	seu	seu	DET	_	Poss=Yes|PronType=Prs	9	det:poss	_	_
+8	seu	seu	DET	_	Poss=Yes|PronType=Prs	9	det	_	_
 9	fræ	fræ	NOUN	_	Gender=Masc|Number=Sing	4	conj	_	_
 10	incangio	incangio	ADV	_	_	14	advmod	_	_
 11	solo	solo	ADV	_	ExtPos=ADV	14	advmod	_	_
@@ -237,7 +237,7 @@
 2	giorno	giorno	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
 3	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 4	l'	l'	PART	_	_	7	dep	_	SpaceAfter=No
-5	aviæ	avei	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+5	aviæ	avei	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	7	aux	_	_
 6	dovuo	dovei	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	aux	_	_
 7-8	fâse	_	_	_	_	_	_	_	_
 7	fâ	fâ	VERB	_	Tense=Pres|VerbForm=Inf	0	root	_	_
