@@ -68,12 +68,12 @@
 2	l'	l'	PART	_	_	4	dep	_	SpaceAfter=No
 3	à	avei	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	fæto	fâ	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-5	lavâ	lavâ	VERB	_	Tense=Pres|VerbForm=Inf	4	xcomp	_	_
+5	lavâ	lavâ	VERB	_	Tense=Pres|VerbForm=Inf	4	ccomp	_	_
 6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	machina	machina	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
 8	da	da	ADP	_	_	10	case	_	_
 9	seu	seu	DET	_	Poss=Yes|PronType=Prs	10	det	_	_
-10	maio	maio	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+10	maio	maio	NOUN	_	Gender=Masc|Number=Sing	5	obl:arg	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = cairo-p001-s007
@@ -162,20 +162,20 @@
 # parallel_id = cairo/12
 # text = No gh'an idea de chi l'agge scrito.
 1	No	no	ADV	_	_	3	advmod	_	_
-2	gh'	ghe	PRON	_	PronType=Dem	3	expl:pv	_	SpaceAfter=No
+2	gh'	ghe	PRON	_	PronType=Dem	3	expl	_	SpaceAfter=No
 3	an	avei	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	idea	idea	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
-5	de	de	ADP	_	_	6	case	_	_
-6	chi	chi	PRON	_	PronType=Int	3	obl	_	_
+5	de	de	ADP	_	_	9	mark	_	_
+6	chi	chi	PRON	_	PronType=Int	9	nsubj	_	_
 7	l'	lo	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	SpaceAfter=No
 8	agge	avei	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
-9	scrito	scrive	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	SpaceAfter=No
+9	scrito	scrive	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = cairo-p001-s013
 # parallel_id = cairo/13
 # text = Cöse t'ammii?
-1	Cöse	cöse	PRON	_	Number=Sing|PronType=Int	3	obj	_	_
+1	Cöse	cöse	PRON	_	PronType=Int	3	obj	_	_
 2	t'	ti	PRON	_	Number=Sing|Person=2|PronType=Prs	3	nsubj	_	SpaceAfter=No
 3	ammii	ammiâ	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	?	?	PUNCT	_	_	3	punct	_	_
@@ -183,7 +183,7 @@
 # sent_id = cairo-p001-s014
 # parallel_id = cairo/14
 # text = Quande ti pensi de poei vegnî?
-1	Quande	quande	ADV	_	_	3	mark	_	_
+1	Quande	quande	ADV	_	_	6	advmod	_	_
 2	ti	ti	PRON	_	Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
 3	pensi	pensâ	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	de	de	ADP	_	_	6	mark	_	_
@@ -241,7 +241,7 @@
 6	dovuo	dovei	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	aux	_	_
 7-8	fâse	_	_	_	_	_	_	_	_
 7	fâ	fâ	VERB	_	Tense=Pres|VerbForm=Inf	0	root	_	_
-8	se	se	PRON	_	Person=3|PronType=Prs	7	expl:pv	_	_
+8	se	se	PRON	_	Person=3|PronType=Prs	7	iobj	_	_
 9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	testa	testa	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	20	punct	_	_
@@ -279,22 +279,22 @@
 # parallel_id = cairo/19
 # text = Sta lettia a l'é do Peter e a l'é stæta consegnâ vëi.
 1	Sta	sto	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
-2	lettia	lettia	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
-3	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
-4	l'	l'	PART	_	_	5	dep	_	SpaceAfter=No
-5	é	ëse	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	lettia	lettia	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+3	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	expl	_	_
+4	l'	l'	PART	_	_	8	dep	_	SpaceAfter=No
+5	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 6-7	do	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	_	8	case	_	_
 7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	Peter	Peter	PROPN	_	Gender=Masc|Number=Sing	5	obl	_	_
+8	Peter	Peter	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
 9	e	e	CCONJ	_	_	14	cc	_	_
 10	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj:pass	_	_
 11	l'	l'	PART	_	_	14	dep	_	SpaceAfter=No
 12	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
-13	stæta	stâ	AUX	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	aux:pass	_	_
-14	consegnâ	consegnâ	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+13	stæta	ëse	AUX	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	aux:pass	_	_
+14	consegnâ	consegnâ	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
 15	vëi	vëi	ADV	_	_	14	advmod	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	5	punct	_	_
+16	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = cairo-p001-s020
 # parallel_id = cairo/20

@@ -23,11 +23,7 @@ We are deeply grateful to the publisher _De Ferrari Editore_ and the editor of t
 * 2026-11-15 v2.19
   * Added the citation for the paper describing the treebank.
   * Corrected an earlier changelog entry: the treebank was first released in UD v2.9, not in UD v2.8.
-  * Corrected annotations involving nominal modifiers, oblique dependents, clitic doubling, determiners, and multiple objects.
-  * Retagged partitive forms such as `de`, `di`, and `d'` as unsplit determiners with lemma `do` and appropriate gender and number features.
-  * Standardized fixed multiword expressions and their `ExtPos` values, including compound prepositions and the adpositional and progressive uses of `apreuvo à`.
-  * Added specific UD relations for passive subjects, passive auxiliaries, passive agents, reflexive passives, and pronominal verbs.
-  * Marked typographical errors with `Typo=Yes` and supplied their corrected forms with `CorrectForm`.
+  * Aligned Ligurian annotations with the revised guidelines.
 * 2021-11-15 v2.9
   * Initial release in Universal Dependencies.
 

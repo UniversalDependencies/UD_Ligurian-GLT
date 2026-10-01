@@ -49,7 +49,7 @@
 # newpar id = bdl-c00-p003
 # sent_id = bdl-c00-p003-s001
 # text = Graçie di çetroin, che me son arrivæ; m'é arrivou ascì a vòstra lettia da settemaña passâ, a-a quæ daggo replica, e no capiscio comm'a l'é che no m'aggiæ mandou o conto de sta spediçion insemme à l'atro do meise de dexembre.
-1	Graçie	graçie	INTJ	_	_	0	root	_	_
+1	Graçie	graçie	NOUN	_	_	0	root	_	_
 2-3	di	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
 3	i	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
@@ -86,7 +86,7 @@
 32	comm'	comme	ADV	_	ExtPos=ADV	40	advmod	_	SpaceAfter=No
 33	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	32	fixed	_	_
 34	l'	l'	PART	_	_	32	fixed	_	SpaceAfter=No
-35	é	ëse	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	fixed	_	_
+35	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	fixed	_	_
 36	che	che	SCONJ	_	_	32	fixed	_	_
 37	no	no	ADV	_	_	40	advmod	_	_
 38	m'	me	PRON	_	Number=Sing|Person=1|PronType=Prs	40	iobj	_	SpaceAfter=No
@@ -114,19 +114,19 @@
 # text = Pe quello che me fæ scrive de vòstra figgia, a Tëxinin, che passou Pasqua vorriësci mandâ chì à Milan pe arvî unna butega de scioî fresche comme quella che tegnî à Zena, me despiaxe de no poei ësive de nisciun aggiutto e de no poeive dâ e informaçioin che ve servan, perché fin oua no conoscio ancon guæi de persoñe, e quelle pöche no s'accapiscian ni de scioî fresche e ni de scioî finte.
 1	Pe	pe	ADP	_	_	2	case	_	_
 2	quello	quello	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	37	obl	_	_
-3	che	che	PRON	_	PronType=Rel	5	obj	_	_
+3	che	che	PRON	_	PronType=Rel	6	obj	_	_
 4	me	me	PRON	_	Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
 5	fæ	fâ	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
-6	scrive	scrive	VERB	_	Tense=Pres|VerbForm=Inf	5	xcomp	_	_
+6	scrive	scrive	VERB	_	Tense=Pres|VerbForm=Inf	5	ccomp	_	_
 7	de	de	ADP	_	_	9	case	_	_
 8	vòstra	vòstro	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det	_	_
 9	figgia	figgio	NOUN	_	Gender=Fem|Number=Sing	6	obl:arg	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	_
 11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	Tëxinin	Texo	PROPN	_	Gender=Fem|Number=Sing	9	appos	_	SpaceAfter=No
+12	Tëxinin	Tëxinin	PROPN	_	Gender=Fem|Number=Sing	9	appos	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	che	che	PRON	_	PronType=Rel	18	obj	_	_
-15	passou	passou	ADV	_	_	16	advmod	_	_
+15	passou	passou	ADP	_	_	16	case	_	_
 16	Pasqua	Pasqua	PROPN	_	Gender=Fem|Number=Sing	18	obl	_	_
 17	vorriësci	voei	AUX	_	Mood=Cnd|Number=Plur|Person=2|VerbForm=Fin	18	aux	_	_
 18	mandâ	mandâ	VERB	_	Tense=Pres|VerbForm=Inf	9	acl:relcl	_	_
@@ -157,7 +157,7 @@
 42	ve	ve	PRON	_	Number=Plur|Person=2|PronType=Prs	45	iobj	_	_
 43	de	de	ADP	_	_	45	case	_	_
 44	nisciun	nisciun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	45	det	_	_
-45	aggiutto	aggiutto	NOUN	_	Gender=Masc|Number=Sing	37	xcomp	_	_
+45	aggiutto	aggiutto	NOUN	_	Gender=Masc|Number=Sing	37	csubj	_	_
 46	e	e	CCONJ	_	_	51	cc	_	_
 47	de	de	ADP	_	_	51	mark	_	_
 48	no	no	ADV	_	_	51	advmod	_	_
@@ -172,8 +172,8 @@
 56	servan	servî	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	53	acl:relcl	_	SpaceAfter=No
 57	,	,	PUNCT	_	_	62	punct	_	_
 58	perché	perché	SCONJ	_	_	62	mark	_	_
-59	fin	fin	ADV	_	_	60	advmod	_	_
-60	oua	oua	ADV	_	_	62	advmod	_	_
+59	fin	fin	ADV	_	ExtPos=ADV	62	advmod	_	_
+60	oua	oua	ADV	_	_	59	fixed	_	_
 61	no	no	ADV	_	_	62	advmod	_	_
 62	conoscio	conosce	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	37	advcl	_	_
 63	ancon	ancon	ADV	_	_	62	advmod	_	_
@@ -207,7 +207,7 @@
 4	dî	dî	VERB	_	Tense=Pres|VerbForm=Inf	0	root	_	_
 5	se	se	SCONJ	_	_	16	mark	_	_
 6	quello	quello	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
-7	comercio	comercio	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	SpaceAfter=No
+7	comercio	commerçio	NOUN	_	Gender=Masc|Number=Sing|Typo=Yes	16	nsubj	_	CorrectForm=commerçio|SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	_
 9	sorviatutto	sorviatutto	ADV	_	_	12	advmod	_	_
 10	de	de	ADP	_	_	12	case	_	_
@@ -219,10 +219,10 @@
 16	dâ	dâ	VERB	_	Tense=Pres|VerbForm=Inf	4	ccomp	_	_
 17	bon	bon	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	_
 18	fruto	fruto	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
-19	:	:	PUNCT	_	_	82	punct	_	_
+19	:	:	PUNCT	_	_	77	punct	_	_
 20	quella	quello	DET	_	Gender=Fem|Number=Sing|PronType=Dem	21	det	_	_
 21	scignoa	scignoa	NOUN	_	Gender=Fem|Number=Sing	77	nsubj	_	_
-22	lombarda	lombardo	ADJ	_	Gender=Fem|Number=Plur	21	amod	_	_
+22	lombarda	lombardo	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
 23	che	che	PRON	_	PronType=Rel	29	nsubj	_	_
 24	oua	oua	ADV	_	_	29	advmod	_	_
 25	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	29	expl	_	_
@@ -230,7 +230,7 @@
 27	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
 28	à	à	ADP	_	_	29	case	_	_
 29	Nervi	Nervi	PROPN	_	Gender=Fem|Number=Sing	21	acl:relcl	_	_
-30	à	à	ADP	_	_	31	case	_	_
+30	à	à	ADP	_	_	31	mark	_	_
 31	passâ	passâ	VERB	_	Tense=Pres|VerbForm=Inf	29	advcl	_	_
 32	l'	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	SpaceAfter=No
 33	inverno	inverno	NOUN	_	Gender=Masc|Number=Sing	31	obj	_	_
@@ -244,31 +244,31 @@
 41	idea	idea	NOUN	_	Gender=Fem|Number=Sing	39	obj	_	SpaceAfter=No
 42	,	,	PUNCT	_	_	52	punct	_	_
 43	e	e	CCONJ	_	_	52	cc	_	_
-44	che	che	PRON	_	PronType=Rel	52	dislocated	_	_
+44	che	che	PRON	_	PronType=Rel	52	nsubj	_	_
 45	quand'	quande	SCONJ	_	_	47	mark	_	SpaceAfter=No
 46	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	47	nsubj	_	_
 47	vëgne	vegnî	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	52	advcl	_	_
 48	à	à	ADP	_	_	49	case	_	_
 49	Milan	Milan	PROPN	_	Gender=Fem|Number=Sing	47	obl	_	_
-50	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	52	nsubj	_	_
+50	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	52	expl	_	_
 51	s'	se	PRON	_	Person=3|PronType=Prs	52	expl:pv	_	SpaceAfter=No
 52	incarrega	incarregâ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	conj	_	_
-53	de	de	ADP	_	_	54	case	_	_
-54	tegnî	tegnî	VERB	_	Tense=Pres|VerbForm=Inf	52	advcl	_	_
+53	de	de	ADP	_	_	54	mark	_	_
+54	tegnî	tegnî	VERB	_	Tense=Pres|VerbForm=Inf	52	xcomp	_	_
 55	vòstra	vòstro	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	56	det	_	_
 56	figgia	figgio	NOUN	_	Gender=Fem|Number=Sing	54	obj	_	_
 57	in	in	ADP	_	_	58	case	_	_
 58	cà	cà	NOUN	_	Gender=Fem|Number=Sing	54	obl	_	_
-59	sò	sò	DET	_	Poss=Yes|PronType=Prs	58	det	_	SpaceAfter=No
+59	sò	sò	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	58	det	_	SpaceAfter=No
 60	,	,	PUNCT	_	_	54	punct	_	_
-61	de	de	ADP	_	_	62	case	_	_
+61	de	de	ADP	_	_	62	mark	_	_
 62-63	dâghe	_	_	_	_	_	_	_	_
 62	dâ	dâ	VERB	_	Tense=Pres|VerbForm=Inf	54	conj	_	_
 63	ghe	ghe	PRON	_	Person=3|PronType=Prs	62	iobj	_	_
 64	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	65	det	_	_
 65	mente	mente	NOUN	_	Gender=Fem|Number=Sing	62	obj	_	_
 66	e	e	CCONJ	_	_	68	cc	_	_
-67	de	de	ADP	_	_	68	case	_	_
+67	de	de	ADP	_	_	68	mark	_	_
 68-69	fâghe	_	_	_	_	_	_	_	_
 68	fâ	fâ	VERB	_	Tense=Pres|VerbForm=Inf	54	conj	_	_
 69	ghe	ghe	PRON	_	Person=3|PronType=Prs	68	iobj	_	_
@@ -279,19 +279,19 @@
 74	saià	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	77	cop	_	_
 75	unna	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	77	det	_	_
 76	braviscima	bravo	ADJ	_	Degree=Abs|Gender=Fem|Number=Sing	77	amod	_	_
-77	scignoa	scignoa	NOUN	_	Gender=Fem|Number=Sing	82	advcl	_	SpaceAfter=No
+77	scignoa	scignoa	NOUN	_	Gender=Fem|Number=Sing	4	parataxis	_	SpaceAfter=No
 78	,	,	PUNCT	_	_	82	punct	_	_
 79	no	no	ADV	_	_	82	advmod	_	_
 80	me	me	PRON	_	Number=Sing|Person=1|PronType=Prs	82	expl:pv	_	_
 81	n'	ne	PRON	_	PronType=Dem	82	obl:arg	_	SpaceAfter=No
-82	indubito	indubitâ	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
+82	indubito	indubitâ	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	77	parataxis	_	SpaceAfter=No
 83	,	,	PUNCT	_	_	82	punct	_	_
 84	e	e	CCONJ	_	_	87	cc	_	_
 85	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	87	nsubj	_	_
 86	l'	l'	PART	_	_	87	dep	_	SpaceAfter=No
-87	avià	avei	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	82	conj	_	_
-88	de	de	ADP	_	_	89	case	_	_
-89	seguo	seguo	ADJ	_	ExtPos=ADV|Gender=Masc|Number=Sing	87	obl	_	_
+87	avià	avei	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	77	conj	_	_
+88	de	de	ADP	_	ExtPos=ADV	87	advmod	_	_
+89	seguo	seguo	ADJ	_	Gender=Masc|Number=Sing	88	fixed	_	_
 90	e	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	92	det	_	_
 91	megio	bon	ADJ	_	Degree=Cmp|Gender=Fem|Number=Plur	92	amod	_	_
 92	intençioin	intençion	NOUN	_	Gender=Fem|Number=Plur	87	obj	_	SpaceAfter=No
@@ -300,9 +300,9 @@
 95-96	sciô	_	_	_	_	_	_	_	_
 95	sce	sce	ADP	_	_	94	fixed	_	_
 96	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	97	det	_	_
-97	comercio	comercio	NOUN	_	Gender=Masc|Number=Sing	102	obl	_	SpaceAfter=No
+97	comercio	commerçio	NOUN	_	Gender=Masc|Number=Sing|Typo=Yes	102	obl	_	CorrectForm=commerçio|SpaceAfter=No
 98	,	,	PUNCT	_	_	99	punct	_	_
-99	ançi	ançi	ADV	_	_	102	amod	_	SpaceAfter=No
+99	ançi	ançi	ADV	_	_	102	advmod	_	SpaceAfter=No
 100	,	,	PUNCT	_	_	99	punct	_	_
 101	peu	poei	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	102	aux	_	_
 102-103	dâse	_	_	_	_	_	_	_	_
@@ -318,11 +318,11 @@
 # sent_id = bdl-c00-p005-s002
 # text = Ma s'aise da dâve un conseggio, mi, che ve conoscio che l'é pe coscì, ve daiæ quello, a-o manco pe oua, de no stâne à fâ ninte, e de contentâve da condiçion che o Segnô o v'à dæto, sensa stâ à çercâ d'allargâve guæi ò de mette tròppa carne in sciô feugo: tanto ciù che tra Zena e Nervi i vòstri comerci van avanti discretamente, comme voî mæximo m'ei dito à voxe tante vòtte.
 1	Ma	ma	CCONJ	_	_	22	cc	_	_
-2	s'	se	SCONJ	_	_	3	mark	_	SpaceAfter=No
-3	aise	avei	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	22	advcl	_	_
+2	s'	se	SCONJ	_	_	5	mark	_	SpaceAfter=No
+3	aise	avei	AUX	_	Mood=Sub|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	aux	_	_
 4	da	da	ADP	_	_	5	mark	_	_
 5-6	dâve	_	_	_	_	_	_	_	_
-5	dâ	dâ	VERB	_	Tense=Pres|VerbForm=Inf	3	xcomp	_	_
+5	dâ	dâ	VERB	_	Tense=Pres|VerbForm=Inf	22	advcl	_	_
 6	ve	ve	PRON	_	Number=Plur|Person=2|PronType=Prs	5	iobj	_	_
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	conseggio	conseggio	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
@@ -330,7 +330,7 @@
 10	mi	mi	PRON	_	Number=Sing|Person=1|PronType=Prs	22	nsubj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	14	punct	_	_
 12	che	che	PRON	_	PronType=Rel	14	nsubj	_	_
-13	ve	ve	PRON	_	Number=Plur|Person=2|PronType=Prs	14	obl	_	_
+13	ve	ve	PRON	_	Number=Plur|Person=2|PronType=Prs	14	obj	_	_
 14	conoscio	conosce	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
 15	che	che	SCONJ	_	_	19	mark	_	_
 16	l'	l'	PART	_	_	19	dep	_	SpaceAfter=No
@@ -353,7 +353,7 @@
 32	no	no	ADV	_	_	33	advmod	_	_
 33-34	stâne	_	_	_	_	_	_	_	_
 33	stâ	stâ	VERB	_	Tense=Pres|VerbForm=Inf	23	acl	_	_
-34	ne	ne	PRON	_	PronType=Dem	33	expl:pv	_	_
+34	ne	ne	PRON	_	PronType=Dem	33	obl	_	_
 35	à	à	ADP	_	_	36	mark	_	_
 36	fâ	fâ	VERB	_	Tense=Pres|VerbForm=Inf	33	xcomp	_	_
 37	ninte	ninte	PRON	_	Number=Sing|PronType=Neg	36	obj	_	SpaceAfter=No
@@ -375,7 +375,7 @@
 51	à	avei	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	52	aux	_	_
 52	dæto	dâ	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	45	acl:relcl	_	SpaceAfter=No
 53	,	,	PUNCT	_	_	55	punct	_	_
-54	sensa	sensa	ADV	_	_	55	mark	_	_
+54	sensa	sensa	ADP	_	_	55	mark	_	_
 55	stâ	stâ	VERB	_	Tense=Pres|VerbForm=Inf	41	advcl	_	_
 56	à	à	ADP	_	_	57	mark	_	_
 57	çercâ	çercâ	VERB	_	Tense=Pres|VerbForm=Inf	55	xcomp	_	_
@@ -404,10 +404,10 @@
 78	Nervi	Nervi	PROPN	_	Gender=Fem|Number=Sing	76	conj	_	_
 79	i	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	81	det	_	_
 80	vòstri	vòstro	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	81	det	_	_
-81	comerci	comercio	NOUN	_	Gender=Masc|Number=Plur	82	nsubj	_	_
+81	comerci	commerçio	NOUN	_	Gender=Masc|Number=Plur|Typo=Yes	82	nsubj	_	CorrectForm=commerçi
 82	van	anâ	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	parataxis	_	_
 83	avanti	avanti	ADV	_	_	82	advmod	_	_
-84	discretamente	discretamente	ADV	_	_	83	advmod	_	SpaceAfter=No
+84	discretamente	discretamente	ADV	_	_	82	advmod	_	SpaceAfter=No
 85	,	,	PUNCT	_	_	91	punct	_	_
 86	comme	comme	SCONJ	_	_	91	mark	_	_
 87	voî	voî	PRON	_	Number=Plur|Person=2|PronType=Prs	91	nsubj	_	_
@@ -417,8 +417,8 @@
 91	dito	dî	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	82	advcl	_	_
 92	à	à	ADP	_	_	93	case	_	_
 93	voxe	voxe	NOUN	_	Gender=Fem|Number=Sing	91	obl	_	_
-94	tante	tanto	DET	_	ExtPos=ADV|Gender=Fem|Number=Plur|PronType=Ind	91	advmod	_	_
-95	vòtte	vòtta	NOUN	_	Gender=Fem|Number=Plur	94	fixed	_	SpaceAfter=No
+94	tante	tanto	DET	_	Gender=Fem|Number=Plur|PronType=Ind	95	det	_	_
+95	vòtte	vòtta	NOUN	_	Gender=Fem|Number=Plur	91	obl	_	SpaceAfter=No
 96	.	.	PUNCT	_	_	22	punct	_	_
 
 # sent_id = bdl-c00-p005-s003
@@ -432,7 +432,7 @@
 6	trafeghi	trafego	NOUN	_	Gender=Masc|Number=Plur	14	nsubj	_	_
 7	e	e	CCONJ	_	_	9	cc	_	_
 8	i	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
-9	comerci	comercio	NOUN	_	Gender=Masc|Number=Plur	6	conj	_	_
+9	comerci	commerçio	NOUN	_	Gender=Masc|Number=Plur|Typo=Yes	6	conj	_	CorrectForm=commerçi
 10	no	no	ADV	_	_	14	advmod	_	_
 11	son	ëse	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
 12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
@@ -440,15 +440,15 @@
 14	partia	partia	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	31	punct	_	_
 16	e	e	CCONJ	_	_	31	cc	_	_
-17	dæto	dâ	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	31	advcl	_	_
-18	che	che	SCONJ	_	_	25	mark	_	_
+17	dæto	dâ	VERB	_	ExtPos=SCONJ|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	mark	_	_
+18	che	che	SCONJ	_	_	17	fixed	_	_
 19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	borsa	borsa	NOUN	_	Gender=Fem|Number=Sing	25	nsubj	_	_
 21	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	expl	_	_
 22	l'	l'	PART	_	_	25	dep	_	SpaceAfter=No
 23	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
 24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
-25	vòstra	vòstro	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	ccomp	_	SpaceAfter=No
+25	vòstra	vòstro	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	31	advcl	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	25	punct	_	_
 27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 28	megio	bon	ADJ	_	Degree=Cmp|Gender=Masc|Number=Sing	29	amod	_	_
@@ -460,14 +460,14 @@
 # newpar id = bdl-c00-p006
 # sent_id = bdl-c00-p006-s001
 # text = Ciufito, de za che me ne parlæ e che inscistî pe piggiâ o mæ paei, quello che ghe tëgno à dîve o l'é che avanti de mandâ chì vòstra figgia, ve gh'appensæ doe vòtte: tutto o mondo o l'é paise, e se peu ëse onesti tanto à Milan comme à Nervi ò à Calcutta: a Tëxinin a l'é unna brava figgeua, de quelle savie, piña de sæximo e timô de Dio; ma sensa stâ à fâghe tòrto, a l'à unna testetta un pittinin tròppo addescia, che l'é façile dapeu ch'a pigge feugo.
-1	Ciufito	ciufito	ADV	_	_	27	advmod	_	SpaceAfter=No
+1	Ciufito	ciufito	ADV	_	_	38	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	8	punct	_	_
 3	de	de	ADP	_	ExtPos=SCONJ	8	mark	_	_
 4	za	za	ADV	_	_	3	fixed	_	_
 5	che	che	SCONJ	_	_	3	fixed	_	_
 6	me	me	PRON	_	Number=Sing|Person=1|PronType=Prs	8	iobj	_	_
 7	ne	ne	PRON	_	PronType=Dem	8	obl:arg	_	_
-8	parlæ	parlâ	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	27	advcl	_	_
+8	parlæ	parlâ	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	38	advcl	_	_
 9	e	e	CCONJ	_	_	11	cc	_	_
 10	che	che	SCONJ	_	_	11	mark	_	_
 11	inscistî	inscistî	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	8	conj	_	_
@@ -477,17 +477,17 @@
 15	mæ	mæ	DET	_	Poss=Yes|PronType=Prs	16	det	_	_
 16	paei	paei	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
-18	quello	quello	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	27	nsubj	_	_
-19	che	che	PRON	_	PronType=Rel	21	obj	_	_
-20	ghe	ghe	PRON	_	PronType=Dem	21	expl:pv	_	_
+18	quello	quello	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	38	nsubj:outer	_	_
+19	che	che	PRON	_	PronType=Rel	23	obj	_	_
+20	ghe	ghe	PRON	_	PronType=Dem	21	expl	_	_
 21	tëgno	tegnî	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
 22	à	à	ADP	_	_	23	mark	_	_
 23-24	dîve	_	_	_	_	_	_	_	_
 23	dî	dî	VERB	_	Tense=Pres|VerbForm=Inf	21	xcomp	_	_
 24	ve	ve	PRON	_	Number=Plur|Person=2|PronType=Prs	23	iobj	_	_
-25	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	expl	_	_
-26	l'	l'	PART	_	_	27	dep	_	SpaceAfter=No
-27	é	ëse	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+25	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	38	expl	_	_
+26	l'	l'	PART	_	_	38	dep	_	SpaceAfter=No
+27	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	cop	_	_
 28	che	che	SCONJ	_	_	38	mark	_	_
 29	avanti	avanti	ADV	_	ExtPos=SCONJ	31	mark	_	_
 30	de	de	ADP	_	_	29	fixed	_	_
@@ -497,8 +497,8 @@
 34	figgia	figgio	NOUN	_	Gender=Fem|Number=Sing	31	obj	_	SpaceAfter=No
 35	,	,	PUNCT	_	_	31	punct	_	_
 36	ve	ve	PRON	_	Number=Plur|Person=2|PronType=Prs	38	expl:pv	_	_
-37	gh'	ghe	PRON	_	PronType=Dem	38	expl:pv	_	SpaceAfter=No
-38	appensæ	appensâ	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	27	ccomp	_	_
+37	gh'	ghe	PRON	_	PronType=Dem	38	obl	_	SpaceAfter=No
+38	appensæ	appensâ	VERB	_	Mood=Sub|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 39	doe	doî	NUM	_	Gender=Fem|NumType=Card	40	nummod	_	_
 40	vòtte	vòtta	NOUN	_	Gender=Fem|Number=Plur	38	obl	_	SpaceAfter=No
 41	:	:	PUNCT	_	_	48	punct	_	_
@@ -508,7 +508,7 @@
 45	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	48	expl	_	_
 46	l'	l'	PART	_	_	48	dep	_	SpaceAfter=No
 47	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	cop	_	_
-48	paise	paise	NOUN	_	Gender=Masc|Number=Sing	27	parataxis	_	SpaceAfter=No
+48	paise	paise	NOUN	_	Gender=Masc|Number=Sing	38	parataxis	_	SpaceAfter=No
 49	,	,	PUNCT	_	_	54	punct	_	_
 50	e	e	CCONJ	_	_	54	cc	_	_
 51	se	se	PRON	_	Person=3|PronType=Prs	54	expl:impers	_	_
@@ -526,13 +526,13 @@
 63	Calcutta	Calcutta	PROPN	_	Gender=Fem|Number=Sing	57	conj	_	SpaceAfter=No
 64	:	:	PUNCT	_	_	72	punct	_	_
 65	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	66	det	_	_
-66	Tëxinin	Texo	PROPN	_	Gender=Fem|Number=Sing	72	nsubj	_	_
+66	Tëxinin	Tëxinin	PROPN	_	Gender=Fem|Number=Sing	72	nsubj	_	_
 67	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	72	expl	_	_
 68	l'	l'	PART	_	_	72	dep	_	SpaceAfter=No
 69	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	72	cop	_	_
 70	unna	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	72	det	_	_
 71	brava	bravo	ADJ	_	Gender=Fem|Number=Sing	72	amod	_	_
-72	figgeua	figgeu	NOUN	_	Gender=Fem|Number=Sing	27	parataxis	_	SpaceAfter=No
+72	figgeua	figgeu	NOUN	_	Gender=Fem|Number=Sing	38	parataxis	_	SpaceAfter=No
 73	,	,	PUNCT	_	_	75	punct	_	_
 74	de	de	ADP	_	_	75	case	_	_
 75	quelle	quello	PRON	_	Gender=Fem|Number=Plur|PronType=Dem	72	nmod	_	_
@@ -547,7 +547,7 @@
 84	Dio	Dio	PROPN	_	Gender=Masc|Number=Sing	82	nmod	_	SpaceAfter=No
 85	;	;	PUNCT	_	_	96	punct	_	_
 86	ma	ma	CCONJ	_	_	96	cc	_	_
-87	sensa	sensa	ADV	_	_	88	mark	_	_
+87	sensa	sensa	ADP	_	_	88	mark	_	_
 88	stâ	stâ	VERB	_	Tense=Pres|VerbForm=Inf	96	advcl	_	_
 89	à	à	ADP	_	_	90	mark	_	_
 90-91	fâghe	_	_	_	_	_	_	_	_
@@ -559,27 +559,27 @@
 95	l'	l'	PART	_	_	96	dep	_	SpaceAfter=No
 96	à	avei	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	72	conj	_	_
 97	unna	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	98	det	_	_
-98	testetta	testa	NOUN	_	Gender=Fem|Number=Sing	96	obj	_	_
+98	testetta	testetta	NOUN	_	Degree=Dim|Gender=Fem|Number=Sing	96	obj	_	_
 99	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	100	det	_	_
-100	pittinin	pittin	NOUN	_	Gender=Masc|Number=Sing	102	obl	_	_
+100	pittinin	pittinin	NOUN	_	Degree=Dim|Gender=Masc|Number=Sing	102	obl	_	_
 101	tròppo	tròppo	ADV	_	_	102	advmod	_	_
 102	addescia	addescio	ADJ	_	Gender=Fem|Number=Sing	98	amod	_	SpaceAfter=No
 103	,	,	PUNCT	_	_	107	punct	_	_
-104	che	che	PRON	_	PronType=Rel	107	nsubj	_	_
+104	che	che	SCONJ	_	_	107	mark	_	_
 105	l'	l'	PART	_	_	107	dep	_	SpaceAfter=No
 106	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	107	cop	_	_
-107	façile	façile	ADJ	_	Gender=Fem|Number=Sing	98	acl:relcl	_	_
+107	façile	façile	ADJ	_	Gender=Masc|Number=Sing	98	acl:relcl	_	_
 108	dapeu	dapeu	ADV	_	_	107	advmod	_	_
 109	ch'	che	SCONJ	_	_	111	mark	_	SpaceAfter=No
 110	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	111	nsubj	_	_
-111	pigge	piggiâ	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	107	ccomp	_	_
+111	pigge	piggiâ	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	107	csubj	_	_
 112	feugo	feugo	NOUN	_	Gender=Masc|Number=Sing	111	obj	_	SpaceAfter=No
-113	.	.	PUNCT	_	_	27	punct	_	_
+113	.	.	PUNCT	_	_	38	punct	_	_
 
 # newpar id = bdl-c00-p007
 # sent_id = bdl-c00-p007-s001
 # text = Ne sei pròpio seguo che feua cà, lonxi da-i vòstri euggi e da quelli de sò moæ, infiâ inte unna famiggia ch'ei conosciuo giusto pe caxo pe un meise ò doî, a se mantegnià delongo quello ch'a l'é oua, e che un giorno no aviei da pentîve à lagrime e sangue d'ësivene destaccou in raxon d'un guägno ch'o no l'é manco seguo?
-1	Ne	ne	PRON	_	PronType=Dem	4	obl:arg	_	_
+1	Ne	ne	PRON	_	PronType=Dem	4	expl	_	_
 2	sei	ëse	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	pròpio	pròpio	ADV	_	_	4	advmod	_	_
 4	seguo	seguo	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -597,7 +597,7 @@
 15	da	da	ADP	_	_	16	case	_	_
 16	quelli	quello	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	13	conj	_	_
 17	de	de	ADP	_	_	19	case	_	_
-18	sò	sò	DET	_	Poss=Yes|PronType=Prs	19	det	_	_
+18	sò	sò	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det	_	_
 19	moæ	moæ	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
 21	infiâ	infiâ	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	39	advcl	_	_
@@ -618,24 +618,24 @@
 36	,	,	PUNCT	_	_	39	punct	_	_
 37	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	39	nsubj	_	_
 38	se	se	PRON	_	Person=3|PronType=Prs	39	expl:pv	_	_
-39	mantegnià	mantegnî	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	advcl	_	_
+39	mantegnià	mantegnî	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	ccomp	_	_
 40	delongo	delongo	ADV	_	_	39	advmod	_	_
-41	quello	quello	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	39	obl	_	_
+41	quello	quello	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	39	xcomp	_	_
 42	ch'	che	PRON	_	PronType=Rel	41	acl:relcl	_	SpaceAfter=No
 43	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	42	nsubj	_	_
 44	l'	l'	PART	_	_	42	dep	_	SpaceAfter=No
 45	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	cop	_	_
 46	oua	oua	ADV	_	_	42	advmod	_	SpaceAfter=No
-47	,	,	PUNCT	_	_	53	punct	_	_
-48	e	e	CCONJ	_	_	53	cc	_	_
-49	che	che	SCONJ	_	_	53	mark	_	_
+47	,	,	PUNCT	_	_	55	punct	_	_
+48	e	e	CCONJ	_	_	55	cc	_	_
+49	che	che	SCONJ	_	_	55	mark	_	_
 50	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
-51	giorno	giorno	NOUN	_	Gender=Masc|Number=Sing	53	obl	_	_
-52	no	no	ADV	_	_	53	advmod	_	_
-53	aviei	avei	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	4	conj	_	_
+51	giorno	giorno	NOUN	_	Gender=Masc|Number=Sing	55	obl	_	_
+52	no	no	ADV	_	_	55	advmod	_	_
+53	aviei	avei	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	55	aux	_	_
 54	da	da	ADP	_	_	55	mark	_	_
 55-56	pentîve	_	_	_	_	_	_	_	_
-55	pentî	pentî	VERB	_	Tense=Pres|VerbForm=Inf	53	xcomp	_	_
+55	pentî	pentî	VERB	_	Tense=Pres|VerbForm=Inf	39	conj	_	_
 56	ve	ve	PRON	_	Number=Plur|Person=2|PronType=Prs	55	expl:pv	_	_
 57	à	à	ADP	_	_	58	case	_	_
 58	lagrime	lagrima	NOUN	_	Gender=Fem|Number=Plur	55	obl	_	_
@@ -645,11 +645,11 @@
 62-64	ësivene	_	_	_	_	_	_	_	_
 62	ëse	ëse	AUX	_	Tense=Pres|VerbForm=Inf	65	aux	_	_
 63	ve	ve	PRON	_	Number=Plur|Person=2|PronType=Prs	65	expl:pv	_	_
-64	ne	ne	PRON	_	PronType=Dem	65	obl:arg	_	_
+64	ne	ne	PRON	_	PronType=Dem	65	obl	_	_
 65	destaccou	destaccâ	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	55	advcl	_	_
 66	in	in	ADP	_	_	67	case	_	_
 67	raxon	raxon	NOUN	_	Gender=Fem|Number=Sing	65	obl	_	_
-68	d'	de	ADP	_	_	70	case	_	SpaceAfter=No
+68	d'	de	ADP	_	Typo=Yes	70	case	_	CorrectForm=de|CorrectSpaceAfter=Yes|SpaceAfter=No
 69	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	70	det	_	_
 70	guägno	guägno	NOUN	_	Gender=Masc|Number=Sing	67	nmod	_	_
 71	ch'	che	PRON	_	PronType=Rel	77	nsubj	_	SpaceAfter=No
@@ -663,7 +663,7 @@
 
 # sent_id = bdl-c00-p007-s002
 # text = Se conoscemmo d'antigo, voî ve fiæ ben ben de mi, e aloa ve parlo sccetto: à sto mondo, mascime a-a giornâ d'ancheu, quande gh'é unna bella figgia comme a vòstra, de loî in gio no n'ammanca, satan feua da tutte e parte co-a bocca averta; e se un o no ghe stà ben attento, finisce che a figgia se â mangian, e aloa gh'é da cianze.
-1	Se	se	PRON	_	Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+1	Se	se	PRON	_	Number=Plur|Person=1|PronType=Prs	2	obj	_	_
 2	conoscemmo	conosce	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	d'	de	ADP	_	_	4	case	_	SpaceAfter=No
 4	antigo	antigo	ADJ	_	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
@@ -695,21 +695,21 @@
 29	ancheu	ancheu	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	27	punct	_	_
 31	quande	quande	SCONJ	_	_	33	mark	_	_
-32	gh'	ghe	PRON	_	PronType=Dem	33	expl:pv	_	SpaceAfter=No
+32	gh'	ghe	PRON	_	PronType=Dem	33	expl	_	SpaceAfter=No
 33	é	ëse	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	advcl	_	_
 34	unna	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
 35	bella	bello	ADJ	_	Gender=Fem|Number=Sing	36	amod	_	_
-36	figgia	figgia	NOUN	_	Gender=Fem|Number=Sing	33	obj	_	_
+36	figgia	figgia	NOUN	_	Gender=Fem|Number=Sing	33	nsubj	_	_
 37	comme	comme	ADP	_	_	39	case	_	_
 38	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
 39	vòstra	vòstro	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	36	nmod	_	SpaceAfter=No
 40	,	,	PUNCT	_	_	33	punct	_	_
 41	de	de	ADP	_	_	42	case	_	_
-42	loî	lô	NOUN	_	Gender=Masc|Number=Plur	47	dislocated	_	_
+42	loî	lô	NOUN	_	Gender=Masc|Number=Plur	47	nsubj	_	_
 43	in	in	ADP	_	ExtPos=ADV	47	advmod	_	_
 44	gio	gio	NOUN	_	Gender=Masc|Number=Sing	43	fixed	_	_
 45	no	no	ADV	_	_	47	advmod	_	_
-46	n'	ne	PRON	_	PronType=Dem	47	obl:arg	_	SpaceAfter=No
+46	n'	ne	PRON	_	PronType=Dem	47	expl	_	SpaceAfter=No
 47	ammanca	ammancâ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
 48	,	,	PUNCT	_	_	49	punct	_	_
 49	satan	sätâ	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	47	parataxis	_	_
@@ -722,29 +722,29 @@
 55	co	co	ADP	_	_	57	case	_	_
 56	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	57	det	_	_
 57	bocca	bocca	NOUN	_	Gender=Fem|Number=Sing	49	obl	_	_
-58	averta	averto	ADJ	_	Gender=Fem|Number=Sing	57	nmod	_	SpaceAfter=No
+58	averta	averto	ADJ	_	Gender=Fem|Number=Sing	57	amod	_	SpaceAfter=No
 59	;	;	PUNCT	_	_	70	punct	_	_
 60	e	e	CCONJ	_	_	70	cc	_	_
-61	se	se	SCONJ	_	_	68	mark	_	_
-62	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	68	nsubj	_	_
-63	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	68	expl	_	_
-64	no	no	ADV	_	_	68	advmod	_	_
-65	ghe	ghe	PRON	_	PronType=Dem	68	expl:pv	_	_
-66	stà	stâ	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	68	cop	_	_
+61	se	se	SCONJ	_	_	66	mark	_	_
+62	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	66	nsubj	_	_
+63	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	66	expl	_	_
+64	no	no	ADV	_	_	66	advmod	_	_
+65	ghe	ghe	PRON	_	PronType=Dem	68	obl:arg	_	_
+66	stà	stâ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	70	advcl	_	_
 67	ben	ben	ADV	_	_	68	advmod	_	_
-68	attento	attento	ADJ	_	Gender=Masc|Number=Sing	70	advcl	_	SpaceAfter=No
-69	,	,	PUNCT	_	_	68	punct	_	_
+68	attento	attento	ADJ	_	Gender=Masc|Number=Sing	66	xcomp	_	SpaceAfter=No
+69	,	,	PUNCT	_	_	66	punct	_	_
 70	finisce	finî	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	49	conj	_	_
 71	che	che	SCONJ	_	_	76	mark	_	_
 72	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	73	det	_	_
 73	figgia	figgio	NOUN	_	Gender=Fem|Number=Sing	76	dislocated	_	_
-74	se	se	PRON	_	Person=3|PronType=Prs	76	nsubj	_	_
+74	se	se	PRON	_	Person=3|PronType=Prs	76	expl:pv	_	_
 75	â	ô	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	76	obj	_	_
 76	mangian	mangiâ	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	70	ccomp	_	SpaceAfter=No
 77	,	,	PUNCT	_	_	81	punct	_	_
 78	e	e	CCONJ	_	_	81	cc	_	_
 79	aloa	aloa	ADV	_	_	81	advmod	_	_
-80	gh'	ghe	PRON	_	PronType=Dem	81	expl:pv	_	SpaceAfter=No
+80	gh'	ghe	PRON	_	PronType=Dem	81	expl	_	SpaceAfter=No
 81	é	ëse	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	70	conj	_	_
 82	da	da	ADP	_	_	83	mark	_	_
 83	cianze	cianze	VERB	_	Tense=Pres|VerbForm=Inf	81	ccomp	_	SpaceAfter=No
@@ -761,14 +761,14 @@
 7	cöse	cöse	PRON	_	PronType=Int	8	obl:arg	_	_
 8	serve	servî	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	ciù	ciù	ADV	_	_	8	advmod	_	_
-10	cianze	cianze	VERB	_	Tense=Pres|VerbForm=Inf	8	ccomp	_	SpaceAfter=No
+10	cianze	cianze	VERB	_	Tense=Pres|VerbForm=Inf	8	csubj	_	SpaceAfter=No
 11	?	?	PUNCT	_	_	8	punct	_	_
 
 # newpar id = bdl-c00-p008
 # sent_id = bdl-c00-p008-s001
 # text = De raxoin pe convinsive à lasciâ perde o vòstro progetto, gh'aviæ da dîvene fin à doman mattin, ma ghe vorriæ un libbro intrego, unna lettia a no basta; l'é façile che frustieiva a vòstra paçiensa, e quella da persoña ch'a v'à da leze a mæ palinòdia, e in sciâ fin arriviësci à fâme intende che se voei sentî de prediche, ve n'anæ in gexa.
-1	De	do	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
-2	raxoin	raxon	NOUN	_	Gender=Fem|Number=Plur	14	obl	_	_
+1	De	de	ADP	_	_	2	case	_	_
+2	raxoin	raxon	NOUN	_	Gender=Fem|Number=Plur	14	dislocated	_	_
 3	pe	pe	ADP	_	_	4	mark	_	_
 4-5	convinsive	_	_	_	_	_	_	_	_
 4	convinse	convinse	VERB	_	Tense=Pres|VerbForm=Inf	2	acl	_	_
@@ -780,23 +780,23 @@
 10	vòstro	vòstro	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det	_	_
 11	progetto	progetto	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	2	punct	_	_
-13	gh'	ghe	PRON	_	PronType=Dem	14	expl:pv	_	SpaceAfter=No
+13	gh'	ghe	PRON	_	PronType=Dem	14	expl	_	SpaceAfter=No
 14	aviæ	avei	VERB	_	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
 15	da	da	ADP	_	_	16	mark	_	_
 16-18	dîvene	_	_	_	_	_	_	_	_
 16	dî	dî	VERB	_	Tense=Pres|VerbForm=Inf	14	xcomp	_	_
 17	ve	ve	PRON	_	Number=Plur|Person=2|PronType=Prs	16	iobj	_	_
-18	ne	ne	PRON	_	PronType=Dem	16	expl:pv	_	_
+18	ne	ne	PRON	_	PronType=Dem	16	obl	_	_
 19	fin	fin	ADP	_	ExtPos=ADP	22	case	_	_
 20	à	à	ADP	_	_	19	fixed	_	_
 21	doman	doman	ADV	_	_	22	advmod	_	_
 22	mattin	mattin	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	26	punct	_	_
 24	ma	ma	CCONJ	_	_	26	cc	_	_
-25	ghe	ghe	PRON	_	PronType=Dem	26	expl:pv	_	_
+25	ghe	ghe	PRON	_	PronType=Dem	26	expl	_	_
 26	vorriæ	voei	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	14	conj	_	_
 27	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
-28	libbro	libbro	NOUN	_	Gender=Masc|Number=Sing	26	obj	_	_
+28	libbro	libbro	NOUN	_	Gender=Masc|Number=Sing	26	nsubj	_	_
 29	intrego	intrego	ADJ	_	Gender=Masc|Number=Sing	28	amod	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	35	punct	_	_
 31	unna	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
@@ -809,7 +809,7 @@
 38	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	cop	_	_
 39	façile	façile	ADJ	_	Gender=Masc|Number=Sing	14	parataxis	_	_
 40	che	che	SCONJ	_	_	41	mark	_	_
-41	frustieiva	frustâ	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	39	csubj	_	_
+41	frustieiva	frustâ	VERB	_	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin	39	csubj	_	_
 42	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
 43	vòstra	vòstro	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	44	det	_	_
 44	paçiensa	paçiensa	NOUN	_	Gender=Fem|Number=Sing	41	obj	_	SpaceAfter=No
@@ -820,12 +820,12 @@
 48	de	de	ADP	_	_	50	case	_	_
 49	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
 50	persoña	persoña	NOUN	_	Gender=Fem|Number=Sing	47	nmod	_	_
-51	ch'	che	PRON	_	PronType=Rel	54	nsubj	_	SpaceAfter=No
-52	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	54	expl	_	_
-53	v'	ve	PRON	_	Number=Plur|Person=2|PronType=Prs	54	iobj	_	SpaceAfter=No
-54	à	avei	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	50	acl:relcl	_	_
+51	ch'	che	PRON	_	PronType=Rel	56	nsubj	_	SpaceAfter=No
+52	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	56	expl	_	_
+53	v'	ve	PRON	_	Number=Plur|Person=2|PronType=Prs	56	iobj	_	SpaceAfter=No
+54	à	avei	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	56	aux	_	_
 55	da	da	ADP	_	_	56	mark	_	_
-56	leze	leze	VERB	_	Tense=Pres|VerbForm=Inf	54	xcomp	_	_
+56	leze	leze	VERB	_	Tense=Pres|VerbForm=Inf	50	acl:relcl	_	_
 57	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	59	det	_	_
 58	mæ	mæ	DET	_	Poss=Yes|PronType=Prs	59	det	_	_
 59	palinòdia	palinòdia	NOUN	_	Gender=Fem|Number=Sing	56	obj	_	SpaceAfter=No
@@ -836,7 +836,7 @@
 63	sce	sce	ADP	_	_	62	fixed	_	_
 64	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	65	det	_	_
 65	fin	fin	NOUN	_	Gender=Fem|Number=Sing	66	obl	_	_
-66	arriviësci	arrivâ	VERB	_	Mood=Cnd|Number=Plur|Person=2|VerbForm=Fin	39	conj	_	_
+66	arriviësci	arrivâ	VERB	_	Mood=Cnd|Number=Plur|Person=2|VerbForm=Fin	41	conj	_	_
 67	à	à	ADP	_	_	68	mark	_	_
 68-69	fâme	_	_	_	_	_	_	_	_
 68	fâ	fâ	VERB	_	Tense=Pres|VerbForm=Inf	66	xcomp	_	_
@@ -850,8 +850,8 @@
 76	prediche	predica	NOUN	_	Gender=Fem|Number=Plur	74	obj	_	SpaceAfter=No
 77	,	,	PUNCT	_	_	80	punct	_	_
 78	ve	ve	PRON	_	Number=Plur|Person=2|PronType=Prs	80	expl:pv	_	_
-79	n'	ne	PRON	_	PronType=Dem	80	expl:pv	_	SpaceAfter=No
-80	anæ	anâ	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	70	xcomp	_	_
+79	n'	ne	PRON	_	PronType=Dem	80	expl	_	SpaceAfter=No
+80	anæ	anâ	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	70	ccomp	_	_
 81	in	in	ADP	_	_	82	case	_	_
 82	gexa	gexa	NOUN	_	Gender=Fem|Number=Sing	80	obl	_	SpaceAfter=No
 83	.	.	PUNCT	_	_	14	punct	_	_
@@ -875,7 +875,7 @@
 15	à	avei	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
 16	fæto	fâ	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
 17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	Marinetta	Mariña	PROPN	_	Gender=Fem|Number=Sing	16	nsubj	_	SpaceAfter=No
+18	Marinetta	Marinetta	PROPN	_	Gender=Fem|Number=Sing	16	nsubj	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	21	punct	_	_
 20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	figgia	figgio	NOUN	_	Gender=Fem|Number=Sing	18	appos	_	_
@@ -887,29 +887,29 @@
 26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	Françisca	Françisca	PROPN	_	Gender=Fem|Number=Sing	21	nmod	_	_
 28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
-29	Carboña	Carbon	PROPN	_	Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+29	Carboña	Carboña	PROPN	_	Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	33	punct	_	_
 31	ch'	che	PRON	_	PronType=Rel	33	obj	_	SpaceAfter=No
 32	ei	avei	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	33	aux	_	_
-33	conosciuo	conosce	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	acl:relcl	_	SpaceAfter=No
-34	;	;	PUNCT	_	_	42	punct	_	_
-35	e	e	CCONJ	_	_	42	cc	_	_
+33	conosciuo	conosce	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	acl:relcl	_	SpaceAfter=No
+34	;	;	PUNCT	_	_	37	punct	_	_
+35	e	e	CCONJ	_	_	37	cc	_	_
 36	de	de	ADP	_	_	37	case	_	_
-37	chi	chi	PRON	_	PronType=Int	42	obl	_	_
-38	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	42	expl	_	_
-39	l'	l'	PART	_	_	42	dep	_	SpaceAfter=No
-40	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	cop	_	_
+37	chi	chi	PRON	_	PronType=Int	2	conj	_	_
+38	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	37	expl	_	_
+39	l'	l'	PART	_	_	37	dep	_	SpaceAfter=No
+40	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	cop	_	_
 41	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
-42	corpa	corpa	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+42	corpa	corpa	NOUN	_	Gender=Fem|Number=Sing	37	nsubj	_	SpaceAfter=No
 43	,	,	PUNCT	_	_	48	punct	_	_
 44	se	se	SCONJ	_	_	48	cc	_	_
 45	no	no	ADV	_	_	48	advmod	_	_
 46	de	de	ADP	_	_	48	case	_	_
 47	sò	sò	DET	_	Poss=Yes|PronType=Prs	48	det	_	_
-48	moæ	moæ	NOUN	_	Gender=Fem|Number=Sing	42	advcl	_	SpaceAfter=No
+48	moæ	moæ	NOUN	_	Gender=Fem|Number=Sing	37	advcl	_	SpaceAfter=No
 49	,	,	PUNCT	_	_	51	punct	_	_
 50	pövea	pöveo	ADJ	_	Gender=Fem|Number=Sing	51	amod	_	_
-51	nescia	nescio	ADJ	_	Gender=Fem|Number=Sing	48	amod	_	SpaceAfter=No
+51	nescia	nescio	NOUN	_	Gender=Fem|Number=Sing	48	appos	_	SpaceAfter=No
 52	,	,	PUNCT	_	_	56	punct	_	_
 53	ch'	che	PRON	_	PronType=Rel	56	nsubj	_	SpaceAfter=No
 54	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	56	expl	_	_
@@ -918,7 +918,7 @@
 57	d'	de	ADP	_	_	58	mark	_	SpaceAfter=No
 58-59	aveighe	_	_	_	_	_	_	_	_
 58	avei	avei	VERB	_	Tense=Pres|VerbForm=Inf	56	xcomp	_	_
-59	ghe	ghe	PRON	_	PronType=Dem	58	expl:pv	_	_
+59	ghe	ghe	PRON	_	PronType=Dem	58	expl	_	_
 60	in	in	ADP	_	_	61	case	_	_
 61	cà	cà	NOUN	_	Gender=Fem|Number=Sing	58	obl	_	_
 62	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	63	det	_	_
@@ -934,7 +934,7 @@
 71	de	de	ADP	_	_	70	fixed	_	_
 72-73	tiâla	_	_	_	_	_	_	_	_
 72	tiâ	tiâ	VERB	_	Tense=Pres|VerbForm=Inf	82	advcl	_	_
-73	la	lo	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	72	obj	_	_
+73	la	lo	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	72	obj	_	_
 74	sciù	sciù	ADV	_	_	72	advmod	_	_
 75	comm'	comme	SCONJ	_	_	77	mark	_	SpaceAfter=No
 76	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	77	nsubj	_	_
@@ -943,7 +943,7 @@
 79	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	82	nsubj	_	_
 80	gh'	ghe	PRON	_	Person=3|PronType=Prs	82	iobj	_	SpaceAfter=No
 81	à	avei	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	82	aux	_	_
-82	mollou	mollâ	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	48	conj	_	_
+82	mollou	mollâ	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	56	conj	_	_
 83	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	84	det	_	_
 84	brilla	brilla	NOUN	_	Gender=Fem|Number=Sing	82	obj	_	_
 85	in	in	ADP	_	ExtPos=ADP	88	case	_	_
@@ -955,7 +955,7 @@
 90	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	93	nsubj	_	_
 91	s'	se	PRON	_	Person=3|PronType=Prs	93	expl:pv	_	SpaceAfter=No
 92	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	93	aux	_	_
-93	fiâ	fiâ	VERB	_	Tense=Pres|VerbForm=Inf	82	conj	_	_
+93	fiâ	fiâ	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	82	conj	_	_
 94	de	de	ADP	_	_	95	case	_	_
 95	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	93	obl:arg	_	_
 96	e	e	CCONJ	_	_	99	cc	_	_
@@ -976,7 +976,7 @@
 111	figgeua	figgeu	NOUN	_	Gender=Fem|Number=Sing	115	nsubj	_	_
 112	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	115	expl	_	_
 113	ghe	ghe	PRON	_	Person=3|PronType=Prs	115	iobj	_	_
-114	ne	ne	PRON	_	PronType=Dem	115	expl:pv	_	_
+114	ne	ne	PRON	_	PronType=Dem	115	expl	_	_
 115	fava	fâ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	108	ccomp	_	_
 116	de	de	ADP	_	_	119	case	_	_
 117	tutte	tutto	DET	_	Gender=Fem|Number=Plur|PronType=Tot	119	det	_	_
@@ -985,10 +985,10 @@
 120	,	,	PUNCT	_	_	122	punct	_	_
 121	à	à	ADP	_	_	122	case	_	_
 122	pê	pê	NOUN	_	Gender=Masc|Number=Plur	115	obl	_	_
-123	comme	comme	ADV	_	_	125	advmod	_	_
+123	comme	comme	CCONJ	_	_	125	cc	_	_
 124	à	à	ADP	_	_	125	case	_	_
-125	cavallo	cavallo	NOUN	_	Gender=Masc|Number=Sing	122	nmod	_	SpaceAfter=No
-126	?	?	PUNCT	_	_	42	punct	_	_
+125	cavallo	cavallo	NOUN	_	Gender=Masc|Number=Sing	122	conj	_	SpaceAfter=No
+126	?	?	PUNCT	_	_	37	punct	_	_
 
 # sent_id = bdl-c00-p008-s003
 # text = Me diei che son cöse vege e stravege, e che no ghe pensa ciù nisciun; d'accòrdio, ma comme exempio, e tanto pe spëgiâseghe, no gh'é mai ninte de vegio, e un o peu piggiâ partio da tutto, à comensâ da Adammo e Eva.
@@ -1004,7 +1004,7 @@
 10	e	e	CCONJ	_	_	14	cc	_	_
 11	che	che	SCONJ	_	_	14	mark	_	_
 12	no	no	ADV	_	_	14	advmod	_	_
-13	ghe	ghe	PRON	_	PronType=Dem	14	expl:pv	_	_
+13	ghe	ghe	PRON	_	PronType=Dem	14	obl:arg	_	_
 14	pensa	pensâ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
 15	ciù	ciù	ADV	_	_	14	advmod	_	_
 16	nisciun	nisciun	PRON	_	Gender=Masc|Number=Sing|PronType=Neg	14	nsubj	_	SpaceAfter=No
@@ -1020,12 +1020,12 @@
 26	tanto	tanto	ADV	_	ExtPos=ADP	28	mark	_	_
 27	pe	pe	ADP	_	_	26	fixed	_	_
 28-30	spëgiâseghe	_	_	_	_	_	_	_	SpaceAfter=No
-28	spëgiâ	spëgiâ	VERB	_	Tense=Pres|VerbForm=Inf	34	acl	_	_
-29	se	se	PRON	_	Person=3|PronType=Prs	28	expl:pv	_	_
-30	ghe	ghe	PRON	_	PronType=Dem	28	expl:pv	_	_
+28	spëgiâ	spëgiâ	VERB	_	Tense=Pres|VerbForm=Inf	34	advcl	_	_
+29	se	se	PRON	_	Person=3|PronType=Prs	28	obj	_	_
+30	ghe	ghe	PRON	_	PronType=Dem	28	obl	_	_
 31	,	,	PUNCT	_	_	28	punct	_	_
 32	no	no	ADV	_	_	34	advmod	_	_
-33	gh'	ghe	PRON	_	PronType=Dem	34	expl:pv	_	SpaceAfter=No
+33	gh'	ghe	PRON	_	PronType=Dem	34	expl	_	SpaceAfter=No
 34	é	ëse	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
 35	mai	mäi	ADV	_	_	34	advmod	_	_
 36	ninte	ninte	PRON	_	Number=Sing|PronType=Neg	34	nsubj	_	_
@@ -1059,25 +1059,25 @@
 6	con	con	ADP	_	_	7	case	_	_
 7	raxon	raxon	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
-9	che	che	SCONJ	_	_	19	mark	_	_
+9	che	che	SCONJ	_	_	21	mark	_	_
 10	inte	inte	ADP	_	_	12	case	_	_
 11	nisciun	nisciun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	12	det	_	_
-12	caxo	caxo	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	_
+12	caxo	caxo	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	_
 13	vòstra	vòstro	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det	_	_
-14	figgia	figgio	NOUN	_	Gender=Fem|Number=Sing	19	nsubj	_	_
+14	figgia	figgio	NOUN	_	Gender=Fem|Number=Sing	21	nsubj:pass	_	_
 15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	Tëxinin	Texo	PROPN	_	Gender=Fem|Number=Sing	14	appos	_	_
-17	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	expl	_	_
-18	l'	l'	PART	_	_	19	dep	_	SpaceAfter=No
-19	é	ëse	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+16	Tëxinin	Tëxinin	PROPN	_	Gender=Fem|Number=Sing	14	appos	_	_
+17	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	expl	_	_
+18	l'	l'	PART	_	_	21	dep	_	SpaceAfter=No
+19	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux:pass	_	_
 20	da	da	ADP	_	_	21	mark	_	_
-21	mette	mette	VERB	_	Tense=Pres|VerbForm=Inf	19	ccomp	_	_
+21	mette	mette	VERB	_	Tense=Pres|VerbForm=Inf	2	ccomp	_	_
 22	in	in	ADP	_	_	23	case	_	_
-23	paragon	paragon	NOUN	_	Gender=Masc|Number=Sing	21	advcl	_	_
+23	paragon	paragon	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	_
 24-25	co-a	_	_	_	_	_	_	_	_
 24	co	co	ADP	_	_	26	case	_	_
 25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
-26	Marinetta	Mariña	PROPN	_	Gender=Fem|Number=Sing	23	obl	_	SpaceAfter=No
+26	Marinetta	Marinetta	PROPN	_	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
 27	;	;	PUNCT	_	_	29	punct	_	_
 28	ô	ô	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	obj	_	_
 29	sò	savei	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
@@ -1088,7 +1088,7 @@
 34	gran	grande	ADJ	_	Gender=Masc|Number=Sing	35	amod	_	_
 35	tòrto	tòrto	NOUN	_	Gender=Masc|Number=Sing	32	obj	_	_
 36	à	à	ADP	_	_	37	case	_	_
-37	lê	lê	PRON	_	Number=Sing|Person=3|PronType=Prs	32	dislocated	_	_
+37	lê	lê	PRON	_	Number=Sing|Person=3|PronType=Prs	32	obl:arg	_	_
 38	e	e	CCONJ	_	_	40	cc	_	_
 39	à	à	ADP	_	_	40	case	_	_
 40	voî	voî	PRON	_	Number=Plur|Person=2|PronType=Prs	37	conj	_	SpaceAfter=No
@@ -1097,7 +1097,7 @@
 43	che	che	SCONJ	_	_	42	fixed	_	_
 44	à	à	ADP	_	_	45	mark	_	_
 45-46	pensâlo	_	_	_	_	_	_	_	SpaceAfter=No
-45	pensâ	pensâ	VERB	_	Tense=Pres|VerbForm=Inf	35	acl	_	_
+45	pensâ	pensâ	VERB	_	Tense=Pres|VerbForm=Inf	32	advcl	_	_
 46	lo	lo	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	45	obj	_	_
 47	;	;	PUNCT	_	_	53	punct	_	_
 48	uña	un	PRON	_	Gender=Fem|Number=Sing|PronType=Ind	53	nsubj	_	_
@@ -1125,8 +1125,8 @@
 70-71	pe-o	_	_	_	_	_	_	_	_
 70	pe	pe	ADP	_	_	72	case	_	_
 71	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	72	det	_	_
-72	ben	ben	NOUN	_	Gender=Masc|Number=Sing	66	conj	_	_
-73	che	che	PRON	_	PronType=Rel	75	nsubj	_	_
+72	ben	ben	NOUN	_	Gender=Masc|Number=Sing	105	obl	_	_
+73	che	che	PRON	_	PronType=Rel	75	obj	_	_
 74	ve	ve	PRON	_	Number=Plur|Person=2|PronType=Prs	75	iobj	_	_
 75	veuggio	voei	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	72	acl:relcl	_	_
 76	à	à	ADP	_	_	77	case	_	_
@@ -1147,10 +1147,10 @@
 89	voî	voî	PRON	_	Number=Plur|Person=2|PronType=Prs	92	nsubj	_	_
 90	mæximo	mæximo	ADJ	_	Gender=Masc|Number=Sing	89	amod	_	_
 91	me	me	PRON	_	Number=Sing|Person=1|PronType=Prs	92	iobj	_	_
-92	dî	dî	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	66	conj	_	_
+92	dî	dî	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	72	conj	_	_
 93	de	de	ADP	_	_	94	mark	_	_
 94-95	parlâve	_	_	_	_	_	_	_	_
-94	parlâ	parlâ	VERB	_	Tense=Pres|VerbForm=Inf	92	ccomp	_	_
+94	parlâ	parlâ	VERB	_	Tense=Pres|VerbForm=Inf	92	xcomp	_	_
 95	ve	ve	PRON	_	Number=Plur|Person=2|PronType=Prs	94	iobj	_	_
 96	sccetto	sccetto	ADV	_	_	94	advmod	_	_
 97	e	e	CCONJ	_	_	100	cc	_	_
@@ -1175,7 +1175,7 @@
 115	caxo	caxo	NOUN	_	Gender=Masc|Number=Sing	119	nsubj	_	_
 116	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	119	expl	_	_
 117	segge	ëse	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	119	cop	_	_
-118	affæto	affæto	ADV	_	_	119	advmod	_	_
+118	affæto	afæto	ADV	_	Typo=Yes	119	advmod	_	CorrectForm=afæto
 119	despægio	despægio	ADJ	_	Gender=Masc|Number=Sing	123	advcl	_	SpaceAfter=No
 120	,	,	PUNCT	_	_	123	punct	_	_
 121	ve	ve	PRON	_	Number=Plur|Person=2|PronType=Prs	123	iobj	_	_
@@ -1187,7 +1187,7 @@
 126	de	de	ADP	_	_	128	case	_	_
 127	e	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	128	det	_	_
 128	conseguense	conseguensa	NOUN	_	Gender=Fem|Number=Plur	125	nmod	_	_
-129	d'	de	ADP	_	_	131	case	_	SpaceAfter=No
+129	d'	de	ADP	_	Typo=Yes	131	case	_	CorrectForm=de|CorrectSpaceAfter=Yes|SpaceAfter=No
 130	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	131	det	_	_
 131	passo	passo	NOUN	_	Gender=Masc|Number=Sing	128	nmod	_	_
 132	fäso	fäso	ADJ	_	Gender=Masc|Number=Sing	131	amod	_	SpaceAfter=No
@@ -1197,32 +1197,32 @@
 # sent_id = bdl-c00-p009-s001
 # text = Se capisce, o mæ conseggio o l'é pe-o no; ma se à voî ve gusta de ciù o scì, tanto megio, ò tanto pezo, e che o Segnô o ve benighe.
 1	Se	se	PRON	_	Person=3|PronType=Prs	2	expl:impers	_	_
-2	capisce	capî	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	SpaceAfter=No
+2	capisce	capî	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	parataxis	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 5	mæ	mæ	DET	_	Poss=Yes|PronType=Prs	6	det	_	_
-6	conseggio	conseggio	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
-7	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	expl	_	_
-8	l'	l'	PART	_	_	9	dep	_	SpaceAfter=No
-9	é	ëse	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	conseggio	conseggio	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
+7	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	expl	_	_
+8	l'	l'	PART	_	_	12	dep	_	SpaceAfter=No
+9	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
 10-11	pe-o	_	_	_	_	_	_	_	_
 10	pe	pe	ADP	_	_	12	case	_	_
 11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	no	no	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+12	no	no	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 13	;	;	PUNCT	_	_	26	punct	_	_
 14	ma	ma	CCONJ	_	_	26	cc	_	_
 15	se	se	SCONJ	_	_	19	mark	_	_
 16	à	à	ADP	_	_	17	case	_	_
-17	voî	voî	PRON	_	Number=Plur|Person=2|PronType=Prs	19	obl	_	_
+17	voî	voî	PRON	_	Number=Plur|Person=2|PronType=Prs	19	obl:arg	_	_
 18	ve	ve	PRON	_	Number=Plur|Person=2|PronType=Prs	19	iobj	_	_
 19	gusta	gustâ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	advcl	_	_
-20	de	de	ADP	_	_	21	case	_	_
-21	ciù	ciù	ADV	_	_	19	advmod	_	_
+20	de	de	ADP	_	ExtPos=ADV	19	advmod	_	_
+21	ciù	ciù	ADV	_	_	20	fixed	_	_
 22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	scì	scì	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+23	scì	scì	NOUN	_	Gender=Masc|Number=Sing	19	nsubj	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	19	punct	_	_
 25	tanto	tanto	ADV	_	_	26	advmod	_	_
-26	megio	ben	ADV	_	Degree=Cmp	9	conj	_	SpaceAfter=No
+26	megio	ben	ADV	_	Degree=Cmp	12	conj	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	30	punct	_	_
 28	ò	ò	CCONJ	_	_	30	cc	_	_
 29	tanto	tanto	ADV	_	_	30	advmod	_	_
@@ -1234,8 +1234,8 @@
 35	Segnô	Segnô	PROPN	_	Gender=Masc|Number=Sing	38	nsubj	_	_
 36	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	38	expl	_	_
 37	ve	ve	PRON	_	Number=Plur|Person=2|PronType=Prs	38	obj	_	_
-38	benighe	benexî	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	26	conj	_	SpaceAfter=No
-39	.	.	PUNCT	_	_	9	punct	_	_
+38	benighe	benexî	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	conj	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	12	punct	_	_
 
 # newpar id = bdl-c00-p010
 # sent_id = bdl-c00-p010-s001
@@ -1270,7 +1270,7 @@
 # sent_id = esl-c01-p002-s001
 # text = Comme gh'é scrito into profeta Isaia: «T'æ, mi mando o mæ messaggê primma de ti: quello ch'o l'à da inandiâ o tò cammin».
 1	Comme	comme	SCONJ	_	_	4	mark	_	_
-2	gh'	ghe	PRON	_	PronType=Prs	4	expl	_	SpaceAfter=No
+2	gh'	ghe	PRON	_	PronType=Dem	4	expl	_	SpaceAfter=No
 3	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
 4	scrito	scrive	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	advcl	_	_
 5-6	into	_	_	_	_	_	_	_	_
@@ -1288,9 +1288,9 @@
 16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 17	mæ	mæ	DET	_	Poss=Yes|PronType=Prs	18	det	_	_
 18	messaggê	messaggê	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
-19	primma	primma	ADV	_	_	15	advmod	_	_
-20	de	de	ADP	_	_	21	case	_	_
-21	ti	ti	PRON	_	Number=Sing|Person=2|PronType=Prs	19	obl	_	SpaceAfter=No
+19	primma	primma	ADV	_	ExtPos=ADP	21	case	_	_
+20	de	de	ADP	_	_	19	fixed	_	_
+21	ti	ti	PRON	_	Number=Sing|Person=2|PronType=Prs	15	obl	_	SpaceAfter=No
 22	:	:	PUNCT	_	_	23	punct	_	_
 23	quello	quello	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	15	parataxis	_	_
 24	ch'	che	PRON	_	PronType=Rel	27	nsubj	_	SpaceAfter=No
@@ -1332,9 +1332,9 @@
 20	seu	seu	DET	_	Poss=Yes|PronType=Prs	21	det	_	_
 21	sentê	sentê	NOUN	_	Gender=Masc|Number=Plur	18	obj	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	25	punct	_	_
-23	gh'	ghe	PRON	_	PronType=Dem	25	expl:pv	_	SpaceAfter=No
+23	gh'	ghe	PRON	_	PronType=Dem	25	expl	_	SpaceAfter=No
 24	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
-25	stæto	stâ	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	parataxis	_	_
+25	stæto	ëse	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	parataxis	_	_
 26	Zane	Zane	PROPN	_	Gender=Masc|Number=Sing	25	nsubj	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	30	punct	_	_
 28	ch'	che	PRON	_	PronType=Rel	30	nsubj	_	SpaceAfter=No
@@ -1345,7 +1345,7 @@
 32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 33	deserto	deserto	NOUN	_	Gender=Masc|Number=Sing	30	obl	_	_
 34	e	e	CCONJ	_	_	36	cc	_	_
-35	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	nsubj	_	_
+35	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	nsubj	_	_
 36	predicava	predicâ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	30	conj	_	_
 37	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
 38	battezzo	battezzo	NOUN	_	Gender=Masc|Number=Sing	36	obj	_	_
@@ -1385,11 +1385,11 @@
 # sent_id = esl-c01-p003-s003
 # text = E se favan battezzâ da lê into sciumme Zordan, e confessavan i seu peccæ.
 1	E	e	CCONJ	_	_	3	cc	_	_
-2	se	se	PRON	_	Person=3|PronType=Prs	3	nsubj	_	_
+2	se	se	PRON	_	Person=3|PronType=Prs	3	obj	_	_
 3	favan	fâ	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	battezzâ	battezzâ	VERB	_	Tense=Pres|VerbForm=Inf	3	ccomp	_	_
 5	da	da	ADP	_	_	6	case	_	_
-6	lê	lê	PRON	_	Number=Sing|Person=3|PronType=Prs	4	obl	_	_
+6	lê	lê	PRON	_	Number=Sing|Person=3|PronType=Prs	4	obl:arg	_	_
 7-8	into	_	_	_	_	_	_	_	_
 7	inte	inte	ADP	_	_	9	case	_	_
 8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
@@ -1409,8 +1409,8 @@
 2	Zane	Zane	PROPN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	expl	_	_
 4	l'	l'	PART	_	_	6	dep	_	SpaceAfter=No
-5	ea	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
-6	vestio	vestî	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	ea	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+6	vestio	vestio	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 7	de	de	ADP	_	_	8	case	_	_
 8	pei	pei	NOUN	_	Gender=Masc|Number=Plur	6	obl	_	_
 9	de	de	ADP	_	_	10	case	_	_
@@ -1446,7 +1446,7 @@
 38	mi	mi	PRON	_	Number=Sing|Person=1|PronType=Prs	40	obl	_	_
 39	me	me	PRON	_	Number=Sing|Person=1|PronType=Prs	40	iobj	_	_
 40	ven	vegnî	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	parataxis	_	_
-41	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	40	obj	_	_
+41	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	40	nsubj	_	_
 42	ch'	che	PRON	_	PronType=Rel	47	nsubj	_	SpaceAfter=No
 43	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	47	expl	_	_
 44	l'	l'	PART	_	_	47	dep	_	SpaceAfter=No
@@ -1464,7 +1464,7 @@
 56	d'	de	ADP	_	_	57	mark	_	SpaceAfter=No
 57-58	ascoacciâme	_	_	_	_	_	_	_	_
 57	ascoacciâ	ascoacciâ	VERB	_	Tense=Pres|VerbForm=Inf	55	advcl	_	_
-58	me	me	PRON	_	Number=Sing|Person=1|PronType=Prs	57	iobj	_	_
+58	me	me	PRON	_	Number=Sing|Person=1|PronType=Prs	57	expl:pv	_	_
 59	à	à	ADP	_	_	60	mark	_	_
 60-61	desligâghe	_	_	_	_	_	_	_	_
 60	desligâ	desligâ	VERB	_	Tense=Pres|VerbForm=Inf	57	xcomp	_	_
@@ -1509,7 +1509,7 @@
 3	æ	avei	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	fixed	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	inte	inte	ADP	_	_	7	case	_	_
-6	quelli	quello	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	7	det	_	_
+6	quelli	quello	DET	_	Gender=Masc|Number=Plur|PronType=Dem	7	det	_	_
 7	giorni	giorno	NOUN	_	Gender=Masc|Number=Plur	10	obl	_	_
 8	Gexù	Gexù	PROPN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 9	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	expl	_	_
@@ -1544,9 +1544,9 @@
 11	vedde	vedde	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	çê	çê	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
-14	ch'	che	PRON	_	PronType=Rel	17	nsubj	_	SpaceAfter=No
+14	ch'	che	PRON	_	PronType=Rel	17	nsubj:pass	_	SpaceAfter=No
 15	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	expl	_	_
-16	s'	se	PRON	_	Person=3|PronType=Prs	17	expl:pv	_	SpaceAfter=No
+16	s'	se	PRON	_	Person=3|PronType=Prs	17	expl:pass	_	SpaceAfter=No
 17	arve	arvî	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
 18	e	e	CCONJ	_	_	20	cc	_	_
 19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
@@ -1621,7 +1621,7 @@
 14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	deserto	deserto	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
 16	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
-17	gh'	ghe	PRON	_	PronType=Dem	18	expl:pv	_	SpaceAfter=No
+17	gh'	ghe	PRON	_	PronType=Dem	18	obl	_	SpaceAfter=No
 18	arresta	arrestâ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
 19	quaranta	quaranta	NUM	_	NumType=Card	20	nummod	_	_
 20	giorni	giorno	NOUN	_	Gender=Masc|Number=Plur	18	obl	_	SpaceAfter=No
@@ -1655,7 +1655,7 @@
 2	an	avei	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	misso	mette	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	_
 4	Zane	Zane	PROPN	_	Gender=Masc|Number=Sing	3	obj	_	_
-5	in	in	ADP	_	ExtPos=ADP	6	case	_	_
+5	in	in	ADP	_	_	6	case	_	_
 6	prexon	prexon	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	3	punct	_	_
 8	Gexù	Gexù	PROPN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
@@ -1685,7 +1685,7 @@
 30	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	34	nsubj	_	_
 31	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	expl	_	_
 32	l'	l'	PART	_	_	34	dep	_	SpaceAfter=No
-33	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	cop	_	_
+33	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
 34	finio	finî	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	parataxis	_	_
 35	e	e	CCONJ	_	_	46	cc	_	_
 36	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
@@ -1720,7 +1720,7 @@
 2	ch'	che	SCONJ	_	_	1	fixed	_	SpaceAfter=No
 3	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 4	passava	passâ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	advcl	_	_
-5	in	in	ADP	_	ExtPos=ADP	6	case	_	_
+5	in	in	ADP	_	_	6	case	_	_
 6	riva	riva	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
 7-8	a-o	_	_	_	_	_	_	_	_
 7	à	à	ADP	_	_	9	case	_	_
@@ -1962,9 +1962,9 @@
 37	«	«	PUNCT	_	_	41	punct	_	SpaceAfter=No
 38	Comme	comme	ADV	_	_	41	advmod	_	_
 39	ti	ti	PRON	_	Number=Sing|Person=2|PronType=Prs	41	nsubj	_	_
-40	gh'	ghe	PRON	_	PronType=Dem	41	expl:pv	_	SpaceAfter=No
+40	gh'	ghe	PRON	_	PronType=Dem	41	expl	_	SpaceAfter=No
 41	intri	intrâ	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	35	parataxis	_	_
-42	ti	ti	PRON	_	Number=Sing|Person=2|PronType=Prs	41	obj	_	_
+42	ti	ti	PRON	_	Number=Sing|Person=2|PronType=Prs	41	dislocated	_	_
 43	con	con	ADP	_	_	44	case	_	_
 44	niatri	niatri	PRON	_	Gender=Masc|Number=Plur|Person=1|PronType=Prs	41	obl:arg	_	SpaceAfter=No
 45	,	,	PUNCT	_	_	46	punct	_	_
@@ -1973,7 +1973,7 @@
 48	Nazaret	Nazaret	PROPN	_	Gender=Fem|Number=Sing	46	nmod	_	SpaceAfter=No
 49	?	?	PUNCT	_	_	41	punct	_	_
 50	ti	ti	PRON	_	Number=Sing|Person=2|PronType=Prs	53	nsubj	_	_
-51	n'	ne	PRON	_	Number=Plur|Person=1|PronType=Prs	53	iobj	_	SpaceAfter=No
+51	n'	ne	PRON	_	Number=Plur|Person=1|PronType=Prs	55	obj	_	SpaceAfter=No
 52	ê	ëse	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	53	aux	_	_
 53	vegnuo	vegnî	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	41	parataxis	_	_
 54	à	à	ADP	_	_	55	mark	_	_
@@ -1985,9 +1985,9 @@
 1	Mi	mi	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	ô	ô	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
 3	sò	savei	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	chi	chi	PRON	_	PronType=Rel	6	obj	_	_
-5	t'	ti	PRON	_	Number=Sing|Person=2|PronType=Prs	6	nsubj	_	SpaceAfter=No
-6	ê	ëse	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
+4	chi	chi	PRON	_	PronType=Int	3	ccomp	_	_
+5	t'	ti	PRON	_	Number=Sing|Person=2|PronType=Prs	4	nsubj	_	SpaceAfter=No
+6	ê	ëse	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	cop	_	SpaceAfter=No
 7	:	:	PUNCT	_	_	9	punct	_	_
 8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	santo	santo	NOUN	_	Gender=Masc|Number=Sing	3	parataxis	_	_
@@ -2060,16 +2060,16 @@
 12	con	con	ADP	_	_	14	case	_	_
 13	l'	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
 14	atro	atro	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	11	nmod	_	SpaceAfter=No
-15	:	:	PUNCT	_	_	23	punct	_	_
-16	«	«	PUNCT	_	_	23	punct	_	SpaceAfter=No
-17	E	e	CCONJ	_	_	23	cc	_	_
-18	comm'	comme	ADV	_	_	23	advmod	_	SpaceAfter=No
-19	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
-20	l'	l'	PART	_	_	23	dep	_	SpaceAfter=No
-21	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+15	:	:	PUNCT	_	_	18	punct	_	_
+16	«	«	PUNCT	_	_	18	punct	_	SpaceAfter=No
+17	E	e	CCONJ	_	_	18	cc	_	_
+18	comm'	comme	ADV	_	_	10	parataxis	_	SpaceAfter=No
+19	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	expl	_	_
+20	l'	l'	PART	_	_	18	dep	_	SpaceAfter=No
+21	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
 22	sta	sto	DET	_	Gender=Fem|Number=Sing|PronType=Dem	23	det	_	_
-23	cösa	cösa	NOUN	_	Gender=Fem|Number=Sing	10	parataxis	_	SpaceAfter=No
-24	?	?	PUNCT	_	_	23	punct	_	_
+23	cösa	cösa	NOUN	_	Gender=Fem|Number=Sing	18	nsubj	_	SpaceAfter=No
+24	?	?	PUNCT	_	_	18	punct	_	_
 
 # sent_id = esl-c01-p009-s002
 # text = Unna dötriña neuva e o â mostra con autoritæ.
@@ -2109,9 +2109,9 @@
 1	Coscì	coscì	ADV	_	_	8	advmod	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 3	sò	sò	DET	_	Poss=Yes|PronType=Prs	4	det	_	_
-4	nòmina	nòmina	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+4	nòmina	nòmina	NOUN	_	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
 5	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	expl	_	_
-6	s'	se	PRON	_	Person=3|PronType=Prs	8	expl:pv	_	SpaceAfter=No
+6	s'	se	PRON	_	Person=3|PronType=Prs	8	expl:pass	_	SpaceAfter=No
 7	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
 8	spantegâ	spantegâ	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 9-10	a-a	_	_	_	_	_	_	_	_
@@ -2122,7 +2122,7 @@
 13	in	in	ADP	_	_	14	case	_	_
 14	sà	sà	ADV	_	_	8	advmod	_	_
 15	e	e	CCONJ	_	_	17	cc	_	_
-16	in	in	ADP	_	ExtPos=ADP	17	case	_	_
+16	in	in	ADP	_	_	17	case	_	_
 17	là	là	ADV	_	_	14	conj	_	_
 18	in	in	ADP	_	ExtPos=ADV	8	advmod	_	_
 19	gïo	gio	NOUN	_	Gender=Masc|Number=Sing|Typo=Yes	18	fixed	_	CorrectForm=gio
@@ -2254,7 +2254,7 @@
 
 # sent_id = esl-c01-p011-s002
 # text = Gh'ea tutta a çittæ lì da-a pòrta.
-1	Gh'	ghe	PRON	_	PronType=Dem	2	expl:pv	_	SpaceAfter=No
+1	Gh'	ghe	PRON	_	PronType=Dem	2	expl	_	SpaceAfter=No
 2	ea	ëse	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	tutta	tutto	DET	_	Gender=Fem|Number=Sing|PronType=Tot	5	det	_	_
 4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -2272,9 +2272,9 @@
 2	l'	l'	PART	_	_	4	dep	_	SpaceAfter=No
 3	à	avei	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	fæto	fâ	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-5	stâ	stâ	AUX	_	Tense=Pres|VerbForm=Inf	6	cop	_	_
-6	ben	ben	ADV	_	_	4	xcomp	_	_
-7	tanti	tanto	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	6	obj	_	_
+5	stâ	stâ	VERB	_	Tense=Pres|VerbForm=Inf	4	xcomp	_	_
+6	ben	ben	ADV	_	_	5	advmod	_	_
+7	tanti	tanto	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	4	obj	_	_
 8	de	de	ADP	_	_	9	case	_	_
 9	quelli	quello	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	7	nmod	_	_
 10	ch'	che	PRON	_	PronType=Rel	12	nsubj:pass	_	SpaceAfter=No
@@ -2300,10 +2300,10 @@
 30	;	;	PUNCT	_	_	37	punct	_	_
 31	ma	ma	CCONJ	_	_	37	cc	_	_
 32	i	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
-33	diäi	diao	NOUN	_	Gender=Masc|Number=Plur	37	obj	_	_
+33	diäi	diao	NOUN	_	Gender=Masc|Number=Plur	37	dislocated	_	_
 34	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	37	nsubj	_	_
 35	no	no	ADV	_	_	37	advmod	_	_
-36	î	ô	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	37	dislocated	_	_
+36	î	ô	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	37	obj	_	_
 37	lasciava	lasciâ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	parataxis	_	_
 38	parlâ	parlâ	VERB	_	Tense=Pres|VerbForm=Inf	37	ccomp	_	SpaceAfter=No
 39	,	,	PUNCT	_	_	42	punct	_	_
@@ -2344,7 +2344,7 @@
 26	s'	se	PRON	_	Person=3|PronType=Prs	28	expl:pv	_	SpaceAfter=No
 27	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
 28	arretiou	arretiâ	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
-29	int'	inte	ADP	_	_	31	case	_	SpaceAfter=No
+29	int'	inte	ADP	_	Typo=Yes	31	case	_	CorrectForm=inte|CorrectSpaceAfter=Yes|SpaceAfter=No
 30	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 31	pòsto	pòsto	NOUN	_	Gender=Masc|Number=Sing	28	obl	_	_
 32	deserto	deserto	ADJ	_	Gender=Masc|Number=Sing	31	amod	_	_
@@ -2406,11 +2406,11 @@
 8-10	Andemmosene	_	_	_	_	_	_	_	_
 8	andemmo	andemmo	VERB	_	Mood=Imp|Number=Plur|Person=1|VerbForm=Fin	5	parataxis	_	_
 9	se	se	PRON	_	Person=3|PronType=Prs	8	expl:pv	_	_
-10	ne	ne	PRON	_	PronType=Dem	8	expl:pv	_	_
+10	ne	ne	PRON	_	PronType=Dem	8	expl	_	_
 11	da	da	ADP	_	_	14	case	_	_
 12	quarche	quarche	DET	_	Gender=Fem|Number=Sing|PronType=Ind	14	det	_	_
 13	atra	atro	DET	_	Gender=Fem|Number=Sing|PronType=Ind	14	det	_	_
-14	parte	parte	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
+14	parte	parte	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
 15	in	in	ADP	_	ExtPos=ADV	8	advmod	_	_
 16	gïo	gio	NOUN	_	Gender=Masc|Number=Sing|Typo=Yes	15	fixed	_	CorrectForm=gio
 17-18	pe-i	_	_	_	_	_	_	_	_
@@ -2434,7 +2434,7 @@
 33	quello	quello	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	8	parataxis	_	_
 34	che	che	SCONJ	_	_	36	mark	_	_
 35	son	ëse	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	36	aux	_	_
-36	vegnuo	vegnî	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	csubj	_	SpaceAfter=No
+36	vegnuo	vegnî	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	advcl:relcl	_	SpaceAfter=No
 37	!	!	PUNCT	_	_	33	punct	_	SpaceAfter=No
 38	»	»	PUNCT	_	_	8	punct	_	SpaceAfter=No
 39	.	.	PUNCT	_	_	5	punct	_	_
@@ -2445,7 +2445,7 @@
 2	coscì	coscì	ADV	_	_	7	advmod	_	_
 3	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 4	se	se	PRON	_	Person=3|PronType=Prs	7	expl:pv	_	_
-5	n'	ne	PRON	_	PronType=Dem	7	expl:pv	_	SpaceAfter=No
+5	n'	ne	PRON	_	PronType=Dem	7	expl	_	SpaceAfter=No
 6	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
 7	andæto	andâ	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	pe	pe	ADP	_	_	11	case	_	_
@@ -2492,11 +2492,11 @@
 22	,	,	PUNCT	_	_	21	punct	_	_
 23	ti	ti	PRON	_	Number=Sing|Person=2|PronType=Prs	27	nsubj	_	_
 24	ti	ti	PRON	_	Number=Sing|Person=2|PronType=Prs	27	expl	_	_
-25	me	me	PRON	_	Number=Sing|Person=1|PronType=Prs	27	iobj	_	_
+25	me	me	PRON	_	Number=Sing|Person=1|PronType=Prs	27	obj	_	_
 26	peu	poei	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	27	aux	_	_
 27	fâ	fâ	VERB	_	Tense=Pres|VerbForm=Inf	16	parataxis	_	_
-28	stâ	stâ	AUX	_	Tense=Pres|VerbForm=Inf	29	cop	_	_
-29	ben	ben	ADV	_	_	27	ccomp	_	SpaceAfter=No
+28	stâ	stâ	VERB	_	Tense=Pres|VerbForm=Inf	27	xcomp	_	_
+29	ben	ben	ADV	_	_	28	advmod	_	SpaceAfter=No
 30	!	!	PUNCT	_	_	27	punct	_	SpaceAfter=No
 31	»	»	PUNCT	_	_	27	punct	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	3	punct	_	_
@@ -2530,9 +2530,9 @@
 14	Öscì	öscì	INTJ	_	_	11	parataxis	_	_
 15	che	che	SCONJ	_	_	16	mark	_	_
 16	veuggio	voei	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	advcl	_	SpaceAfter=No
-17	,	,	PUNCT	_	_	19	punct	_	_
-18	stanni	stâ	AUX	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	19	cop	_	_
-19	ben	ben	ADV	_	_	14	parataxis	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	stanni	stâ	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	14	parataxis	_	_
+19	ben	ben	ADV	_	_	18	advmod	_	SpaceAfter=No
 20	!	!	PUNCT	_	_	14	punct	_	SpaceAfter=No
 21	»	»	PUNCT	_	_	14	punct	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	2	punct	_	_
@@ -2547,12 +2547,12 @@
 6	scentâ	scentâ	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	tutt'	tutto	PRON	_	ExtPos=ADV|Gender=Fem|Number=Sing|PronType=Tot	6	advmod	_	SpaceAfter=No
 8	insemme	insemme	ADV	_	_	7	fixed	_	_
-9	e	e	CCONJ	_	_	14	cc	_	_
-10	quello	quello	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	14	nsubj	_	_
-11	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	expl	_	_
-12	stava	stâ	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
-13	torna	torna	ADV	_	_	14	amod	_	_
-14	ben	ben	ADV	_	_	6	conj	_	SpaceAfter=No
+9	e	e	CCONJ	_	_	12	cc	_	_
+10	quello	quello	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	12	nsubj	_	_
+11	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	expl	_	_
+12	stava	stâ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	_
+13	torna	torna	ADV	_	_	12	advmod	_	_
+14	ben	ben	ADV	_	_	12	advmod	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = esl-c01-p013-s005
@@ -2574,9 +2574,9 @@
 14	mandava	mandâ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	advcl	_	_
 15	via	via	ADV	_	_	14	advmod	_	_
 16-17	a-a	_	_	_	_	_	_	_	_
-16	à	à	ADP	_	_	18	mark	_	_
-17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	lesta	lesto	ADJ	_	Gender=Fem|Number=Sing	14	advmod	_	_
+16	à	à	ADP	_	ExtPos=ADV	14	advmod	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	fixed	_	_
+18	lesta	lesto	ADJ	_	Gender=Fem|Number=Sing	16	fixed	_	_
 19	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
 20	gh'	ghe	PRON	_	Person=3|PronType=Prs	22	iobj	_	SpaceAfter=No
 21	à	avei	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
@@ -2598,11 +2598,11 @@
 37-38	fâte	_	_	_	_	_	_	_	_
 37	fâ	fâ	VERB	_	Tense=Pres|VerbForm=Inf	35	xcomp	_	_
 38	te	te	PRON	_	Number=Sing|Person=2|PronType=Prs	37	obj	_	_
-39	vedde	vedde	VERB	_	Tense=Pres|VerbForm=Inf	37	xcomp	_	_
+39	vedde	vedde	VERB	_	Tense=Pres|VerbForm=Inf	37	ccomp	_	_
 40-41	da-o	_	_	_	_	_	_	_	_
 40	da	da	ADP	_	_	42	case	_	_
 41	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
-42	saçerdöte	saçerdöte	NOUN	_	Gender=Masc|Number=Sing	39	obl:agent	_	_
+42	saçerdöte	saçerdöte	NOUN	_	Gender=Masc|Number=Sing	39	obl:arg	_	_
 43	e	e	CCONJ	_	_	44	cc	_	_
 44	danni	dâ	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	25	conj	_	_
 45-46	pe-a	_	_	_	_	_	_	_	_
@@ -2635,7 +2635,7 @@
 4	comm'	comme	SCONJ	_	_	9	mark	_	SpaceAfter=No
 5	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 6	se	se	PRON	_	Person=3|PronType=Prs	9	expl:pv	_	_
-7	n'	ne	PRON	_	PronType=Dem	9	expl:pv	_	SpaceAfter=No
+7	n'	ne	PRON	_	PronType=Dem	9	expl	_	SpaceAfter=No
 8	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
 9	andæto	andâ	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	advcl	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
@@ -2669,7 +2669,7 @@
 38	e	e	CCONJ	_	_	42	cc	_	_
 39	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	42	nsubj	_	_
 40	se	se	PRON	_	Person=3|PronType=Prs	42	expl:pv	_	_
-41	ne	ne	PRON	_	PronType=Dem	42	expl:pv	_	_
+41	ne	ne	PRON	_	PronType=Dem	42	expl	_	_
 42	stava	stâ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	32	conj	_	_
 43	de	de	ADP	_	_	44	case	_	_
 44	feua	feua	ADV	_	_	42	advmod	_	SpaceAfter=No
@@ -2733,7 +2733,7 @@
 5	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 6	l'	l'	PART	_	_	10	dep	_	SpaceAfter=No
 7	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
-8	stæto	stâ	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	cop	_	_
+8	stæto	ëse	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	cop	_	_
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	commun	commun	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 11	indipendente	indipendente	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
@@ -2900,11 +2900,11 @@
 16	lì	lì	ADV	_	_	14	conj	_	_
 17	abergan	abergâ	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
 18	de	do	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
-19	ciazzette	ciazza	NOUN	_	Gender=Fem|Number=Plur	17	obj	_	_
+19	ciazzette	ciazzetta	NOUN	_	Gender=Fem|Number=Plur	17	obj	_	_
 20	donde	donde	ADV	_	PronType=Rel	25	advmod	_	_
 21	in	in	ADP	_	_	22	case	_	_
 22	antigo	antigo	NOUN	_	Gender=Masc|Number=Sing	25	obl	_	_
-23	se	se	PRON	_	Person=3|PronType=Prs	25	expl:pv	_	_
+23	se	se	PRON	_	Person=3|PronType=Prs	25	expl:impers	_	_
 24	poeiva	poei	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	aux	_	_
 25	arrivâ	arrivâ	VERB	_	Tense=Pres|VerbForm=Inf	19	acl:relcl	_	_
 26	solo	solo	ADV	_	_	29	advmod	_	_
@@ -2959,7 +2959,7 @@
 4	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
 5	comprende	comprende	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-7	ciù	ciù	ADV	_	_	8	amod	_	_
+7	ciù	ciù	DET	_	PronType=Ind	8	det	_	_
 8	parte	parte	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
 9-10	do	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	11	case	_	_
@@ -3054,7 +3054,7 @@
 12	stöie	stöia	NOUN	_	Gender=Fem|Number=Plur	9	nmod	_	_
 13	disegnæ	disegnou	ADJ	_	Gender=Fem|Number=Plur	12	amod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
-15	dæta	dâ	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	amod	_	_
+15	dæta	dâ	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
 16-17	a-a	_	_	_	_	_	_	_	_
 16	à	à	ADP	_	_	18	case	_	_
 17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
@@ -3103,16 +3103,16 @@
 # newpar id = wp-tintin-p002
 # sent_id = wp-tintin-p002-s001
 # text = Graçie a-e seu duxentoçinquanta mioin de còpie vendue, Les Aventures de Tintin o l'é un di produti de stöie disegnæ ciù avvoxæ e conosciui do vinteximo secolo.
-1	Graçie	graçie	ADV	_	ExtPos=ADP	6	case	_	_
+1	Graçie	graçie	NOUN	_	_	6	case	_	_
 2-3	a-e	_	_	_	_	_	_	_	_
-2	à	à	ADP	_	_	1	fixed	_	_
+2	à	à	ADP	_	_	6	case	_	_
 3	e	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
 4	seu	seu	DET	_	Poss=Yes|PronType=Prs	6	det	_	_
 5	duxentoçinquanta	duxentoçinquanta	NUM	_	NumType=Card	6	nummod	_	_
 6	mioin	mion	NOUN	_	Gender=Masc|Number=Plur	18	obl	_	_
 7	de	de	ADP	_	_	8	case	_	_
 8	còpie	còpia	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
-9	vendue	vende	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	8	amod	_	SpaceAfter=No
+9	vendue	vende	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	8	acl	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	6	punct	_	_
 11	Les	le	DET	_	Definite=Def|Foreign=Yes|Number=Plur|PronType=Art	12	det	_	Lang=fr
 12	Aventures	aventure	NOUN	_	Foreign=Yes|Gender=Fem|Number=Plur	18	nsubj	_	Lang=fr
@@ -3149,7 +3149,7 @@
 4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	colleçion	colleçion	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 6	en	ëse	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
-7	stæti	stâ	AUX	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	aux:pass	_	_
+7	stæti	ëse	AUX	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	aux:pass	_	_
 8	traduti	tradue	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 9	inte	inte	ADP	_	_	11	case	_	_
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
@@ -3237,7 +3237,7 @@
 22-23	da-o	_	_	_	_	_	_	_	_
 22	da	da	ADP	_	_	24	case	_	_
 23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-24	cagnetto	can	NOUN	_	Gender=Masc|Number=Sing	17	obl:agent	_	_
+24	cagnetto	cagnetto	NOUN	_	Gender=Masc|Number=Sing	17	obl:agent	_	_
 25	Milou	Milou	PROPN	_	Gender=Masc|Number=Sing	24	appos	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -3250,8 +3250,8 @@
 5	neuve	neuvo	ADJ	_	Gender=Fem|Number=Plur	6	amod	_	_
 6	avventue	avventua	NOUN	_	Gender=Fem|Number=Plur	9	nsubj:pass	_	_
 7	en	ëse	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
-8	stæte	stâ	AUX	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	9	aux:pass	_	_
-9	scrite	scrito	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	14	advcl	_	_
+8	stæte	ëse	AUX	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	9	aux:pass	_	_
+9	scrite	scrive	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	14	advcl	_	_
 10	e	e	CCONJ	_	_	11	cc	_	_
 11	disegnæ	disegnâ	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	9	conj	_	_
 12	l'	l'	PART	_	_	14	dep	_	SpaceAfter=No
@@ -3275,7 +3275,7 @@
 30	saiæ	ëse	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	32	aux	_	_
 31	fiña	fiña	ADV	_	_	32	advmod	_	_
 32	vegnuo	vegnî	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	acl:relcl	_	_
-33	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	32	acl:relcl	_	_
+33	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	32	xcomp	_	_
 34-35	di	_	_	_	_	_	_	_	_
 34	de	de	ADP	_	_	36	case	_	_
 35	i	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
@@ -3352,7 +3352,7 @@
 1	Anche	anche	ADV	_	_	3	advmod	_	_
 2	e	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	avventue	avventua	NOUN	_	Gender=Fem|Number=Plur	7	nsubj	_	_
-4	pubricæ	pubricâ	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	3	amod	_	_
+4	pubricæ	pubricâ	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	3	acl	_	_
 5	ciù	ciù	ADV	_	_	6	advmod	_	_
 6	tardi	tardi	ADV	_	_	4	advmod	_	_
 7	an	avei	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3448,7 +3448,7 @@
 88	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	89	det	_	_
 89	1940	1940	NUM	_	NumType=Card	83	nmod	_	_
 90	e	e	CCONJ	_	_	92	cc	_	_
-91	l'	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	92	det	_	SpaceAfter=No
+91	l'	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	92	det	_	SpaceAfter=No
 92	Austria	Austria	PROPN	_	Gender=Fem|Number=Sing	18	conj	_	_
 93	dòppo	dòppo	ADP	_	_	95	case	_	_
 94	l'	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	95	det	_	SpaceAfter=No
@@ -3492,7 +3492,7 @@
 7	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	expl	_	_
 8	l'	l'	PART	_	_	11	dep	_	SpaceAfter=No
 9	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
-10	stæta	stâ	AUX	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	cop	_	_
+10	stæta	ëse	AUX	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	cop	_	_
 11	poscibile	poscibile	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
 12	pe	pe	ADP	_	ExtPos=ADP	16	case	_	_
 13	mezo	mezo	NOUN	_	Gender=Masc|Number=Sing	12	fixed	_	_
@@ -3529,10 +3529,10 @@
 15	sensa	sensa	ADP	_	_	17	case	_	_
 16	di	do	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
 17	segni	segno	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	_
-18	che	che	PRON	_	PronType=Rel	20	nsubj	_	_
-19	no	no	ADV	_	_	20	advmod	_	_
-20	seggian	ëse	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
-21	quelli	quello	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	20	xcomp	_	_
+18	che	che	PRON	_	PronType=Rel	21	nsubj	_	_
+19	no	no	ADV	_	_	21	advmod	_	_
+20	seggian	ëse	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	quelli	quello	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	17	acl:relcl	_	_
 22	essençiæ	essençiâ	ADJ	_	Gender=Masc|Number=Plur	21	amod	_	SpaceAfter=No
 23	)	)	PUNCT	_	_	10	punct	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	26	punct	_	_
@@ -3602,8 +3602,8 @@
 3	sta	sto	DET	_	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
 4	corsa	corsa	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
 5	no	no	ADV	_	_	9	advmod	_	_
-6	ghe	ghe	PRON	_	PronType=Dem	9	expl:pv	_	_
-7	l'	l'	PART	_	_	9	dep	_	SpaceAfter=No
+6	ghe	ghe	PRON	_	PronType=Dem	9	expl	_	_
+7	l'	lo	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	SpaceAfter=No
 8	aviæ	avei	AUX	_	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin	9	aux	_	_
 9	fæta	fâ	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 10	maiciù	maiciù	ADV	_	_	9	advmod	_	_
@@ -3654,17 +3654,17 @@
 
 # sent_id = das-c01-p001-s007
 # text = Fòscia fiña de ciù.
-1	Fòscia	fòscia	ADV	_	_	4	advmod	_	_
-2	fiña	fiña	ADV	_	_	4	advmod	_	_
-3	de	de	ADP	_	_	4	case	_	_
-4	ciù	ciù	ADV	_	_	0	root	_	SpaceAfter=No
-5	.	.	PUNCT	_	_	4	punct	_	_
+1	Fòscia	fòscia	ADV	_	_	3	advmod	_	_
+2	fiña	fiña	ADV	_	_	3	advmod	_	_
+3	de	de	ADP	_	ExtPos=ADV	0	root	_	_
+4	ciù	ciù	ADV	_	_	3	fixed	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = das-c01-p001-s008
 # text = Diascoa, gh'ò o cheu inta goa.
 1	Diascoa	diascoa	INTJ	_	_	4	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	gh'	ghe	PRON	_	PronType=Dem	4	expl:pv	_	SpaceAfter=No
+3	gh'	ghe	PRON	_	PronType=Dem	4	expl	_	SpaceAfter=No
 4	ò	avei	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	cheu	cheu	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
@@ -3685,7 +3685,7 @@
 7	oua	oua	ADV	_	_	8	advmod	_	_
 8	beseugna	beseugnâ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 9	che	che	SCONJ	_	_	11	mark	_	_
-10	me	me	PRON	_	Number=Sing|Person=1|PronType=Prs	11	iobj	_	_
+10	me	me	PRON	_	Number=Sing|Person=1|PronType=Prs	11	expl:pv	_	_
 11	pöse	pösâ	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
 12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	pittin	pittin	ADV	_	_	11	advmod	_	SpaceAfter=No
@@ -3695,7 +3695,7 @@
 # text = E che mange quarcösa.
 1	E	e	CCONJ	_	_	3	cc	_	_
 2	che	che	SCONJ	_	_	3	mark	_	_
-3	mange	mangiâ	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	mange	mangiâ	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	quarcösa	quarcösa	PRON	_	Number=Sing|PronType=Ind	3	obj	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
@@ -3715,31 +3715,31 @@
 
 # sent_id = das-c01-p002-s002
 # text = Ben, seguo ch'a ô l'é, semmo into cheu da çittæ.
-1	Ben	ben	INTJ	_	_	8	discourse	_	SpaceAfter=No
+1	Ben	ben	INTJ	_	_	6	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	seguo	seguo	ADV	_	_	8	advmod	_	_
-4	ch'	che	SCONJ	_	_	8	mark	_	SpaceAfter=No
-5	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
-6	ô	ô	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
-7	l'	l'	PART	_	_	8	dep	_	SpaceAfter=No
-8	é	ëse	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	seguo	seguo	ADV	_	ExtPos=ADV	6	advmod	_	_
+4	ch'	che	SCONJ	_	_	3	fixed	_	SpaceAfter=No
+5	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	ô	ô	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	_
+7	l'	l'	PART	_	_	6	dep	_	SpaceAfter=No
+8	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	13	punct	_	_
 10	semmo	ëse	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	cop	_	_
 11-12	into	_	_	_	_	_	_	_	_
 11	inte	inte	ADP	_	_	13	case	_	_
 12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	cheu	cheu	NOUN	_	Gender=Masc|Number=Sing	8	parataxis	_	_
+13	cheu	cheu	NOUN	_	Gender=Masc|Number=Sing	6	parataxis	_	_
 14-15	da	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	16	case	_	_
 15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	çittæ	çittæ	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
-17	.	.	PUNCT	_	_	8	punct	_	_
+17	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = das-c01-p002-s003
 # text = Ò coæ d'assazzâ e speçialitæ da region.
 1	Ò	avei	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	coæ	coæ	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
-3	d'	de	ADP	_	_	4	case	_	SpaceAfter=No
+3	d'	de	ADP	_	_	4	mark	_	SpaceAfter=No
 4	assazzâ	assazzâ	VERB	_	Tense=Pres|VerbForm=Inf	2	acl	_	_
 5	e	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
 6	speçialitæ	speçialitæ	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	_
@@ -3813,12 +3813,12 @@
 1-2	Do	_	_	_	_	_	_	_	_
 1	De	de	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	resto	resto	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
-4	l'	l'	PART	_	_	5	dep	_	SpaceAfter=No
-5	é	ëse	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	za	za	ADV	_	_	5	advmod	_	_
+3	resto	resto	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+4	l'	l'	PART	_	_	8	dep	_	SpaceAfter=No
+5	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	za	za	ADV	_	_	8	advmod	_	_
 7	sëi	sëi	NUM	_	NumType=Card	8	nummod	_	_
-8	oe	oa	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
+8	oe	oa	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 9-10	do	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	11	case	_	_
 10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
@@ -3828,17 +3828,17 @@
 14	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
 15	giusto	giusto	ADV	_	_	17	advmod	_	_
 16	l'	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
-17	oa	oa	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	_
-18	de	de	ADP	_	_	19	case	_	_
+17	oa	oa	NOUN	_	Gender=Fem|Number=Sing	8	conj	_	_
+18	de	de	ADP	_	_	19	mark	_	_
 19	mangiâ	mangiâ	VERB	_	Tense=Pres|VerbForm=Inf	17	acl	_	SpaceAfter=No
-20	.	.	PUNCT	_	_	5	punct	_	_
+20	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = das-c01-p002-s008
 # text = Chi sa cöse pensià i atri do gruppo, chi sa cös'o pensià o Svenia, a nòstra guidda.
-1	Chi	chi	PRON	_	Number=Sing|PronType=Int	2	nsubj	_	_
+1	Chi	chi	PRON	_	PronType=Int	2	nsubj	_	_
 2	sa	savei	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	cöse	cöse	PRON	_	PronType=Int	4	obj	_	_
-4	pensià	pensâ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	xcomp	_	_
+4	pensià	pensâ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	ccomp	_	_
 5	i	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
 6	atri	atro	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	4	nsubj	_	_
 7-8	do	_	_	_	_	_	_	_	_
@@ -3846,11 +3846,11 @@
 8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	gruppo	gruppo	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	_
-11	chi	chi	PRON	_	Number=Sing|PronType=Int	12	nsubj	_	_
+11	chi	chi	PRON	_	PronType=Int	12	nsubj	_	_
 12	sa	savei	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
 13	cös'	cöse	PRON	_	PronType=Int	15	obj	_	SpaceAfter=No
 14	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	expl	_	_
-15	pensià	pensâ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	xcomp	_	_
+15	pensià	pensâ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	ccomp	_	_
 16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	Svenia	Svenia	PROPN	_	Gender=Masc|Number=Sing	15	nsubj	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	21	punct	_	_
@@ -3863,14 +3863,14 @@
 # text = Che me segge perso?
 1	Che	che	SCONJ	_	_	4	mark	_	_
 2	me	me	PRON	_	Number=Sing|Person=1|PronType=Prs	4	expl:pv	_	_
-3	segge	ëse	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	segge	ëse	AUX	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	perso	perde	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 5	?	?	PUNCT	_	_	4	punct	_	_
 
 # sent_id = das-c01-p002-s010
 # text = Che m'aggian arröbou?
 1	Che	che	SCONJ	_	_	4	mark	_	_
-2	m'	me	PRON	_	Number=Sing|Person=1|PronType=Prs	4	iobj	_	SpaceAfter=No
+2	m'	me	PRON	_	Number=Sing|Person=1|PronType=Prs	4	obj	_	SpaceAfter=No
 3	aggian	avei	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	arröbou	arröbâ	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 5	?	?	PUNCT	_	_	4	punct	_	_
@@ -3938,8 +3938,8 @@
 # sent_id = das-c01-p002-s015
 # text = Comme ghe l'ò fæta ben!
 1	Comme	comme	ADV	_	_	5	advmod	_	_
-2	ghe	ghe	PRON	_	PronType=Prs	5	expl:pv	_	_
-3	l'	l'	PART	_	_	5	dep	_	SpaceAfter=No
+2	ghe	ghe	PRON	_	Person=3|PronType=Prs	5	iobj	_	_
+3	l'	lo	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
 4	ò	avei	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
 5	fæta	fâ	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	ben	ben	ADV	_	_	5	advmod	_	SpaceAfter=No
@@ -3976,7 +3976,7 @@
 1	Ma	ma	CCONJ	_	_	2	cc	_	_
 2-3	figuite	_	_	_	_	_	_	_	_
 2	figua	figuâ	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	_
-3	te	te	PRON	_	Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
+3	te	te	PRON	_	Number=Sing|Person=2|PronType=Prs	2	expl:pv	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	pö	pö	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
 6	se	se	SCONJ	_	_	13	mark	_	_
@@ -3984,7 +3984,7 @@
 7	à	à	ADP	_	_	10	case	_	_
 8	i	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
 9	mæ	mæ	DET	_	Poss=Yes|PronType=Prs	10	det	_	_
-10	nevi	nevo	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	_
+10	nevi	nevo	NOUN	_	Gender=Masc|Number=Plur	13	obl:arg	_	_
 11	ghe	ghe	PRON	_	Person=3|PronType=Prs	13	iobj	_	_
 12	saieiva	ëse	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	13	cop	_	_
 13	cao	cao	ADJ	_	Gender=Masc|Number=Sing	2	ccomp	_	_
@@ -4014,13 +4014,13 @@
 # sent_id = das-c01-p002-s018
 # text = À mi, a-o manco, no m'ô pâ.
 1	À	à	ADP	_	_	2	case	_	_
-2	mi	mi	PRON	_	Number=Sing|Person=1|PronType=Prs	11	obl	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	6	punct	_	_
+2	mi	mi	PRON	_	Number=Sing|Person=1|PronType=Prs	11	obl:arg	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
 4-5	a-o	_	_	_	_	_	_	_	_
-4	à	à	ADP	_	_	6	case	_	_
-5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	manco	manco	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	6	punct	_	_
+4	à	à	ADP	_	ExtPos=ADV	11	advmod	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	fixed	_	_
+6	manco	manco	NOUN	_	Gender=Masc|Number=Sing	4	fixed	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	4	punct	_	_
 8	no	no	ADV	_	_	11	advmod	_	_
 9	m'	me	PRON	_	Number=Sing|Person=1|PronType=Prs	11	iobj	_	SpaceAfter=No
 10	ô	ô	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
@@ -4067,7 +4067,7 @@
 1	No	no	ADV	_	_	2	advmod	_	_
 2	saviæ	savei	VERB	_	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
 3	pròpio	pròpio	ADV	_	_	2	advmod	_	_
-4	comme	comme	SCONJ	_	_	5	mark	_	_
+4	comme	comme	ADV	_	_	5	advmod	_	_
 5	çerne	çerne	VERB	_	Tense=Pres|VerbForm=Inf	2	ccomp	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -4102,7 +4102,7 @@
 5	e	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
 6	figue	figua	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	_
 7	che	che	PRON	_	PronType=Rel	9	nsubj	_	_
-8	gh'	ghe	PRON	_	PronType=Dem	9	expl:pv	_	SpaceAfter=No
+8	gh'	ghe	PRON	_	PronType=Dem	9	expl	_	SpaceAfter=No
 9	é	ëse	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
 10	in	in	ADP	_	ExtPos=ADP	13	case	_	_
 11-12	scî	_	_	_	_	_	_	_	_
@@ -4113,7 +4113,7 @@
 
 # sent_id = das-c01-p002-s024
 # text = Gh'an de föto de pisse che fan vegnî l'ægua inta bocca.
-1	Gh'	ghe	PRON	_	PronType=Dem	2	expl:pv	_	SpaceAfter=No
+1	Gh'	ghe	PRON	_	PronType=Dem	2	expl	_	SpaceAfter=No
 2	an	avei	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	de	do	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
 4	föto	föto	NOUN	_	Gender=Fem|Number=Plur	2	obj	_	_
@@ -4121,9 +4121,9 @@
 6	pisse	pissa	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
 7	che	che	PRON	_	PronType=Rel	8	nsubj	_	_
 8	fan	fâ	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
-9	vegnî	vegnî	VERB	_	Tense=Pres|VerbForm=Inf	8	ccomp	_	_
+9	vegnî	vegnî	VERB	_	Tense=Pres|VerbForm=Inf	8	xcomp	_	_
 10	l'	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
-11	ægua	ægua	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+11	ægua	ægua	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
 12-13	inta	_	_	_	_	_	_	_	_
 12	inte	inte	ADP	_	_	14	case	_	_
 13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
@@ -4137,10 +4137,10 @@
 3	parlâ	parlâ	VERB	_	Tense=Pres|VerbForm=Inf	0	root	_	_
 4	de	de	ADP	_	_	6	case	_	_
 5	sti	sto	DET	_	Gender=Masc|Number=Plur|PronType=Dem	6	det	_	_
-6	spaghetti	spaghetto	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
+6	spaghetti	spaghetto	NOUN	_	Gender=Masc|Number=Plur	3	obl:arg	_	_
 7-8	co-e	_	_	_	_	_	_	_	_
 7	co	co	ADP	_	_	9	case	_	_
-8	e	e	CCONJ	_	_	9	cc	_	_
+8	e	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
 9	porpette	porpetta	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
 10	ò	ò	CCONJ	_	_	13	cc	_	_
 11	de	de	ADP	_	_	13	case	_	_
@@ -4162,19 +4162,19 @@
 # sent_id = das-c01-p002-s027
 # text = Ben, se no ô son, de seguo en quarcösa che se gh'assomeggia.
 1	Ben	ben	INTJ	_	_	11	discourse	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	6	punct	_	_
-3	se	se	SCONJ	_	_	6	mark	_	_
-4	no	no	ADV	_	_	6	advmod	_	_
-5	ô	ô	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	expl:pv	_	_
-6	son	ëse	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	6	punct	_	_
-8	de	de	ADP	_	_	9	case	_	_
-9	seguo	seguo	ADV	_	_	11	advmod	_	_
+2	,	,	PUNCT	_	_	5	punct	_	_
+3	se	se	SCONJ	_	_	5	mark	_	_
+4	no	no	ADV	_	_	5	advmod	_	_
+5	ô	ô	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	advcl	_	_
+6	son	ëse	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	5	punct	_	_
+8	de	de	ADP	_	ExtPos=ADV	11	advmod	_	_
+9	seguo	seguo	ADJ	_	Gender=Masc|Number=Sing	8	fixed	_	_
 10	en	ëse	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 11	quarcösa	quarcösa	PRON	_	Number=Sing|PronType=Ind	0	root	_	_
 12	che	che	PRON	_	PronType=Rel	15	nsubj	_	_
 13	se	se	PRON	_	Person=3|PronType=Prs	15	expl:pv	_	_
-14	gh'	ghe	PRON	_	PronType=Dem	15	expl:pv	_	SpaceAfter=No
+14	gh'	ghe	PRON	_	PronType=Dem	15	iobj	_	SpaceAfter=No
 15	assomeggia	assomeggiâ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	11	punct	_	_
 
@@ -4217,10 +4217,10 @@
 10-11	lasciâse	_	_	_	_	_	_	_	_
 10	lasciâ	lasciâ	VERB	_	Tense=Pres|VerbForm=Inf	3	parataxis	_	_
 11	se	se	PRON	_	Person=3|PronType=Prs	10	obj	_	_
-12	tentâ	tentâ	VERB	_	Tense=Pres|VerbForm=Inf	10	xcomp	_	_
+12	tentâ	tentâ	VERB	_	Tense=Pres|VerbForm=Inf	10	ccomp	_	_
 13	da	da	ADP	_	_	15	case	_	_
 14	l'	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
-15	inscinstensa	inscinstensa	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+15	inscinstensa	inscinstensa	NOUN	_	Gender=Fem|Number=Sing	12	obl:arg	_	_
 16-17	do	_	_	_	_	_	_	_	_
 16	de	de	ADP	_	_	18	case	_	_
 17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
@@ -4239,12 +4239,12 @@
 2	che	che	SCONJ	_	_	1	fixed	_	_
 3	da	da	ADP	_	_	4	case	_	_
 4	niatri	niatri	PRON	_	Gender=Masc|Number=Plur|Person=1|PronType=Prs	11	obl	_	_
-5	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	expl	_	_
+5	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 6	l'	l'	PART	_	_	11	dep	_	SpaceAfter=No
 7	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 8	tutto	tutto	DET	_	Gender=Masc|Number=Sing|PronType=Tot	11	det	_	_
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-10	atro	atro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	11	det	_	_
+10	atro	atro	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
 11	pâ	pâ	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 12	de	de	ADP	_	_	13	case	_	_
 13	maneghe	manega	NOUN	_	Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No
@@ -4267,10 +4267,10 @@
 # text = E i töin no en appægiæ con sta cua.
 1	E	e	CCONJ	_	_	6	cc	_	_
 2	i	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
-3	töin	töin	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
+3	töin	töin	NOUN	_	Gender=Masc|Number=Plur	6	nsubj:pass	_	_
 4	no	no	ADV	_	_	6	advmod	_	_
-5	en	ëse	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
-6	appægiæ	appægiou	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
+5	en	ëse	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	appægiæ	appægiâ	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 7	con	con	ADP	_	_	9	case	_	_
 8	sta	sto	DET	_	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
 9	cua	cua	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
@@ -4279,14 +4279,14 @@
 # sent_id = das-c01-p002-s034
 # text = I cavagnin do pan, o bollacchin do vin.
 1	I	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
-2	cavagnin	cavagno	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+2	cavagnin	cavagnin	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	pan	pan	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
 7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	bollacchin	bollacco	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
+8	bollacchin	bollacchin	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
 9-10	do	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	11	case	_	_
 10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
@@ -4297,7 +4297,7 @@
 # newpar id = laz-c04-p001
 # sent_id = laz-c04-p001-s001
 # text = Comme o Lázaro o l'é anæto a-o servixo de un fratte da Merced, e cöse gh'é intravegnuo insemme à lê
-1	Comme	comme	SCONJ	_	_	7	mark	_	_
+1	Comme	comme	ADV	_	_	7	advmod	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Lázaro	Lázaro	PROPN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 4	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl	_	_
@@ -4317,7 +4317,7 @@
 16	Merced	Merced	PROPN	_	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	22	punct	_	_
 18	e	e	CCONJ	_	_	22	cc	_	_
-19	cöse	cöse	PRON	_	Number=Sing|PronType=Int	22	nsubj	_	_
+19	cöse	cöse	PRON	_	PronType=Int	22	nsubj	_	_
 20	gh'	ghe	PRON	_	Person=3|PronType=Prs	22	iobj	_	SpaceAfter=No
 21	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
 22	intravegnuo	intravegnî	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
@@ -4329,7 +4329,7 @@
 # sent_id = laz-c04-p002-s001
 # text = Coscì m'ò dovuo çercâ o mæ quarto patron, e o l'é stæto un fratte da confraternia da Merced, ch'o m'à fæto conosce e donnettiñe de quæ ò contou, e che divan d'ëse seu parente.
 1	Coscì	coscì	ADV	_	_	5	advmod	_	_
-2	m'	me	PRON	_	Number=Sing|Person=1|PronType=Prs	5	expl:pv	_	SpaceAfter=No
+2	m'	me	PRON	_	Number=Sing|Person=1|PronType=Prs	5	iobj	_	SpaceAfter=No
 3	ò	avei	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
 4	dovuo	dovei	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux	_	_
 5	çercâ	çercâ	VERB	_	Tense=Pres|VerbForm=Inf	0	root	_	_
@@ -4342,7 +4342,7 @@
 12	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
 13	l'	l'	PART	_	_	17	dep	_	SpaceAfter=No
 14	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
-15	stæto	stâ	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	cop	_	_
+15	stæto	ëse	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	cop	_	_
 16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	fratte	fratte	NOUN	_	Gender=Masc|Number=Sing	5	conj	_	_
 18-19	da	_	_	_	_	_	_	_	_
@@ -4359,7 +4359,7 @@
 27	m'	me	PRON	_	Number=Sing|Person=1|PronType=Prs	29	iobj	_	SpaceAfter=No
 28	à	avei	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
 29	fæto	fâ	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl:relcl	_	_
-30	conosce	conosce	VERB	_	Tense=Pres|VerbForm=Inf	29	ccomp	_	_
+30	conosce	conosce	VERB	_	Tense=Pres|VerbForm=Inf	29	xcomp	_	_
 31	e	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
 32	donnettiñe	donnettiña	NOUN	_	Gender=Fem|Number=Plur	30	obj	_	_
 33-34	de	_	_	_	_	_	_	_	_
@@ -4381,7 +4381,7 @@
 # sent_id = laz-c04-p002-s002
 # text = Grande nemigo do cöo do convento e do fæto de mangiâ inte quello mæximo edifiçio, o l'ea delongo in giandon, appascionou de costioin desligæ da-a vitta de gexa e de l'anâ in vixita da unna parte e da l'atra, tanto che penso ch'o stroscesse ciù scarpe lê che tutto o convento misso insemme.
 1	Grande	grande	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
-2	nemigo	nemigo	NOUN	_	Gender=Masc|Number=Sing	25	obl	_	_
+2	nemigo	nemigo	NOUN	_	Gender=Masc|Number=Sing	25	advcl	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -4395,7 +4395,7 @@
 10	de	de	ADP	_	_	12	case	_	_
 11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	fæto	fæto	NOUN	_	Gender=Masc|Number=Sing	5	conj	_	_
-13	de	de	ADP	_	_	14	case	_	_
+13	de	de	ADP	_	_	14	mark	_	_
 14	mangiâ	mangiâ	VERB	_	Tense=Pres|VerbForm=Inf	12	acl	_	_
 15	inte	inte	ADP	_	_	18	case	_	_
 16	quello	quello	DET	_	Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
@@ -4418,7 +4418,7 @@
 32-33	da-a	_	_	_	_	_	_	_	_
 32	da	da	ADP	_	_	34	case	_	_
 33	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
-34	vitta	vitta	NOUN	_	Gender=Fem|Number=Sing	31	obl	_	_
+34	vitta	vitta	NOUN	_	Gender=Fem|Number=Sing	31	obl:arg	_	_
 35	de	de	ADP	_	_	36	case	_	_
 36	gexa	gexa	NOUN	_	Gender=Fem|Number=Sing	34	nmod	_	_
 37	e	e	CCONJ	_	_	40	cc	_	_
@@ -4441,7 +4441,7 @@
 54	ch'	che	SCONJ	_	_	56	mark	_	SpaceAfter=No
 55	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	56	expl	_	_
 56	stroscesse	strosciâ	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	53	ccomp	_	_
-57	ciù	ciù	ADJ	_	_	58	amod	_	_
+57	ciù	ciù	DET	_	PronType=Ind	58	det	_	_
 58	scarpe	scarpa	NOUN	_	Gender=Fem|Number=Plur	56	obj	_	_
 59	lê	lê	PRON	_	Number=Sing|Person=3|PronType=Prs	56	nsubj	_	_
 60	che	che	ADP	_	_	63	case	_	_
@@ -4494,7 +4494,7 @@
 4	momento	momento	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
 5	manco	manco	ADV	_	_	6	advmod	_	_
 6	mi	mi	PRON	_	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
-7	poeiva	poei	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+7	poeiva	poei	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	9	aux	_	_
 8	ciù	ciù	ADV	_	_	9	advmod	_	_
 9	comportâ	comportâ	VERB	_	Tense=Pres|VerbForm=Inf	0	root	_	_
 10	i	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
@@ -4510,7 +4510,7 @@
 20	à	à	ADP	_	_	23	case	_	_
 21	de	do	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
 22	atre	atro	DET	_	Gender=Fem|Number=Plur|PronType=Dem	23	det	_	_
-23	cöse	cösa	NOUN	_	Gender=Fem|Number=Plur	19	obl	_	_
+23	cöse	cösa	NOUN	_	Gender=Fem|Number=Plur	19	nmod	_	_
 24	che	che	PRON	_	PronType=Rel	26	obj	_	_
 25	no	no	ADV	_	_	26	advmod	_	_
 26	staggo	stâ	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
@@ -4526,7 +4526,7 @@
 # newpar id = laz-c06-p001
 # sent_id = laz-c06-p001-s001
 # text = Comme o Lázaro o l'é anæto a-o servixo de un cappellan, e cöse gh'é intravegnuo insemme à lê
-1	Comme	comme	SCONJ	_	_	7	mark	_	_
+1	Comme	comme	ADV	_	_	7	advmod	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Lázaro	Lázaro	PROPN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 4	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl	_	_
@@ -4542,7 +4542,7 @@
 13	cappellan	cappellan	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	19	punct	_	_
 15	e	e	CCONJ	_	_	19	cc	_	_
-16	cöse	cöse	PRON	_	Number=Sing|PronType=Int	19	nsubj	_	_
+16	cöse	cöse	PRON	_	PronType=Int	19	nsubj	_	_
 17	gh'	ghe	PRON	_	Person=3|PronType=Prs	19	iobj	_	SpaceAfter=No
 18	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
 19	intravegnuo	intravegnî	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
@@ -4555,10 +4555,10 @@
 # text = Dòppo quell'atro mæ patron son anæto à vive con un artexan ch'o pittuava tambuetti, pe-o quæ maxinava i coî; ma con lê ascì ò dovuo patî mille peñe.
 1	Dòppo	dòppo	ADP	_	_	5	case	_	_
 2	quell'	quello	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	SpaceAfter=No
-3	atro	atro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	5	det	_	_
+3	atro	atro	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
 4	mæ	mæ	DET	_	Poss=Yes|PronType=Prs	5	det	_	_
 5	patron	patron	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
-6	son	ëse	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	son	ëse	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
 7	anæto	anâ	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	à	à	ADP	_	_	9	mark	_	_
 9	vive	vive	VERB	_	Tense=Pres|VerbForm=Inf	7	xcomp	_	_
@@ -4568,13 +4568,13 @@
 13	ch'	che	PRON	_	PronType=Rel	15	nsubj	_	SpaceAfter=No
 14	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	expl	_	_
 15	pittuava	pittuâ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	acl:relcl	_	_
-16	tambuetti	tambuo	NOUN	_	Gender=Masc|Number=Plur	15	obj	_	SpaceAfter=No
+16	tambuetti	tambuetto	NOUN	_	Gender=Masc|Number=Plur	15	obj	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	21	punct	_	_
 18-19	pe-o	_	_	_	_	_	_	_	_
 18	pe	pe	ADP	_	_	20	case	_	_
 19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	quæ	quæ	PRON	_	PronType=Rel	21	obl	_	_
-21	maxinava	maxinâ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	acl:relcl	_	_
+21	maxinava	maxinâ	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	12	acl:relcl	_	_
 22	i	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
 23	coî	cô	NOUN	_	Gender=Masc|Number=Plur	21	obj	_	SpaceAfter=No
 24	;	;	PUNCT	_	_	31	punct	_	_
@@ -4595,13 +4595,13 @@
 1	Pe	pe	ADP	_	_	3	case	_	_
 2	quello	quello	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
-4	m'	me	PRON	_	Number=Sing|Person=1|PronType=Prs	7	expl:pv	_	SpaceAfter=No
+4	m'	me	PRON	_	Number=Sing|Person=1|PronType=Prs	7	obj	_	SpaceAfter=No
 5	ea	ëse	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	7	aux	_	_
 6	za	za	ADV	_	_	7	advmod	_	_
 7	fæto	fâ	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 9	bello	bello	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
-10	zoenòtto	zoeno	NOUN	_	Gender=Masc|Number=Sing	7	xcomp	_	SpaceAfter=No
+10	zoenòtto	zoenòtto	NOUN	_	Gender=Masc|Number=Sing	7	xcomp	_	SpaceAfter=No
 11	;	;	PUNCT	_	_	32	punct	_	_
 12	e	e	CCONJ	_	_	32	cc	_	_
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
@@ -4665,7 +4665,7 @@
 1	O	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 2	l'	l'	PART	_	_	7	dep	_	SpaceAfter=No
 3	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
-4	stæto	stâ	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	cop	_	_
+4	stæto	ëse	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	cop	_	_
 5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	primmo	primmo	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	7	amod	_	_
 7	scæn	scæn	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -4687,7 +4687,7 @@
 22	co	co	ADP	_	_	24	case	_	_
 23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	steumago	steumago	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	_
-25	pin	pin	ADJ	_	Gender=Masc|Number=Plur	24	amod	_	SpaceAfter=No
+25	pin	pin	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = laz-c06-p003-s003
@@ -4700,7 +4700,7 @@
 5	à	à	ADP	_	_	8	case	_	_
 6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 7	mæ	mæ	DET	_	Poss=Yes|PronType=Prs	8	det	_	_
-8	patron	patron	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+8	patron	patron	NOUN	_	Gender=Masc|Number=Sing	4	obl:arg	_	_
 9	trenta	trenta	NUM	_	NumType=Card	10	nummod	_	_
 10	maravedís	maravedís	X	_	Foreign=Yes	4	obj	_	_
 11	de	de	ADP	_	_	12	case	_	_
@@ -4708,7 +4708,7 @@
 13	;	;	PUNCT	_	_	18	punct	_	_
 14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	resto	resto	NOUN	_	Gender=Masc|Number=Sing	18	dislocated	_	_
-16	m'	me	PRON	_	Number=Sing|Person=1|PronType=Prs	18	expl:pv	_	SpaceAfter=No
+16	m'	me	PRON	_	Number=Sing|Person=1|PronType=Prs	18	iobj	_	SpaceAfter=No
 17	ô	ô	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
 18	tegniva	tegnî	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	parataxis	_	_
 19	pe	pe	ADP	_	_	20	case	_	_
@@ -4717,15 +4717,15 @@
 22	insemme	insemme	ADV	_	ExtPos=ADP	24	case	_	_
 23	à	à	ADP	_	_	22	fixed	_	_
 24	quante	quante	PRON	_	PronType=Rel	18	obl	_	_
-25	arriesciva	arriescî	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	24	acl	_	_
+25	arriesciva	arriescî	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	24	acl:relcl	_	_
 26	à	à	ADP	_	_	27	mark	_	_
 27	arrecampâ	arrecampâ	VERB	_	Tense=Pres|VerbForm=Inf	25	xcomp	_	_
 28-29	a-o	_	_	_	_	_	_	_	_
 28	à	à	ADP	_	_	30	case	_	_
 29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	sabbo	sabbo	NOUN	_	Gender=Masc|Number=Sing	27	obl	_	_
-31	graçie	graçie	ADV	_	ExtPos=ADP	35	case	_	_
-32	à	à	ADP	_	_	31	fixed	_	_
+31	graçie	graçie	NOUN	_	_	35	case	_	_
+32	à	à	ADP	_	_	35	case	_	_
 33	quello	quello	DET	_	Gender=Masc|Number=Sing|PronType=Dem	35	det	_	_
 34	mæximo	mæximo	ADJ	_	Gender=Masc|Number=Sing	35	amod	_	_
 35	travaggio	travaggio	NOUN	_	Gender=Masc|Number=Sing	27	obl	_	SpaceAfter=No
@@ -4749,17 +4749,17 @@
 13	coscì	coscì	ADV	_	_	11	advmod	_	_
 14	pe	pe	ADP	_	_	16	case	_	_
 15	quattr'	quattro	NUM	_	NumType=Card	16	nummod	_	SpaceAfter=No
-16	anni	anno	NOUN	_	Gender=Masc|Number=Plur	11	obj	_	SpaceAfter=No
+16	anni	anno	NOUN	_	Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = laz-c06-p004-s002
 # text = Co-o mettime i dinæ da parte, ò ammuggiou tanto da poei vestî in mainea dignitosa con da röba de segonda man; m'ea accattou un vegio giachê de fustagno, unna camixa un pö frusta, ma recammâ e co-e maneghe co-o spacco, un mantello che da neuvo o l'aiva avuo di aggibbi, e unna vegia spâ, uña de primme che l'ea stæto fabricou into paise de Cuéllar.
 1-2	Co-o	_	_	_	_	_	_	_	_
-1	Co	co	ADP	_	_	3	case	_	_
+1	Co	co	ADP	_	_	3	mark	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3-4	mettime	_	_	_	_	_	_	_	_
 3	mette	mette	VERB	_	Tense=Pres|VerbForm=Inf	11	advcl	_	_
-4	me	me	PRON	_	Number=Sing|Person=1|PronType=Prs	3	expl:pv	_	_
+4	me	me	PRON	_	Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
 5	i	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
 6	dinæ	dinâ	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
 7	da	da	ADP	_	_	8	case	_	_
@@ -4771,7 +4771,7 @@
 13	da	da	ADP	_	_	15	mark	_	_
 14	poei	poei	AUX	_	Tense=Pres|VerbForm=Inf	15	aux	_	_
 15	vestî	vestî	VERB	_	Tense=Pres|VerbForm=Inf	12	acl	_	_
-16	in	in	ADP	_	ExtPos=ADP	17	case	_	_
+16	in	in	ADP	_	_	17	case	_	_
 17	mainea	mainea	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	_
 18	dignitosa	dignitoso	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
 19	con	con	ADP	_	_	21	case	_	_
@@ -4781,7 +4781,7 @@
 23	segonda	segondo	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	24	amod	_	_
 24	man	man	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
 25	;	;	PUNCT	_	_	28	punct	_	_
-26	m'	me	PRON	_	Number=Sing|Person=1|PronType=Prs	28	expl:pv	_	SpaceAfter=No
+26	m'	me	PRON	_	Number=Sing|Person=1|PronType=Prs	28	iobj	_	SpaceAfter=No
 27	ea	ëse	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	28	aux	_	_
 28	accattou	accattâ	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	parataxis	_	_
 29	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
@@ -4802,7 +4802,7 @@
 44-45	co-e	_	_	_	_	_	_	_	_
 44	co	co	ADP	_	_	46	case	_	_
 45	e	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	46	det	_	_
-46	maneghe	manega	NOUN	_	Gender=Fem|Number=Plur	39	conj	_	_
+46	maneghe	manega	NOUN	_	Gender=Fem|Number=Plur	42	conj	_	_
 47-48	co-o	_	_	_	_	_	_	_	_
 47	co	co	ADP	_	_	49	case	_	_
 48	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
@@ -4833,7 +4833,7 @@
 72	che	che	PRON	_	PronType=Rel	76	nsubj:pass	_	_
 73	l'	l'	PART	_	_	76	dep	_	SpaceAfter=No
 74	ea	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	76	aux	_	_
-75	stæto	stâ	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	76	aux:pass	_	_
+75	stæto	ëse	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	76	aux:pass	_	_
 76	fabricou	fabricâ	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	68	acl:relcl	_	_
 77-78	into	_	_	_	_	_	_	_	_
 77	inte	inte	ADP	_	_	79	case	_	_
@@ -4859,7 +4859,7 @@
 11	òmmo	òmmo	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
 12	ch'	che	PRON	_	PronType=Rel	15	nsubj	_	SpaceAfter=No
 13	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	expl	_	_
-14	se	se	PRON	_	Person=3|PronType=Prs	15	expl:pv	_	_
+14	se	se	PRON	_	Person=3|PronType=Prs	15	obj	_	_
 15	respetta	respettâ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	18	punct	_	_
 17	ò	avei	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_	_
@@ -4870,7 +4870,7 @@
 21	patron	patron	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
 22	ch'	che	SCONJ	_	_	25	mark	_	SpaceAfter=No
 23	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
-24	se	se	PRON	_	Person=3|PronType=Prs	25	expl:pv	_	_
+24	se	se	PRON	_	Person=3|PronType=Prs	25	iobj	_	_
 25	piggesse	piggiâ	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	ccomp	_	_
 26	torna	torna	ADV	_	_	25	advmod	_	_
 27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
@@ -4934,7 +4934,7 @@
 # sent_id = mar-nat-p001-s005
 # text = Ti gh'æ visto che o bibin che t'æ accattou o l'à o göscio pin d'ænin?
 1	Ti	ti	PRON	_	Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
-2	gh'	ghe	PRON	_	Person=3|PronType=Prs	4	expl:pv	_	SpaceAfter=No
+2	gh'	ghe	PRON	_	PronType=Dem	4	expl	_	SpaceAfter=No
 3	æ	avei	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	visto	vedde	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	che	che	SCONJ	_	_	14	mark	_	_
@@ -4949,9 +4949,9 @@
 14	à	avei	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
 15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	göscio	göscio	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
-17	pin	pin	ADJ	_	Gender=Masc|Number=Plur	16	amod	_	_
+17	pin	pin	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
 18	d'	de	ADP	_	_	19	case	_	SpaceAfter=No
-19	ænin	æña	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+19	ænin	ænin	NOUN	_	Gender=Masc|Number=Sing	17	obl:arg	_	SpaceAfter=No
 20	?	?	PUNCT	_	_	4	punct	_	_
 
 # sent_id = mar-nat-p001-s006
@@ -5088,7 +5088,7 @@
 3	ciù	ciù	ADV	_	_	2	advmod	_	_
 4	ninte	ninte	PRON	_	Number=Sing|PronType=Neg	2	nsubj	_	_
 5	da	da	ADP	_	_	6	mark	_	_
-6	fâ	fâ	VERB	_	Tense=Pres|VerbForm=Inf	2	ccomp	_	SpaceAfter=No
+6	fâ	fâ	VERB	_	Tense=Pres|VerbForm=Inf	4	acl	_	SpaceAfter=No
 7	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = mar-nat-p005-s002
@@ -5114,7 +5114,7 @@
 2	ê	ëse	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	ancon	ancon	ADV	_	_	4	advmod	_	_
 4	lesto	lesto	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
-5	de	de	ADP	_	_	6	case	_	_
+5	de	de	ADP	_	_	6	mark	_	_
 6	frigognâ	frigognâ	VERB	_	Tense=Pres|VerbForm=Inf	4	ccomp	_	_
 7	lì	lì	ADV	_	_	6	advmod	_	_
 8-9	into	_	_	_	_	_	_	_	_
@@ -5135,7 +5135,7 @@
 7	inte	inte	ADP	_	_	9	case	_	_
 8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	stalla	stalla	NOUN	_	Gender=Fem|Number=Sing	2	acl:relcl	_	_
-10	chi	chi	PRON	_	Number=Sing|PronType=Int	13	nsubj	_	_
+10	chi	chi	PRON	_	PronType=Int	13	nsubj	_	_
 11	l'	lo	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	SpaceAfter=No
 12	à	avei	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
 13	toccou	toccâ	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
@@ -5146,7 +5146,7 @@
 # text = Mi no ne sò ninte!
 1	Mi	mi	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 2	no	no	ADV	_	_	4	advmod	_	_
-3	ne	ne	PRON	_	PronType=Dem	4	expl:pv	_	_
+3	ne	ne	PRON	_	PronType=Dem	4	obl:arg	_	_
 4	sò	savei	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	ninte	ninte	PRON	_	Number=Sing|PronType=Neg	4	obj	_	SpaceAfter=No
 6	!	!	PUNCT	_	_	4	punct	_	SpacesAfter=\n
@@ -5162,7 +5162,7 @@
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 8	se	se	PRON	_	Person=3|PronType=Prs	11	expl:pv	_	_
-9	ne	ne	PRON	_	PronType=Dem	11	expl:pv	_	_
+9	ne	ne	PRON	_	PronType=Dem	11	expl	_	_
 10	saià	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	aux	_	_
 11	anæto	anâ	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 12	da	da	ADP	_	_	13	case	_	_
@@ -5246,10 +5246,10 @@
 1	Ben	ben	INTJ	_	_	5	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	lì	lì	ADV	_	_	5	advmod	_	_
-4	gh'	ghe	PRON	_	PronType=Dem	5	expl:pv	_	SpaceAfter=No
+4	gh'	ghe	PRON	_	PronType=Dem	5	expl	_	SpaceAfter=No
 5	é	ëse	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	ciù	ciù	ADV	_	_	7	advmod	_	_
-7	äie	äia	NOUN	_	Gender=Fem|Number=Plur	5	obj	_	_
+6	ciù	ciù	DET	_	PronType=Ind	7	det	_	_
+7	äie	äia	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
 8	che	che	ADP	_	_	10	case	_	_
 9	de	de	ADP	_	_	10	case	_	_
 10	chì	chì	ADV	_	_	7	advmod	_	SpaceAfter=No
@@ -5301,7 +5301,7 @@
 # newpar id = mar-nat-p013
 # sent_id = mar-nat-p013-s001
 # text = Chi l'à averto a bottiggia do vin?
-1	Chi	chi	PRON	_	Number=Sing|PronType=Int	4	nsubj	_	_
+1	Chi	chi	PRON	_	PronType=Int	4	nsubj	_	_
 2	l'	l'	PART	_	_	4	dep	_	SpaceAfter=No
 3	à	avei	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	averto	arvî	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -5316,8 +5316,8 @@
 # newpar id = mar-nat-p014
 # sent_id = mar-nat-p014-s001
 # text = A s'é averta da lê!
-1	A	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
-2	s'	se	PRON	_	Person=3|PronType=Prs	4	expl:pv	_	SpaceAfter=No
+1	A	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	_
+2	s'	se	PRON	_	Person=3|PronType=Prs	4	expl:pass	_	SpaceAfter=No
 3	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	averta	arvî	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	da	da	ADP	_	_	6	case	_	_
@@ -5330,8 +5330,8 @@
 2	coscì	coscì	ADV	_	_	11	advmod	_	_
 3	primma	primma	ADV	_	ExtPos=SCONJ	7	mark	_	_
 4	ch'	che	SCONJ	_	_	3	fixed	_	SpaceAfter=No
-5	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
-6	se	se	PRON	_	Person=3|PronType=Prs	7	expl:pv	_	_
+5	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj:pass	_	_
+6	se	se	PRON	_	Person=3|PronType=Prs	7	expl:pass	_	_
 7	versesse	versâ	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	advcl	_	_
 8	me	me	PRON	_	Number=Sing|Person=1|PronType=Prs	11	expl:pv	_	_
 9	l'	lo	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	SpaceAfter=No
@@ -5373,8 +5373,8 @@
 2	va	anâ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	discourse	_	_
 3	ben	ben	ADV	_	_	2	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
-5	cöse	cöse	PRON	_	Number=Sing|PronType=Int	7	nsubj	_	_
-6	gh'	ghe	PRON	_	PronType=Dem	7	expl:pv	_	SpaceAfter=No
+5	cöse	cöse	PRON	_	PronType=Int	7	nsubj	_	_
+6	gh'	ghe	PRON	_	PronType=Dem	7	expl	_	SpaceAfter=No
 7	é	ëse	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	_
 9	l'	l'	PART	_	_	12	dep	_	SpaceAfter=No
@@ -5417,7 +5417,7 @@
 2-4	vattene	_	_	_	_	_	_	_	SpaceAfter=No
 2	vanni	anâ	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	_
 3	te	te	PRON	_	Number=Sing|Person=2|PronType=Prs	2	expl:pv	_	_
-4	ne	ne	PRON	_	PronType=Dem	2	expl:pv	_	_
+4	ne	ne	PRON	_	PronType=Dem	2	expl	_	_
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	cheuga	cheuga	NOUN	_	Gender=Fem|Number=Sing	2	vocative	_	SpaceAfter=No
 7	!	!	PUNCT	_	_	2	punct	_	_
@@ -5486,7 +5486,7 @@
 27	,	,	PUNCT	_	_	33	punct	_	_
 28	ma	ma	CCONJ	_	_	33	cc	_	_
 29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
-30	ciù	ciù	ADV	_	_	31	advmod	_	_
+30	ciù	ciù	DET	_	PronType=Ind	31	det	_	_
 31	parte	parte	NOUN	_	Gender=Fem|Number=Sing	33	nsubj	_	_
 32	en	ëse	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	_
 33	nasciui	nasce	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	conj	_	_
@@ -5510,7 +5510,7 @@
 4	aloa	aloa	ADV	_	_	9	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	se	se	PRON	_	Number=Plur|Person=1|PronType=Prs	9	iobj	_	_
-7	l'	lo	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	SpaceAfter=No
+7	l'	lo	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	SpaceAfter=No
 8	aviemo	avei	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	9	aux	_	_
 9	fæta	fâ	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 10	inte	inte	ADP	_	_	11	case	_	_
@@ -5520,14 +5520,14 @@
 14	Zena	Zena	PROPN	_	Gender=Fem|Number=Sing	19	nsubj	_	_
 15	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	expl	_	_
 16	no	no	ADV	_	_	19	advmod	_	_
-17	ghe	ghe	PRON	_	PronType=Dem	19	expl:pv	_	_
+17	ghe	ghe	PRON	_	PronType=Dem	19	expl	_	_
 18	l'	lo	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obj	_	SpaceAfter=No
 19	aiva	avei	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	parataxis	_	_
 20	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 21	'	'	PUNCT	_	_	22	punct	_	SpaceAfter=No
 22	inno	inno	NOUN	_	Gender=Masc|Number=Sing	19	dislocated	_	SpaceAfter=No
 23	'	'	PUNCT	_	_	22	punct	_	_
-24	ch'	che	SCONJ	_	_	27	nsubj	_	SpaceAfter=No
+24	ch'	che	PRON	_	PronType=Rel	27	nsubj	_	SpaceAfter=No
 25	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	expl	_	_
 26	â	ô	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	obj	_	_
 27	representesse	representâ	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	acl:relcl	_	_
@@ -5544,9 +5544,9 @@
 4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	Liguria	Liguria	PROPN	_	Gender=Fem|Number=Sing	15	nsubj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	10	punct	_	_
-7	avanti	avanti	ADV	_	_	10	advmod	_	_
+7	avanti	avanti	ADV	_	ExtPos=ADP	10	case	_	_
 8-9	do	_	_	_	_	_	_	_	_
-8	de	de	ADP	_	_	10	case	_	_
+8	de	de	ADP	_	_	7	fixed	_	_
 9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	1815	1815	NUM	_	NumType=Card	15	obl	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
@@ -5566,17 +5566,17 @@
 # text = A rispòsta ghe l'ei za in canna: "Ma se ghe penso".
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	rispòsta	rispòsta	NOUN	_	Gender=Fem|Number=Sing	5	dislocated	_	_
-3	ghe	ghe	PRON	_	PronType=Dem	5	expl:pv	_	_
+3	ghe	ghe	PRON	_	PronType=Dem	5	expl	_	_
 4	l'	lo	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
 5	ei	avei	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	za	za	ADV	_	_	5	advmod	_	_
-7	in	in	ADP	_	ExtPos=ADP	8	case	_	_
+7	in	in	ADP	_	_	8	case	_	_
 8	canna	canna	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
 9	:	:	PUNCT	_	_	14	punct	_	_
 10	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
 11	Ma	ma	CCONJ	_	_	14	cc	_	_
 12	se	se	SCONJ	_	_	14	mark	_	_
-13	ghe	ghe	PRON	_	PronType=Dem	14	expl:pv	_	_
+13	ghe	ghe	PRON	_	PronType=Dem	14	obl:arg	_	_
 14	penso	pensâ	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	parataxis	_	SpaceAfter=No
 15	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	5	punct	_	_
@@ -5656,7 +5656,7 @@
 5	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
 6	Ma	ma	CCONJ	_	_	9	cc	_	_
 7	se	se	SCONJ	_	_	9	mark	_	_
-8	ghe	ghe	PRON	_	PronType=Dem	9	iobj	_	_
+8	ghe	ghe	PRON	_	PronType=Dem	9	obl:arg	_	_
 9	penso	pensâ	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	obj	_	SpaceAfter=No
 10	"	"	PUNCT	_	_	9	punct	_	_
 11-12	pe-o	_	_	_	_	_	_	_	_
@@ -5696,7 +5696,7 @@
 1	E	e	CCONJ	_	_	8	cc	_	_
 2	dapeu	dapeu	ADV	_	_	8	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	chi	chi	PRON	_	Number=Sing|PronType=Int	8	nsubj	_	_
+4	chi	chi	PRON	_	PronType=Int	8	nsubj	_	_
 5	l'	lo	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	SpaceAfter=No
 6	à	avei	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
 7	mai	mäi	ADV	_	_	8	advmod	_	_
@@ -5752,7 +5752,7 @@
 13	–	–	PUNCT	_	_	6	punct	_	_
 14	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	expl	_	_
 15	no	no	ADV	_	_	17	advmod	_	_
-16	gh'	ghe	PRON	_	PronType=Dem	17	expl:pv	_	SpaceAfter=No
+16	gh'	ghe	PRON	_	PronType=Dem	17	expl	_	SpaceAfter=No
 17	à	avei	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 18	ninte	ninte	PRON	_	Number=Sing|PronType=Neg	17	obj	_	_
 19	da	da	ADP	_	_	20	mark	_	_
@@ -5786,10 +5786,10 @@
 16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	giornâ	giornâ	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
 18	d'	de	ADP	_	_	19	case	_	SpaceAfter=No
-19	ancheu	ancheu	NOUN	_	_	17	nmod	_	SpaceAfter=No
+19	ancheu	ancheu	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	9	punct	_	_
 21	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	expl	_	_
-22	gh'	ghe	PRON	_	PronType=Dem	23	expl:pv	_	SpaceAfter=No
+22	gh'	ghe	PRON	_	PronType=Dem	23	expl	_	SpaceAfter=No
 23	à	avei	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	cea	cea	NOUN	_	Gender=Fem|Number=Sing	23	obj	_	_
@@ -5804,7 +5804,7 @@
 1	In	in	ADP	_	_	2	case	_	_
 2	veitæ	veitæ	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	gh'	ghe	PRON	_	PronType=Dem	5	expl:pv	_	SpaceAfter=No
+4	gh'	ghe	PRON	_	PronType=Dem	5	expl	_	SpaceAfter=No
 5	emmo	avei	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	quarcösa	quarcösa	PRON	_	Number=Sing|PronType=Ind	5	obj	_	_
 7	de	de	ADP	_	_	9	case	_	_
@@ -5814,18 +5814,18 @@
 
 # sent_id = sec-inno-p004-s002
 # text = O l'é o "Basso de Zena", un tòcco do Çinqueçento ch'o representava a çittæ à l'indefeua.
-1	O	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	l'	l'	PART	_	_	3	dep	_	SpaceAfter=No
-3	é	ëse	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+1	O	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	l'	l'	PART	_	_	6	dep	_	SpaceAfter=No
+3	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
-6	Basso	basso	ADJ	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	Basso	basso	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 7	de	de	ADP	_	_	8	case	_	_
 8	Zena	Zena	PROPN	_	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
 9	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	_
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	tòcco	tòcco	NOUN	_	Gender=Masc|Number=Sing	3	appos	_	_
+12	tòcco	tòcco	NOUN	_	Gender=Masc|Number=Sing	6	appos	_	_
 13-14	do	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	15	case	_	_
 14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
@@ -5838,7 +5838,7 @@
 21	à	à	ADP	_	_	23	case	_	_
 22	l'	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
 23	indefeua	indefeua	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
-24	.	.	PUNCT	_	_	3	punct	_	_
+24	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = sec-inno-p004-s003
 # text = "Da-a muxica popolare de l'Etæ de Mezo e da Renascion - ne conta o Luca Franco Ferrari, esperto de muxica antiga - s'é sviluppou di modelli fisci in scî quæ i sunnoei de corte improvvisavan".
@@ -5864,12 +5864,12 @@
 18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	Luca	Luca	PROPN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
 20	Franco	Franco	PROPN	_	Gender=Masc|Number=Sing	19	flat	_	_
-21	Ferrari	Ferrari	PROPN	_	Gender=Masc|Number=Plur	19	flat	_	SpaceAfter=No
+21	Ferrari	Ferrari	PROPN	_	Gender=Masc|Number=Sing	19	flat	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	_
 23	esperto	esperto	NOUN	_	Gender=Masc|Number=Sing	19	appos	_	_
 24	de	de	ADP	_	_	25	case	_	_
 25	muxica	muxica	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
-26	antiga	antigo	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
+26	antiga	antigo	ADJ	_	Gender=Fem|Number=Sing	25	amod	_	_
 27	-	-	PUNCT	_	_	17	punct	_	_
 28	s'	se	PRON	_	Person=3|PronType=Prs	30	expl:impers	_	SpaceAfter=No
 29	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
@@ -5947,7 +5947,7 @@
 1	À	à	ADP	_	_	2	mark	_	_
 2-3	pensâghe	_	_	_	_	_	_	_	_
 2	pensâ	pensâ	VERB	_	Tense=Pres|VerbForm=Inf	13	advcl	_	_
-3	ghe	ghe	PRON	_	PronType=Dem	2	expl:pv	_	_
+3	ghe	ghe	PRON	_	PronType=Dem	2	obl:arg	_	_
 4	ben	ben	ADV	_	_	2	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -5955,7 +5955,7 @@
 8	'	'	PUNCT	_	_	9	punct	_	SpaceAfter=No
 9	veo	veo	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
 10	'	'	PUNCT	_	_	9	punct	_	_
-11	ghe	ghe	PRON	_	PronType=Prs	13	expl:pv	_	_
+11	ghe	ghe	PRON	_	PronType=Dem	13	expl	_	_
 12	l'	lo	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	SpaceAfter=No
 13	emmo	avei	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 14	:	:	PUNCT	_	_	15	punct	_	_
@@ -5994,7 +5994,7 @@
 14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 15	primma	primmo	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	16	amod	_	_
 16	vòtta	vòtta	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
-17	in	in	ADP	_	ExtPos=ADP	18	case	_	_
+17	in	in	ADP	_	_	18	case	_	_
 18	Oegiña	Oegiña	PROPN	_	Gender=Fem|Number=Sing	12	obl	_	_
 19-20	do	_	_	_	_	_	_	_	_
 19	de	de	ADP	_	_	21	case	_	_
@@ -6176,7 +6176,7 @@
 1	Voscià	voscià	PRON	_	Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 2	scì	scì	ADV	_	_	8	advmod	_	_
 3	che	che	SCONJ	_	_	8	mark	_	_
-4	sciâ	scià	PRON	_	Person=3|PronType=Prs|Typo=Yes	8	expl	_	CorrectForm=scià
+4	sciâ	scià	PRON	_	Number=Sing|Person=3|PronType=Prs|Typo=Yes	8	expl	_	CorrectForm=scià
 5	l'	l'	PART	_	_	8	dep	_	SpaceAfter=No
 6	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -6190,7 +6190,7 @@
 3	ô	ô	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
 4	dian	dî	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 5	voscià	voscià	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
-6	quand'	quande	SCONJ	_	_	7	mark	_	SpaceAfter=No
+6	quand'	quande	ADV	_	_	9	advmod	_	SpaceAfter=No
 7	ò	avei	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
 8	da	da	ADP	_	_	9	mark	_	_
 9	intrâ	intrâ	VERB	_	Tense=Pres|VerbForm=Inf	7	xcomp	_	SpaceAfter=No
@@ -6205,7 +6205,7 @@
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	òmmo	òmmo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 7	comme	comme	SCONJ	_	_	9	mark	_	_
-8	se	se	PRON	_	Person=3|PronType=Prs	9	expl:pv	_	_
+8	se	se	PRON	_	Person=3|PronType=Prs	9	expl:impers	_	_
 9	deve	dovei	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -6332,7 +6332,7 @@
 2	d'	de	ADP	_	_	3	mark	_	SpaceAfter=No
 3-4	intendive	_	_	_	_	_	_	_	_
 3	intende	intende	VERB	_	Tense=Pres|VerbForm=Inf	1	xcomp	_	_
-4	ve	ve	PRON	_	Number=Plur|Person=2|PronType=Prs	3	expl:pv	_	_
+4	ve	ve	PRON	_	Number=Plur|Person=2|PronType=Prs	3	obj	_	_
 5	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	3	obl	_	_
 6	con	con	ADP	_	_	8	case	_	_
 7	l'	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
@@ -6373,13 +6373,13 @@
 
 # sent_id = grammar-p001-s021
 # text = Gh'ò mäi tanto de quello seunno che no staggo ciù in pê.
-1	Gh'	ghe	PRON	_	PronType=Dem	2	expl:pv	_	SpaceAfter=No
+1	Gh'	ghe	PRON	_	PronType=Dem	2	expl	_	SpaceAfter=No
 2	ò	avei	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	mäi	mäi	ADV	_	_	4	advmod	_	_
-4	tanto	tanto	ADJ	_	Gender=Masc|Number=Sing	2	xcomp	_	_
+4	tanto	tanto	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	2	obj	_	_
 5	de	de	ADP	_	_	7	case	_	_
 6	quello	quello	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
-7	seunno	seunno	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+7	seunno	seunno	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 8	che	che	SCONJ	_	_	10	mark	_	_
 9	no	no	ADV	_	_	10	advmod	_	_
 10	staggo	stâ	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	advcl	_	_
@@ -6426,8 +6426,8 @@
 # text = Se ti te â piggi con chi o l'é ciù piccin ti fæ mâ.
 1	Se	se	SCONJ	_	_	5	mark	_	_
 2	ti	ti	PRON	_	Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
-3	te	te	PRON	_	Number=Sing|Person=2|PronType=Prs	5	expl	_	_
-4	â	ô	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+3	te	te	PRON	_	Number=Sing|Person=2|PronType=Prs	5	expl:pv	_	_
+4	â	ô	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
 5	piggi	piggiâ	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	advcl	_	_
 6	con	con	ADP	_	_	7	case	_	_
 7	chi	chi	PRON	_	PronType=Rel	5	obl:arg	_	_
@@ -6505,7 +6505,7 @@
 2	l'	lo	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
 3	à	avei	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	cacciou	cacciâ	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-5	in	in	ADP	_	ExtPos=ADP	6	case	_	_
+5	in	in	ADP	_	_	6	case	_	_
 6	tæra	tæra	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
 7	con	con	ADP	_	_	9	case	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
@@ -6516,7 +6516,7 @@
 # text = O se ne stà lì sensa fâ ninte tutto o giorno.
 1	O	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	se	se	PRON	_	Person=3|PronType=Prs	4	expl:pv	_	_
-3	ne	ne	PRON	_	PronType=Dem	4	expl:pv	_	_
+3	ne	ne	PRON	_	PronType=Dem	4	expl	_	_
 4	stà	stâ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	lì	lì	ADV	_	_	4	advmod	_	_
 6	sensa	sensa	ADP	_	_	7	mark	_	_
@@ -6552,7 +6552,7 @@
 # sent_id = grammar-p001-s033
 # text = Ti gh'aniësci à accattâ o læte?
 1	Ti	ti	PRON	_	Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
-2	gh'	ghe	PRON	_	PronType=Dem	3	expl:pv	_	SpaceAfter=No
+2	gh'	ghe	PRON	_	PronType=Dem	3	obl	_	SpaceAfter=No
 3	aniësci	anâ	VERB	_	Mood=Cnd|Number=Sing|Person=2|VerbForm=Fin	0	root	_	_
 4	à	à	ADP	_	_	5	mark	_	_
 5	accattâ	accattâ	VERB	_	Tense=Pres|VerbForm=Inf	3	xcomp	_	_
@@ -6585,25 +6585,25 @@
 1	Se	se	SCONJ	_	_	9	mark	_	_
 2	vëi	vëi	ADV	_	_	3	advmod	_	_
 3	seia	seia	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
-4	quande	quande	SCONJ	_	_	6	mark	_	_
+4	quande	quande	ADV	_	PronType=Rel	6	advmod	_	_
 5	sei	ëse	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	aux	_	_
-6	partii	partî	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	acl	_	_
+6	partii	partî	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
 7	avesse	avei	AUX	_	Mood=Sub|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	9	aux	_	_
 8	avuo	avei	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	aux	_	_
 9	finio	finî	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	advcl	_	_
-10	de	de	ADP	_	_	11	case	_	_
+10	de	de	ADP	_	_	11	mark	_	_
 11	mangiâ	mangiâ	VERB	_	Tense=Pres|VerbForm=Inf	9	xcomp	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	9	punct	_	_
 13	saieiva	ëse	AUX	_	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin	14	aux	_	_
 14	sciortio	sciortî	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 15	con	con	ADP	_	_	16	case	_	_
-16	voiatri	voiatri	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	14	obl	_	SpaceAfter=No
+16	voiatri	voiatri	PRON	_	Gender=Masc|Number=Plur|Person=2|PronType=Prs	14	obl	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	14	punct	_	_
 
 # sent_id = grammar-p001-s037
 # text = Ti stæ de longo a-a Ceive?
 1	Ti	ti	PRON	_	Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
-2	stæ	stâ	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	stæ	stâ	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	de	de	ADP	_	ExtPos=ADV	2	advmod	_	_
 4	longo	longo	ADV	_	_	3	fixed	_	_
 5-6	a-a	_	_	_	_	_	_	_	_
@@ -6616,11 +6616,11 @@
 # text = Ti speti che l'é tanto?
 1	Ti	ti	PRON	_	Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
 2	speti	spëtâ	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	che	che	SCONJ	_	_	5	mark	_	_
-4	l'	l'	PART	_	_	5	dep	_	SpaceAfter=No
-5	é	ëse	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
-6	tanto	tanto	ADV	_	_	5	advmod	_	SpaceAfter=No
-7	?	?	PUNCT	_	_	5	punct	_	_
+3	che	che	SCONJ	_	_	6	mark	_	_
+4	l'	l'	PART	_	_	6	dep	_	SpaceAfter=No
+5	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	tanto	tanto	ADV	_	_	2	advcl	_	SpaceAfter=No
+7	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = grammar-p001-s039
 # text = Pensâ ch'o l'ea un coscì bravo garson!
@@ -6654,7 +6654,7 @@
 2	pâ	pai	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	d'	de	ADP	_	_	6	mark	_	SpaceAfter=No
 4	ëse	ëse	AUX	_	Tense=Pres|VerbForm=Inf	6	aux	_	_
-5	stæto	stâ	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	cop	_	_
+5	stæto	ëse	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	cop	_	_
 6	ciæo	ciæo	ADJ	_	Gender=Masc|Number=Sing	2	ccomp	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -6681,7 +6681,7 @@
 
 # sent_id = grammar-p001-s044
 # text = Se semmo impegnæ à trovâ unna soluçion.
-1	Se	se	PRON	_	Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+1	Se	se	PRON	_	Number=Plur|Person=1|PronType=Prs	3	expl:pv	_	_
 2	semmo	ëse	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	impegnæ	impegnâ	VERB	_	Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 4	à	à	ADP	_	_	5	mark	_	_
@@ -6692,9 +6692,9 @@
 
 # sent_id = grammar-p001-s045
 # text = Me ne son andæto convinto d'aveilo appaxentou.
-1	Me	me	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
-2	ne	ne	PRON	_	PronType=Dem	4	expl:pv	_	_
-3	son	ëse	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+1	Me	me	PRON	_	Number=Sing|Person=1|PronType=Prs	4	expl:pv	_	_
+2	ne	ne	PRON	_	PronType=Dem	4	expl	_	_
+3	son	ëse	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	andæto	andâ	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	convinto	convinto	ADJ	_	Gender=Masc|Number=Sing	4	xcomp	_	_
 6	d'	de	ADP	_	_	9	mark	_	SpaceAfter=No
@@ -6719,25 +6719,25 @@
 
 # sent_id = grammar-p001-s047
 # text = Quello che m'é piaxuo de ciù l'é stæto vedde comm'o l'ea contento de partî.
-1	Quello	quello	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	10	nsubj	_	_
+1	Quello	quello	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	11	nsubj:outer	_	_
 2	che	che	PRON	_	PronType=Rel	5	nsubj	_	_
 3	m'	me	PRON	_	Number=Sing|Person=1|PronType=Prs	5	iobj	_	SpaceAfter=No
 4	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
 5	piaxuo	piaxei	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	_
-6	de	de	ADP	_	_	7	case	_	_
-7	ciù	ciù	ADV	_	_	5	advmod	_	_
-8	l'	l'	PART	_	_	10	dep	_	SpaceAfter=No
-9	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
-10	stæto	stâ	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-11	vedde	vedde	VERB	_	Tense=Pres|VerbForm=Inf	10	ccomp	_	_
-12	comm'	comme	SCONJ	_	_	16	mark	_	SpaceAfter=No
+6	de	de	ADP	_	ExtPos=ADV	5	advmod	_	_
+7	ciù	ciù	ADV	_	_	6	fixed	_	_
+8	l'	l'	PART	_	_	11	dep	_	SpaceAfter=No
+9	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	stæto	ëse	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	cop	_	_
+11	vedde	vedde	VERB	_	Tense=Pres|VerbForm=Inf	0	root	_	_
+12	comm'	comme	ADV	_	_	16	advmod	_	SpaceAfter=No
 13	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
 14	l'	l'	PART	_	_	16	dep	_	SpaceAfter=No
 15	ea	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	cop	_	_
 16	contento	contento	ADJ	_	Gender=Masc|Number=Sing	11	ccomp	_	_
 17	de	de	ADP	_	_	18	mark	_	_
 18	partî	partî	VERB	_	Tense=Pres|VerbForm=Inf	16	advcl	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	18	punct	_	_
+19	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = grammar-p001-s048
 # text = No te ô daggo pe-a raxon che no veuggio che ti ô perdi.
@@ -6762,9 +6762,9 @@
 # text = Scicomme no gh'ea de pan, mangiavimo i griscin.
 1	Scicomme	Scicomme	SCONJ	_	_	4	mark	_	_
 2	no	no	ADV	_	_	4	advmod	_	_
-3	gh'	ghe	PRON	_	PronType=Dem	4	expl:pv	_	SpaceAfter=No
+3	gh'	ghe	PRON	_	PronType=Dem	4	expl	_	SpaceAfter=No
 4	ea	ëse	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	advcl	_	_
-5	de	de	ADP	_	_	6	case	_	_
+5	de	do	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	pan	pan	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	mangiavimo	mangiâ	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -6778,7 +6778,7 @@
 2	sciòrto	sciortî	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	perché	perché	SCONJ	_	_	6	mark	_	_
 4	no	no	ADV	_	_	6	advmod	_	_
-5	n'	ne	PRON	_	PronType=Dem	6	expl:pv	_	SpaceAfter=No
+5	n'	ne	PRON	_	PronType=Dem	6	obl:arg	_	SpaceAfter=No
 6	ò	avei	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	advcl	_	_
 7	coæ	coæ	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	_
@@ -6810,12 +6810,12 @@
 # sent_id = grammar-p001-s052
 # text = Se m'appenso quelli momenti, m'accòrzo che no l'é scangiou ninte.
 1	Se	se	SCONJ	_	_	3	mark	_	_
-2	m'	me	PRON	_	Number=Sing|Person=1|PronType=Prs	3	iobj	_	SpaceAfter=No
+2	m'	me	PRON	_	Number=Sing|Person=1|PronType=Prs	3	expl:pv	_	SpaceAfter=No
 3	appenso	appensâ	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	advcl	_	_
 4	quelli	quello	DET	_	Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_
 5	momenti	momento	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
-7	m'	me	PRON	_	Number=Sing|Person=1|PronType=Prs	8	iobj	_	SpaceAfter=No
+7	m'	me	PRON	_	Number=Sing|Person=1|PronType=Prs	8	expl:pv	_	SpaceAfter=No
 8	accòrzo	accorze	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	che	che	SCONJ	_	_	13	mark	_	_
 10	no	no	ADV	_	_	13	advmod	_	_
@@ -6836,7 +6836,7 @@
 7	ghe	ghe	PRON	_	Person=3|PronType=Prs	8	iobj	_	_
 8	diggo	dî	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	de	de	ADP	_	_	10	case	_	_
-10	tutto	tutto	PRON	_	Gender=Masc|Number=Sing|PronType=Tot	8	obj	_	SpaceAfter=No
+10	tutto	tutto	PRON	_	Gender=Masc|Number=Sing|PronType=Tot	8	obl	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = grammar-p001-s054
@@ -6877,14 +6877,14 @@
 
 # sent_id = grammar-p001-s056
 # text = Chi gh'ea a-o telefono?
-1	Chi	chi	PRON	_	Number=Sing|PronType=Int	6	nsubj	_	_
-2	gh'	ghe	PRON	_	PronType=Dem	6	expl	_	SpaceAfter=No
-3	ea	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+1	Chi	chi	PRON	_	PronType=Int	3	nsubj	_	_
+2	gh'	ghe	PRON	_	PronType=Dem	3	expl	_	SpaceAfter=No
+3	ea	ëse	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4-5	a-o	_	_	_	_	_	_	_	_
 4	à	à	ADP	_	_	6	case	_	_
 5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	telefono	telefono	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-7	?	?	PUNCT	_	_	6	punct	_	_
+6	telefono	telefono	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = grammar-p001-s057
 # text = O l'ea ciù addescio de quante no ti te creddesci.
@@ -6897,7 +6897,7 @@
 7	quante	quante	PRON	_	PronType=Rel	5	obl	_	_
 8	no	no	ADV	_	_	11	advmod	_	_
 9	ti	ti	PRON	_	Number=Sing|Person=2|PronType=Prs	11	nsubj	_	_
-10	te	te	PRON	_	Number=Sing|Person=2|PronType=Prs	11	expl	_	_
+10	te	te	PRON	_	Number=Sing|Person=2|PronType=Prs	11	expl:pv	_	_
 11	creddesci	credde	VERB	_	Mood=Sub|Number=Sing|Person=2|Tense=Imp|VerbForm=Fin	7	acl:relcl	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -6905,13 +6905,13 @@
 # newpar id = stf-freschi-p001
 # sent_id = stf-freschi-p001-s001
 # text = N'é passou pe coscì di anni da quande gïava pe-e valladde do ponente à sentî parlâ e gente.
-1	N'	ne	ADV	_	_	3	dislocated	_	SpaceAfter=No
+1	N'	ne	PRON	_	PronType=Dem	3	expl	_	SpaceAfter=No
 2	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	passou	passâ	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	pe	pe	ADP	_	_	5	case	_	_
 5	coscì	coscì	ADV	_	_	3	advmod	_	_
 6	di	do	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
-7	anni	anno	NOUN	_	Gender=Masc|Number=Plur	3	obl	_	_
+7	anni	anno	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 8	da	da	ADP	_	ExtPos=SCONJ	10	mark	_	_
 9	quande	quande	SCONJ	_	_	8	fixed	_	_
 10	gïava	giâ	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|Typo=Yes|VerbForm=Fin	3	advcl	_	CorrectForm=giava
@@ -6927,7 +6927,7 @@
 18	sentî	sentî	VERB	_	Tense=Pres|VerbForm=Inf	10	xcomp	_	_
 19	parlâ	parlâ	VERB	_	Tense=Pres|VerbForm=Inf	18	ccomp	_	_
 20	e	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
-21	gente	gente	NOUN	_	Gender=Fem|Number=Plur	19	obj	_	SpaceAfter=No
+21	gente	gente	NOUN	_	Gender=Fem|Number=Plur	19	nsubj	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = stf-freschi-p001-s002
@@ -6936,7 +6936,7 @@
 2	,	,	PUNCT	_	_	6	punct	_	_
 3	che	che	SCONJ	_	_	6	mark	_	_
 4	aloa	aloa	ADV	_	_	6	advmod	_	_
-5	n'	ne	PRON	_	PronType=Dem	6	iobj	_	SpaceAfter=No
+5	n'	ne	PRON	_	PronType=Dem	6	obl	_	SpaceAfter=No
 6	aiva	avei	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	1	parataxis	_	_
 7	dixeutto	dixeutto	NUM	_	NumType=Card	6	obj	_	_
 8	ò	ò	CCONJ	_	_	9	cc	_	_
@@ -6966,12 +6966,12 @@
 16	imbarcava	imbarcâ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
 17	in	in	ADP	_	ExtPos=ADP	19	case	_	_
 18	sce	sce	ADP	_	_	17	fixed	_	_
-19	uña	uña	PRON	_	Gender=Fem|Number=Sing|PronType=Ind	16	obl	_	_
+19	uña	un	PRON	_	Gender=Fem|Number=Sing|PronType=Ind	16	obl	_	_
 20	de	de	ADP	_	_	22	case	_	_
 21	quelle	quello	DET	_	Gender=Fem|Number=Plur|PronType=Dem	22	det	_	_
 22	vettue	vettua	NOUN	_	Gender=Fem|Number=Plur	19	nmod	_	_
 23	che	che	PRON	_	PronType=Rel	25	nsubj	_	_
-24	gh'	ghe	PRON	_	PronType=Dem	25	expl:pv	_	SpaceAfter=No
+24	gh'	ghe	PRON	_	PronType=Dem	25	expl	_	SpaceAfter=No
 25	ea	ëse	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	acl:relcl	_	_
 26	aloa	aloa	ADV	_	_	25	advmod	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	30	punct	_	_
@@ -6988,7 +6988,7 @@
 38	tra	tra	ADP	_	_	41	case	_	_
 39	i	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	41	det	_	_
 40	tanti	tanto	DET	_	Gender=Masc|Number=Plur|PronType=Ind	41	det	_	_
-41	paisòtti	paise	NOUN	_	Gender=Masc|Number=Plur	37	nmod	_	_
+41	paisòtti	paisòtto	NOUN	_	Gender=Masc|Number=Plur	37	nmod	_	_
 42-43	da	_	_	_	_	_	_	_	_
 42	de	de	ADP	_	_	44	case	_	_
 43	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
@@ -6998,11 +6998,11 @@
 # sent_id = stf-freschi-p001-s004
 # text = Pe-o ciù no gh'ea d'aberghi ò de penscioin, e do resto, chi se ê poeiva permette?
 1-2	Pe-o	_	_	_	_	_	_	_	_
-1	Pe	pe	ADP	_	_	3	case	_	_
-2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	ciù	ciù	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+1	Pe	pe	ADP	_	ExtPos=ADV	6	advmod	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
+3	ciù	ciù	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	_
 4	no	no	ADV	_	_	6	advmod	_	_
-5	gh'	ghe	PRON	_	PronType=Dem	6	expl:pv	_	SpaceAfter=No
+5	gh'	ghe	PRON	_	PronType=Dem	6	expl	_	SpaceAfter=No
 6	ea	ëse	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 7	d'	do	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	8	det	_	SpaceAfter=No
 8	aberghi	abergo	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
@@ -7016,8 +7016,8 @@
 15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	resto	resto	NOUN	_	Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	_
-18	chi	chi	PRON	_	Number=Sing|PronType=Int	22	nsubj	_	_
-19	se	se	PRON	_	Person=3|PronType=Prs	22	expl:pv	_	_
+18	chi	chi	PRON	_	PronType=Int	22	nsubj	_	_
+19	se	se	PRON	_	Person=3|PronType=Prs	22	iobj	_	_
 20	ê	ô	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	22	obj	_	_
 21	poeiva	poei	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	aux	_	_
 22	permette	permette	VERB	_	Tense=Pres|VerbForm=Inf	6	conj	_	SpaceAfter=No
@@ -7044,7 +7044,7 @@
 4	l'	l'	PART	_	_	6	dep	_	SpaceAfter=No
 5	ea	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
 6	quella	quello	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	0	root	_	_
-7	de	de	ADP	_	_	8	case	_	_
+7	de	de	ADP	_	_	8	mark	_	_
 8	parlâ	parlâ	VERB	_	Tense=Pres|VerbForm=Inf	6	acl	_	_
 9-10	co-i	_	_	_	_	_	_	_	_
 9	co	co	ADP	_	_	11	case	_	_
@@ -7063,7 +7063,7 @@
 22	scusa	scusa	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
 23	:	:	PUNCT	_	_	26	punct	_	_
 24	se	se	PRON	_	Person=3|PronType=Prs	26	expl:impers	_	_
-25	gh'	ghe	PRON	_	PronType=Dem	26	expl:pv	_	SpaceAfter=No
+25	gh'	ghe	PRON	_	PronType=Dem	26	obl	_	SpaceAfter=No
 26	anava	anâ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	parataxis	_	_
 27-28	pe-o	_	_	_	_	_	_	_	_
 27	pe	pe	ADP	_	_	29	case	_	_
@@ -7074,7 +7074,7 @@
 32	,	,	PUNCT	_	_	41	punct	_	_
 33	e	e	CCONJ	_	_	41	cc	_	_
 34	e	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	_
-35	ciù	ciù	ADV	_	_	37	advmod	_	_
+35	ciù	ciù	ADV	_	_	36	advmod	_	_
 36	tante	tanto	DET	_	Gender=Fem|Number=Plur|PronType=Ind	37	det	_	_
 37	vòtte	vòtta	NOUN	_	Gender=Fem|Number=Plur	41	obl	_	SpaceAfter=No
 38	,	,	PUNCT	_	_	37	punct	_	_
@@ -7094,7 +7094,7 @@
 51	fâ	fâ	VERB	_	Tense=Pres|VerbForm=Inf	49	xcomp	_	_
 52	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_
 53	giamin	giamin	NOUN	_	Gender=Masc|Number=Sing	51	obj	_	_
-54	de	de	ADP	_	_	55	case	_	_
+54	de	de	ADP	_	_	55	mark	_	_
 55-56	marcâse	_	_	_	_	_	_	_	_
 55	marcâ	marcâ	VERB	_	Tense=Pres|VerbForm=Inf	53	acl	_	_
 56	se	se	PRON	_	Person=3|PronType=Prs	55	iobj	_	_
@@ -7106,10 +7106,10 @@
 
 # sent_id = stf-freschi-p001-s007
 # text = L'ea comme anâ inderê into tempo, se capisce, ma se sentiva ascì l'äia che tiava: à Pigna, unna vegetta cegâ in doe sott'à un fascio de legne un bello momento a m'attacca à raxonâ de comme o paise o se veue.
-1	L'	l'	PART	_	_	2	dep	_	SpaceAfter=No
-2	ea	ëse	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+1	L'	l'	PART	_	_	4	dep	_	SpaceAfter=No
+2	ea	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
 3	comme	comme	ADP	_	_	4	mark	_	_
-4	anâ	anâ	VERB	_	Tense=Pres|VerbForm=Inf	2	ccomp	_	_
+4	anâ	anâ	VERB	_	Tense=Pres|VerbForm=Inf	0	root	_	_
 5	inderê	inderê	ADV	_	_	4	advmod	_	_
 6-7	into	_	_	_	_	_	_	_	_
 6	inte	inte	ADP	_	_	8	case	_	_
@@ -7117,11 +7117,11 @@
 8	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	se	se	PRON	_	Person=3|PronType=Prs	11	expl:impers	_	_
-11	capisce	capî	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+11	capisce	capî	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	_
 13	ma	ma	CCONJ	_	_	15	cc	_	_
 14	se	se	PRON	_	Person=3|PronType=Prs	15	expl:impers	_	_
-15	sentiva	sentî	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+15	sentiva	sentî	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
 16	ascì	ascì	ADV	_	_	15	advmod	_	_
 17	l'	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
 18	äia	äia	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
@@ -7132,7 +7132,7 @@
 23	Pigna	Pigna	PROPN	_	Gender=Fem|Number=Sing	41	obl	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	26	punct	_	_
 25	unna	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
-26	vegetta	vegio	NOUN	_	Degree=Dim|Gender=Fem|Number=Sing|Typo=Yes	41	nsubj	_	CorrectForm=veggetta
+26	vegetta	veggetta	NOUN	_	Degree=Dim|Gender=Fem|Number=Sing|Typo=Yes	41	nsubj	_	CorrectForm=veggetta
 27	cegâ	cegâ	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	26	acl	_	_
 28	in	in	ADP	_	_	29	case	_	_
 29	doe	doî	NUM	_	Gender=Fem|NumType=Card	27	obl	_	_
@@ -7147,17 +7147,17 @@
 38	momento	momento	NOUN	_	Gender=Masc|Number=Sing	41	obl	_	_
 39	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	41	expl	_	_
 40	m'	me	PRON	_	Number=Sing|Person=1|PronType=Prs	41	iobj	_	SpaceAfter=No
-41	attacca	attaccâ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+41	attacca	attaccâ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
 42	à	à	ADP	_	_	43	mark	_	_
 43	raxonâ	raxonâ	VERB	_	Tense=Pres|VerbForm=Inf	41	xcomp	_	_
 44	de	de	ADP	_	ExtPos=SCONJ	50	mark	_	_
 45	comme	comme	ADP	_	_	44	fixed	_	_
 46	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
-47	paise	paise	NOUN	_	Gender=Masc|Number=Sing	50	nsubj	_	_
+47	paise	paise	NOUN	_	Gender=Masc|Number=Sing	50	nsubj:pass	_	_
 48	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	50	expl	_	_
-49	se	se	PRON	_	Person=3|PronType=Prs	50	expl:pv	_	_
-50	veue	veuâ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	xcomp	_	SpaceAfter=No
-51	.	.	PUNCT	_	_	2	punct	_	_
+49	se	se	PRON	_	Person=3|PronType=Prs	50	expl:pass	_	_
+50	veue	veuâ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	ccomp	_	SpaceAfter=No
+51	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = stf-freschi-p001-s008
 # text = "Ti che t'ê zoeno", a me diva in pignasco streito, "ti te porriësci piggiâ unna figgia chì e vegnîghe à stâ.
@@ -7178,7 +7178,7 @@
 15	,	,	PUNCT	_	_	20	punct	_	_
 16	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
 17	ti	ti	PRON	_	Number=Sing|Person=2|PronType=Prs	20	nsubj	_	_
-18	te	te	PRON	_	Number=Sing|Person=2|PronType=Prs	20	expl	_	_
+18	te	te	PRON	_	Number=Sing|Person=2|PronType=Prs	20	iobj	_	_
 19	porriësci	poei	AUX	_	Mood=Cnd|Number=Sing|Person=2|VerbForm=Fin	20	aux	_	_
 20	piggiâ	piggiâ	VERB	_	Tense=Pres|VerbForm=Inf	11	parataxis	_	_
 21	unna	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
@@ -7213,10 +7213,10 @@
 17	e	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
 18	castellusse	castellusso	NOUN	_	Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
-20	che	che	PRON	_	PronType=Rel	22	nsubj	_	_
-21	son	ëse	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
-22	tutte	tutto	PRON	_	Gender=Fem|Number=Plur|PronType=Tot	18	acl:relcl	_	_
-23	bagarde	bagardo	ADJ	_	Gender=Fem|Number=Plur	22	amod	_	SpaceAfter=No
+20	che	che	PRON	_	PronType=Rel	23	nsubj	_	_
+21	son	ëse	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+22	tutte	tutto	PRON	_	Gender=Fem|Number=Plur|PronType=Tot	23	obl	_	_
+23	bagarde	bagardo	ADJ	_	Gender=Fem|Number=Plur	18	acl:relcl	_	SpaceAfter=No
 24	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	10	punct	_	_
 
@@ -7253,7 +7253,7 @@
 5	sti	sto	DET	_	Gender=Masc|Number=Plur|PronType=Dem	6	det	_	_
 6	paixi	paise	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	_
 7	cian	cian	ADV	_	_	9	advmod	_	_
-8	cianin	cian	ADV	_	_	7	advmod	_	_
+8	cianin	cianin	ADV	_	_	7	advmod	_	_
 9	moivan	moî	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	17	punct	_	_
 11	e	e	CCONJ	_	_	17	cc	_	_
@@ -7261,7 +7261,7 @@
 13	e	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
 14	gente	gente	NOUN	_	Gender=Fem|Number=Plur	17	nsubj	_	_
 15	se	se	PRON	_	Person=3|PronType=Prs	17	expl:pv	_	_
-16	ne	ne	PRON	_	PronType=Dem	17	expl:pv	_	_
+16	ne	ne	PRON	_	PronType=Dem	17	obl:arg	_	_
 17	rendeivan	rende	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	conj	_	_
 18	conto	conto	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	23	punct	_	_
@@ -7269,11 +7269,11 @@
 21	che	che	SCONJ	_	_	23	mark	_	_
 22	no	no	ADV	_	_	23	advmod	_	_
 23	renonçiavan	renonçiâ	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	conj	_	_
-24	à	à	ADP	_	_	25	mark	_	_
-25	ëse	ëse	VERB	_	Tense=Pres|VerbForm=Inf	23	xcomp	_	_
-26	quello	quello	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	25	xcomp	_	_
-27	ch'	che	PRON	_	PronType=Rel	28	nsubj	_	SpaceAfter=No
-28	ean	ëse	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	26	acl:relcl	_	SpaceAfter=No
+24	à	à	ADP	_	_	26	mark	_	_
+25	ëse	ëse	AUX	_	Tense=Pres|VerbForm=Inf	26	cop	_	_
+26	quello	quello	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	23	xcomp	_	_
+27	ch'	che	PRON	_	PronType=Rel	26	acl:relcl	_	SpaceAfter=No
+28	ean	ëse	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	27	cop	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = stf-freschi-p001-s012
@@ -7281,7 +7281,7 @@
 1	Oua	oua	ADV	_	_	13	advmod	_	_
 2	se	se	SCONJ	_	_	5	mark	_	_
 3	ti	ti	PRON	_	Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
-4	ghe	ghe	PRON	_	PronType=Dem	5	obl	_	_
+4	ghe	ghe	PRON	_	PronType=Dem	5	expl	_	_
 5	væ	anâ	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	13	advcl	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
 7	inte	inte	ADP	_	_	9	case	_	_
@@ -7289,7 +7289,7 @@
 9	paixi	paise	NOUN	_	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	ti	ti	PRON	_	Number=Sing|Person=2|PronType=Prs	13	nsubj	_	_
-12	t'	ti	PRON	_	Number=Sing|Person=2|PronType=Prs	13	expl	_	SpaceAfter=No
+12	t'	te	PRON	_	Number=Sing|Person=2|PronType=Prs	13	expl:pv	_	SpaceAfter=No
 13	accòrzi	accorze	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	che	che	SCONJ	_	_	20	mark	_	_
 15	da	da	ADP	_	_	17	case	_	_
@@ -7298,7 +7298,7 @@
 18	e	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
 19	cöse	cösa	NOUN	_	Gender=Fem|Number=Plur	20	nsubj	_	_
 20	van	anâ	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
-21	pezo	pezo	ADV	_	_	20	advmod	_	SpaceAfter=No
+21	pezo	mâ	ADV	_	Degree=Cmp	20	advmod	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = stf-freschi-p001-s013
@@ -7306,7 +7306,7 @@
 1	Manco	manco	ADV	_	_	4	advmod	_	_
 2	ciù	ciù	ADV	_	_	4	advmod	_	_
 3	i	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
-4	vegetti	vegio	NOUN	_	Degree=Dim|Gender=Masc|Number=Plur|Typo=Yes	0	root	_	CorrectForm=veggetti|SpaceAfter=No
+4	vegetti	veggetto	NOUN	_	Degree=Dim|Gender=Masc|Number=Plur|Typo=Yes	0	root	_	CorrectForm=veggetti|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = stf-freschi-p001-s014
@@ -7366,10 +7366,10 @@
 
 # sent_id = stf-freschi-p001-s017
 # text = Se veua i paixi, e o l'é o drama de l'introtæra de rivee.
-1	Se	se	PRON	_	Person=3|PronType=Prs	2	expl:pv	_	_
+1	Se	se	PRON	_	Person=3|PronType=Prs	2	expl:impers	_	_
 2	veua	veuâ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	i	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
-4	paixi	paise	NOUN	_	Gender=Masc|Number=Plur	2	nsubj	_	SpaceAfter=No
+4	paixi	paise	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	11	punct	_	_
 6	e	e	CCONJ	_	_	11	cc	_	_
 7	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
@@ -7476,7 +7476,7 @@
 4-5	do	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	6	case	_	_
 5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	trexento	trexento	NOUN	_	Gender=Masc	3	nmod	_	_
+6	trexento	trexento	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
 7-8	a-i	_	_	_	_	_	_	_	_
 7	à	à	ADP	_	_	9	case	_	_
 8	i	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
@@ -7484,11 +7484,11 @@
 10-11	do	_	_	_	_	_	_	_	_
 10	de	de	ADP	_	_	12	case	_	_
 11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	Çinqueçento	çinqueçento	NOUN	_	Gender=Masc	9	nmod	_	_
+12	Çinqueçento	çinqueçento	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 13	no	no	ADV	_	_	16	advmod	_	_
-14	gh'	ghe	PRON	_	PronType=Dem	16	expl:pv	_	SpaceAfter=No
+14	gh'	ghe	PRON	_	PronType=Dem	16	expl	_	SpaceAfter=No
 15	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
-16	stæto	stâ	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+16	stæto	ëse	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 17	gexa	gexa	NOUN	_	Gender=Fem|Number=Sing	16	nsubj	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
 19	cappella	cappella	NOUN	_	Gender=Fem|Number=Sing	17	conj	_	SpaceAfter=No
@@ -7504,7 +7504,7 @@
 28	che	che	PRON	_	PronType=Rel	32	nsubj:pass	_	_
 29	no	no	ADV	_	_	32	advmod	_	_
 30	seggian	ëse	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
-31	stæti	stâ	AUX	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	32	aux:pass	_	_
+31	stæti	ëse	AUX	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	32	aux:pass	_	_
 32	decoræ	decorâ	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	17	acl:relcl	_	_
 33	segondo	segondo	ADP	_	_	35	case	_	_
 34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
@@ -7533,7 +7533,7 @@
 12	ea	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
 13	unna	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	mainea	mainea	NOUN	_	Gender=Fem|Number=Sing	6	parataxis	_	_
-15	de	de	ADP	_	_	16	case	_	_
+15	de	de	ADP	_	_	16	mark	_	_
 16-17	rappresentâse	_	_	_	_	_	_	_	SpaceAfter=No
 16	rappresentâ	rappresentâ	VERB	_	Tense=Pres|VerbForm=Inf	14	acl	_	_
 17	se	se	PRON	_	Person=3|PronType=Prs	16	obj	_	_
@@ -7551,7 +7551,7 @@
 7	quelli	quello	DET	_	Gender=Masc|Number=Plur|PronType=Dem	8	det	_	_
 8	freschi	fresco	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
 9	son	ëse	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
-10	stæti	stâ	AUX	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	aux:pass	_	_
+10	stæti	ëse	AUX	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	aux:pass	_	_
 11	renoelæ	renoelâ	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 12	ò	ò	CCONJ	_	_	13	cc	_	_
 13	scassæ	scassâ	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	conj	_	_
@@ -7648,7 +7648,7 @@
 38	segondo	segondo	ADP	_	_	40	case	_	_
 39	e	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	40	det	_	_
 40	exigense	exigensa	NOUN	_	Gender=Fem|Number=Plur	36	conj	_	_
-41	d'	de	ADP	_	_	43	case	_	SpaceAfter=No
+41	d'	de	ADP	_	Typo=Yes	43	case	_	CorrectForm=de|CorrectSpaceAfter=Yes|SpaceAfter=No
 42	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
 43	pubrico	pubrico	NOUN	_	Gender=Masc|Number=Sing	36	nmod	_	_
 44	neuvo	neuvo	ADJ	_	Gender=Masc|Number=Sing	43	amod	_	SpaceAfter=No
@@ -7713,7 +7713,7 @@
 10	averte	averto	ADJ	_	Gender=Fem|Number=Plur	9	xcomp	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	14	punct	_	_
 12	e	e	CCONJ	_	_	14	cc	_	_
-13	gh'	ghe	PRON	_	PronType=Dem	14	expl:pv	_	SpaceAfter=No
+13	gh'	ghe	PRON	_	PronType=Dem	14	expl	_	SpaceAfter=No
 14	é	ëse	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
 15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	poscibilitæ	poscibilitæ	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
@@ -7735,7 +7735,7 @@
 30	pòrto	pòrto	NOUN	_	Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	35	punct	_	_
 32	e	e	CCONJ	_	_	35	cc	_	_
-33	n'	ne	PRON	_	PronType=Dem	35	expl:pv	_	SpaceAfter=No
+33	n'	ne	PRON	_	PronType=Dem	35	obl:arg	_	SpaceAfter=No
 34	é	ëse	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux	_	_
 35	vasciuo	vaei	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	conj	_	_
 36	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
@@ -7763,11 +7763,11 @@
 17	capisce	capî	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	SpaceAfter=No
 18	)	)	PUNCT	_	_	11	punct	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	22	punct	_	_
-20	ghe	ghe	PRON	_	PronType=Dem	22	expl:pv	_	_
-21	n'	ne	PRON	_	PronType=Dem	22	expl:pv	_	SpaceAfter=No
+20	ghe	ghe	PRON	_	PronType=Dem	22	expl	_	_
+21	n'	ne	PRON	_	PronType=Dem	22	obl	_	SpaceAfter=No
 22	é	ëse	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 23	da	da	ADP	_	_	24	case	_	_
-24	dexe	dexe	NUM	_	NumType=Card	22	obj	_	_
+24	dexe	dexe	NUM	_	NumType=Card	22	nsubj	_	_
 25	de	de	ADP	_	_	26	case	_	_
 26	che	che	PRON	_	PronType=Rel	30	obl:arg	_	_
 27	nisciun	nisciun	PRON	_	Gender=Masc|Number=Sing|PronType=Neg	30	nsubj	_	_
@@ -7785,7 +7785,7 @@
 39	in	in	ADP	_	_	40	case	_	_
 40	roiña	roiña	NOUN	_	Gender=Fem|Number=Sing	38	obl	_	_
 41	cian	cian	ADV	_	_	38	advmod	_	_
-42	cianin	cian	ADV	_	_	41	advmod	_	_
+42	cianin	cianin	ADV	_	_	41	advmod	_	_
 43	con	con	ADP	_	_	45	case	_	_
 44	tutto	tutto	DET	_	Gender=Masc|Number=Sing|PronType=Tot	45	det	_	_
 45	quello	quello	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	38	obl	_	_
@@ -7848,7 +7848,7 @@
 47	esprimme	esprimme	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	acl:relcl	_	SpaceAfter=No
 48	,	,	PUNCT	_	_	58	punct	_	_
 49	e	e	CCONJ	_	_	58	cc	_	_
-50	che	che	SCONJ	_	_	58	nsubj:pass	_	_
+50	che	che	PRON	_	PronType=Rel	58	nsubj:pass	_	_
 51	oua	oua	ADV	_	ExtPos=ADV	58	advmod	_	_
 52	comme	comme	ADP	_	_	51	fixed	_	_
 53	oua	oua	ADV	_	_	51	fixed	_	_
@@ -7974,7 +7974,7 @@
 12	coltua	coltua	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	destin	destin	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+15	destin	destin	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
 16-17	da	_	_	_	_	_	_	_	_
 16	de	de	ADP	_	_	19	case	_	_
 17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
