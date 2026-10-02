@@ -111,7 +111,7 @@
 # sent_id = cairo-p001-s009
 # parallel_id = cairo/9
 # text = Mary a l'à guägno o bronzo, Peter l'argento e Jane l'öo.
-1	Mary	Mary	PROPN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+1	Mary	Mary	PROPN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 2	a	o	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
 3	l'	l'	PART	_	_	5	dep	_	SpaceAfter=No
 4	à	avei	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
